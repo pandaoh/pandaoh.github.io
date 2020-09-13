@@ -305,7 +305,7 @@
 <div class="widget-wrap">
     <div id="myCanvasContainer" class="widget tagcloud">
         <canvas width="90" height="90" id="resCanvas" style="width=100%">
-            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/123/" rel="tag">123</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/" rel="tag">git</a><span class="tag-list-count">1</span></li></ul>
+            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/123/" rel="tag">123</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/" rel="tag">git</a><span class="tag-list-count">2</span></li></ul>
         </canvas>
     </div>
 </div>
@@ -437,7 +437,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <div class="note success no-icon"><p>先通过几张图片来大致了解一下Git的工作原理吧！<br><img data-src="./relation3.jpg"></p>
+        <div class="note success no-icon"><p>先通过几张图片来大致了解一下Git的工作原理吧！<br><img data-src="/git/relation3.jpg"></p>
 </div>
 <h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><ul>
 <li><strong>工作区</strong>：就是你在电脑里能看到的目录。</li>
@@ -447,12 +447,12 @@
 </li>
 </ul>
 <div style="display: flex;flex-direction: row;justify-content: space-around;">
-<img data-src="./git.png">
-<img data-src="./branch.png">
-<img data-src="./head.png">
+<img data-src="/git/git.png">
+<img data-src="/git/branch.png">
+<img data-src="/git/head.png">
 </div>
 
-<h2 id="关系介绍"><a href="#关系介绍" class="headerlink" title="关系介绍"></a>关系介绍</h2><p><strong>下面这个图展示了工作区、版本库中的暂存区和版本库之间的关系：</strong><br><img data-src="./work.jpg" alt="关系图" title="工作图"></p>
+<h2 id="关系介绍"><a href="#关系介绍" class="headerlink" title="关系介绍"></a>关系介绍</h2><p><strong>下面这个图展示了工作区、版本库中的暂存区和版本库之间的关系：</strong><br><img data-src="/git/work.jpg" alt="关系图" title="工作图"></p>
 <p>图中左侧为工作区，右侧为版本库。在版本库中标记为 <code>&quot;index&quot;</code> 的区域是暂存区（stage, index），标记为 “master” 的是 master分支所代表的目录树。<br><strong>HEAD指针: 每个git仓库有且仅有一个HEAD指针，它通常指向當前某个活動的本地分支指针(最初本地仓库master)。也可以是某个提交记录、某个tag，但这会让其处于 detached HEAD（游离头）状态，此状态下的所有提交都无效。</strong><br>图中我们可以看出此时 <code>&quot;HEAD&quot;</code> 实际是指向 master 分支的一个”游标”。所以图示的命令中出现 HEAD 的地方可以用 master 来替换。<br>图中的<code>objects</code>标识的区域为 Git 的对象库，实际位于 <code>&quot;.git/objects&quot;</code> 目录下，里面包含了创建的各种对象及内容。<br>当对工作区修改（或新增）的文件执行 <code>&quot;git add&quot;</code> 命令时，暂存区的目录树被更新，同时工作区修改（或新增）的文件内容被写入到对象库中的一个新的对象中，而该对象的ID被记录在暂存区的文件索引中。<br>当执行提交操作（git commit）时，暂存区的目录树写到版本库（对象库）中，master 分支会做相应的更新。即 master 指向的目录树就是提交时暂存区的目录树。<br>当执行 <code>&quot;git reset HEAD&quot;</code> 命令时，暂存区的目录树会被重写，被 master 分支指向的目录树所替换，但是工作区不受影响。<br>当执行 <code>&quot;git rm --cached &lt;file&gt;&quot;</code> 命令时，会直接从暂存区删除文件，工作区则不做出改变。<br>当执行 <code>&quot;git checkout .&quot;</code> 或者 <code>&quot;git checkout -- &lt;file&gt;&quot;</code> 命令时，会用暂存区全部或指定的文件替换工作区的文件。这个操作很危险，会清除工作区中未添加到暂存区的改动。<br>当执行 <code>&quot;git checkout HEAD .&quot;</code> 或者 <code>&quot;git checkout HEAD &lt;file&gt;&quot;</code> 命令时，会用 <code>HEAD</code> 指向的 master 分支中的全部或者部分文件替换暂存区和以及工作区中的文件。这个命令也是极具危险性的，因为不但会清除工作区中未提交的改动，也会清除暂存区中未提交的改动。</p>
 <h2 id="GIT介绍"><a href="#GIT介绍" class="headerlink" title="GIT介绍"></a>GIT介绍</h2><p>&emsp;&emsp;GIT是由C语言开发的分布式版本控制系统。</p>
 <blockquote class="blockquote-center">
@@ -614,6 +614,14 @@
     
     
     
+      
+  <div class="popular-posts-header">相关推荐</div>
+  <ul class="popular-posts">
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="\hello-world\" rel="bookmark">Hello World</a></div>
+    </li>
+  </ul>
+
 
     <footer class="post-footer"><div>
 
