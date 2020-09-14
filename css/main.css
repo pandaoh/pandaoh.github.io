@@ -2342,39 +2342,6 @@ pre code {
     transform: rotateZ(-30deg);
   }
 }
-.followme {
-  color: #bbb;
-  padding: 1em 1.5em;
-  text-align: center;
-  background: var(--card-bg-color);
-  border-left: 3px solid #ff2a2a;
-  margin: 1em 0 0;
-}
-.followme .social-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.followme .social-list .social-item {
-  margin: 0.5em 2em;
-}
-@media (max-width: 991px) {
-  .followme .social-list .social-item {
-    margin: 0.5em 0.75em;
-  }
-}
-.followme .social-list .social-link {
-  border: 0;
-  display: inline-block;
-  text-align: center;
-}
-.followme .social-list .social-link .icon {
-  font-size: 1.75em;
-}
-.followme .social-list .social-link .label {
-  display: block;
-  font-size: 14px;
-}
 .category-all-page .category-all-title {
   text-align: center;
 }
@@ -2770,7 +2737,7 @@ mark.search-keyword {
 }
 .header-inner {
   background: var(--content-bg-color);
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 10px 10px 10px 10px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   width: 240px;
 }
@@ -2804,7 +2771,7 @@ mark.search-keyword {
   }
 }
 .main-inner {
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 10px 10px 10px 10px;
   box-sizing: border-box;
   width: calc(100% - 253px);
 }
@@ -2917,7 +2884,6 @@ mark.search-keyword {
   position: sticky;
   top: 13px;
   width: 240px;
-  visibility: hidden;
 }
 @media (max-width: 991px) {
   .sidebar {
@@ -2929,7 +2895,7 @@ mark.search-keyword {
 }
 .sidebar-inner {
   background: var(--content-bg-color);
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
   box-sizing: border-box;
   color: var(--text-color);
@@ -3008,7 +2974,7 @@ mark.search-keyword {
 .main-inner > .comments,
 .main-inner > .pagination {
   background: var(--content-bg-color);
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 10px 10px 10px 10px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
 }
 .main-inner > .sub-menu:not(:first-child):not(.sub-menu),
@@ -3016,7 +2982,7 @@ mark.search-keyword {
 .main-inner > .tabs-comment:not(:first-child):not(.sub-menu),
 .main-inner > .comments:not(:first-child):not(.sub-menu),
 .main-inner > .pagination:not(:first-child):not(.sub-menu) {
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
   margin-top: 13px;
 }
@@ -3299,7 +3265,7 @@ body {
 }
 @media (max-width: 767px) {
   .headband {
-    height: 0px;
+    height: 0;
   }
 }
 /**
@@ -3321,6 +3287,26 @@ github样式手机端
   cursor: url("/images/active.cur"), auto;
 }
 :link {
+  cursor: url("/images/pointer.cur"), auto;
+}
+a:hover,
+button:hover,
+img:hover,
+code:hover,
+pre:hover,
+samp:hover,
+kbd:hover,
+menu:hover,
+nav:hover,
+footer:hover,
+ruby:hover,
+rp:hover,
+rt:hover,
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover {
   cursor: url("/images/pointer.cur"), auto;
 }
 /**
@@ -3352,7 +3338,8 @@ github样式手机端
 分类样式
 */
 .category,
-.archive {
+.archive,
+.content-wrap {
   margin-top: 10px;
 }
 /**
@@ -3400,11 +3387,17 @@ github样式手机端
     border-radius: 10px;
   }
 }
+/**
+移动端菜单
+*/
 @media (max-width: 767px) {
   .main-menu {
     padding-top: 0;
   }
 }
+/**
+评论框样式
+*/
 .comments {
   padding: 15px;
   -webkit-box-shadow: 0 0 14px #cacbcb;
@@ -3423,6 +3416,10 @@ github样式手机端
     -moz-box-shadow: 0 0 1px #cacbcb;
     box-shadow: 0 0 1px #cacbcb;
   }
+}
+div#comments a.vicon,
+div#comments div.vpower {
+  display: none;
 }
 /**
 文章页内标签样式
@@ -3492,16 +3489,22 @@ github样式手机端
     margin-bottom: 20px;
   }
 }
+.page-number:hover,
+.page-number:active {
+  color: #88ff0d;
+  border-radius: 100%;
+  background-color: rgba(0,0,0,0.75);
+}
 /**
 文章分割线
 */
 .posts-expand .post-eof {
   display: block;
-  margin: 0px auto 20px;
+  margin: 0px auto 15px;
   width: 0;
 }
 /**
-版权信息
+版权信息条
 */
 .post-copyright {
   font-size: 0.85rem;
@@ -3542,6 +3545,12 @@ code {
 .highlight figcaption {
   background: #000;
   border-bottom: 1px dotted #343434;
+}
+.highlight *::selection {
+  background: #06d633;
+}
+.gutter>pre {
+  background: #282c34 !important;
 }
 /**
 侧栏收藏夹样式
@@ -3584,7 +3593,7 @@ code {
 */
 input {
   border: 1px solid #ccc;
-  padding: 5px 0px;
+  padding: 5px 0;
   border-radius: 3px;
   padding-left: 5px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
@@ -3673,7 +3682,7 @@ input:focus {
   }
 }
 .popup {
-  opacity: 0.9;
+  opacity: 0.95;
 }
 /**
 修改选中字符的颜色
@@ -3688,37 +3697,14 @@ input:focus {
   background: #06d633;
   color: #f7f7f7;
 }
-.highlight *::selection {
-  background: #06d633;
-}
 /**
-页面底部页码，鼠标置于上方，黑底绿字。
+------------------------------
+doubleam修改内容 START!!!!!!!!
+------------------------------
 */
-.page-number:hover,
-.page-number:active {
-  color: #88ff0d;
-  border-radius: 100%;
-  background-color: rgba(0,0,0,0.75);
-}
-/**
-评论图标POWER
-*/
-div#comments a.vicon,
-div#comments div.vpower {
-  display: none;
-}
 /**
 搬运标记
 */
-.post-header h2[itemprop='name headline'] {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
 .jingping {
   background: #d2691e;
   border-radius: 5px;
@@ -3736,9 +3722,6 @@ div#comments div.vpower {
 }
 .post-body .note {
   border-radius: 15px;
-}
-.gutter>pre {
-  background: #282c34 !important;
 }
 .posts-expand .post-title-link {
   padding-left: 5px;
@@ -3766,3 +3749,31 @@ div#comments div.vpower {
 .run-times:after {
   content: attr(data-content);
 }
+.back-to-top {
+  border-radius: 5px;
+}
+.post-others:after,
+.post-doubleam:after,
+.post-hot:after {
+  content: "";
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.post-others:after {
+  background-image: url("../images/others.png");
+}
+.post-hot:after {
+  background-image: url("../images/hot.png");
+}
+.post-doubleam:after {
+  background-image: url("../images/doubleam.png");
+}
+/**
+------------------------------
+doubleam修改内容 END!!!!!!!!!!
+------------------------------
+*/

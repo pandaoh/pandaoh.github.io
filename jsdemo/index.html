@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.1.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/pace-js@1.0.2/themes/blue/pace-theme-minimal.css">
+  <script src="//cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"doubleam.gitee.io","root":"/","scheme":"Gemini","version":"8.0.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":15,"offset":13},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"manual"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeIn","post_body":"fadeIn","coll_header":"fadeIn","sidebar":"fadeIn"}},"prism":false,"i18n":{"placeholder":"搜索一下噜(biugle.cn)...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":true}};
+  </script>
+
+  <meta name="description" content="Js一些常用demo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Js一些常用demo">
+<meta property="og:url" content="http://doubleam.gitee.io/jsdemo/">
+<meta property="og:site_name" content="江湖小栈">
+<meta property="og:description" content="Js一些常用demo">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2019-04-09T03:47:11.000Z">
+<meta property="article:modified_time" content="2020-09-14T10:07:13.149Z">
+<meta property="article:author" content="DoubleAm">
+<meta property="article:tag" content="Demo">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://doubleam.gitee.io/jsdemo/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>Js一些常用demo | 江湖小栈</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">江湖小栈</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Do Better</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fas fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fas fa-archive fa-fw"></i>归档<span class="badge">73</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fas fa-th fa-fw"></i>分类<span class="badge">13</span></a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fas fa-tags fa-fw"></i>标签<span class="badge">63</span></a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fas fa-user fa-fw"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索一下噜(biugle.cn)..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <section class="post-toc-wrap sidebar-panel">
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%8E%B7%E5%8F%96%E6%98%BE%E7%A4%BA%E5%BD%93%E5%89%8D%E6%97%B6%E9%97%B4"><span class="nav-number">1.</span> <span class="nav-text">获取显示当前时间</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E5%8F%B0%E5%A4%84%E7%90%86%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="nav-number">2.</span> <span class="nav-text">前台处理字符串</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A0%BC%E5%BC%8F%E5%8C%96%E8%BF%90%E7%AE%97%E8%A1%A8%E8%BE%BE%E5%BC%8F"><span class="nav-number">3.</span> <span class="nav-text">格式化运算表达式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#onkeydown%E8%AE%BE%E7%BD%AE%E9%94%AE%E7%9B%98%E4%BA%8B%E4%BB%B6"><span class="nav-number">4.</span> <span class="nav-text">onkeydown设置键盘事件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E7%BB%84%E5%A4%84%E7%90%86"><span class="nav-number">5.</span> <span class="nav-text">数组处理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%A7%E7%94%9F%E9%9A%8F%E6%9C%BA%E6%95%B0"><span class="nav-number">6.</span> <span class="nav-text">产生随机数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%89%93%E5%8D%B0%E5%86%85%E5%AE%B9"><span class="nav-number">7.</span> <span class="nav-text">控制台打印内容</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A6%81%E6%AD%A2%E4%BD%BF%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%89%93%E5%BC%80%E6%8E%A7%E5%88%B6%E5%8F%B0"><span class="nav-number">8.</span> <span class="nav-text">禁止使用快捷键打开控制台</span></a></li></ol></div>
+      </section>
+      <!--/noindex-->
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="DoubleAm"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">DoubleAm</p>
+  <div class="site-description" itemprop="description">山中何事？松花酿酒，春水煎茶。</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">73</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">13</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">63</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3BhbmRhb2g=" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;pandaoh"><i class="fab fa-github fa-fw"></i></span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="bWFpbHRvOjEwMDU3NjA2OTRAcXEuY29t" title="E-Mail → mailto:1005760694@qq.com"><i class="fas fa-envelope fa-fw"></i></span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly93ZWliby5jb20vaGV4aW9uZ2JpYW8=" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;hexiongbiao"><i class="fab fa-weibo fa-fw"></i></span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly9zcGFjZS5iaWxpYmlsaS5jb20vMjk2MDYxMDU4" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;296061058"><i class="fas fa-bold fa-fw"></i></span>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/images/Wechat.png" title="Wechat → &#x2F;images&#x2F;Wechat.png"><i class="fab fa-weixin fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/images/QQ.png" title="QQ → &#x2F;images&#x2F;QQ.png"><i class="fab fa-qq fa-fw"></i></a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll animated">
+    <div class="links-of-blogroll-title"><i class="fas fa-globe fa-fw"></i>
+      收藏夹
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <span class="exturl" data-url="aHR0cHM6Ly9yZXN1bWUuYml1Z2xlLmNu" title="https:&#x2F;&#x2F;resume.biugle.cn">resume</span>
+        </li>
+        <li class="links-of-blogroll-item">
+          <span class="exturl" data-url="aHR0cHM6Ly9wbGF5ZXIuYml1Z2xlLmNu" title="https:&#x2F;&#x2F;player.biugle.cn">宅音乐</span>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="/others/notebooks" title="&#x2F;others&#x2F;notebooks">记事板</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <span class="exturl" data-url="aHR0cHM6Ly90YXAuYml1Z2xlLmNu" title="https:&#x2F;&#x2F;tap.biugle.cn">解压神器</span>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="/otherlinks" title="&#x2F;otherlinks">友情链接</a>
+        </li>
+    </ul>
+  </div>
+
+      </section>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+      
+
+      
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://doubleam.gitee.io/jsdemo/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="DoubleAm">
+      <meta itemprop="description" content="山中何事？松花酿酒，春水煎茶。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="江湖小栈">
+    </span>
+
+    
+    
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Js一些常用demo
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2019-04-09 11:47:11" itemprop="dateCreated datePublished" datetime="2019-04-09T11:47:11+08:00">2019-04-09</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2020-09-14 18:07:13" itemprop="dateModified" datetime="2020-09-14T18:07:13+08:00">2020-09-14</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%9C%89%E5%AE%B3%E5%9E%83%E5%9C%BE/" itemprop="url" rel="index"><span itemprop="name">有害垃圾</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fas fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+
+
+
+
+
+
+      </div>
+      <div class="post-meta">
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>6.1k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>6 分钟</span>
+    </span>
+</div>
+
+            <div class="post-description">Js一些常用demo</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <div class="note info no-icon"><p>JavaScript一些常用demo汇总</p>
+</div>
+<a id="more"></a> 
+
+<h2 id="获取显示当前时间"><a href="#获取显示当前时间" class="headerlink" title="获取显示当前时间"></a>获取显示当前时间</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* jQuery代码 */</span></span><br><span class="line">$(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  $(<span class="string">&quot;#now-time&quot;</span>).attr(<span class="string">&quot;onselectstart&quot;</span>, <span class="string">&quot;return false&quot;</span>);<span class="comment">//禁止选中文字</span></span><br><span class="line">  $(<span class="string">&quot;#now-time&quot;</span>).text(currentTime());</span><br><span class="line">  <span class="built_in">setInterval</span>(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    $(<span class="string">&quot;#now-time&quot;</span>).text(currentTime());</span><br><span class="line">  &#125;, <span class="number">1000</span>);</span><br><span class="line">  <span class="comment">/**</span></span><br><span class="line"><span class="comment">   * 获取最新时间</span></span><br><span class="line"><span class="comment">   * <span class="doctag">@returns <span class="type">&#123;String&#125;</span></span></span></span><br><span class="line"><span class="comment">   */</span></span><br><span class="line">  <span class="function"><span class="keyword">function</span> <span class="title">currentTime</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> date = <span class="keyword">new</span> <span class="built_in">Date</span>();</span><br><span class="line">    <span class="keyword">var</span> time;</span><br><span class="line">    <span class="keyword">var</span> year = date.getFullYear();</span><br><span class="line">    <span class="keyword">var</span> month = date.getMonth()+<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">var</span> day = date.getDate();</span><br><span class="line">    <span class="keyword">var</span> hour = date.getHours();</span><br><span class="line">    <span class="keyword">var</span> minute = date.getMinutes();</span><br><span class="line">    <span class="keyword">var</span> second = date.getSeconds();</span><br><span class="line">    hour = (hour &lt; <span class="number">10</span>) ? (<span class="string">&quot;0&quot;</span> + hour) : hour;</span><br><span class="line">    minute = (minute &lt; <span class="number">10</span>) ? (<span class="string">&quot;0&quot;</span> + minute) : minute;</span><br><span class="line">    second = (second &lt; <span class="number">10</span>) ? (<span class="string">&quot;0&quot;</span> + second) : second;</span><br><span class="line">    time = year + <span class="string">&quot;年&quot;</span> + month + <span class="string">&quot;月&quot;</span> + day + <span class="string">&quot;日&quot;</span> + <span class="string">&quot; &quot;</span> + hour + <span class="string">&quot;:&quot;</span> + minute + <span class="string">&quot;:&quot;</span> + second;</span><br><span class="line">    <span class="keyword">return</span> time;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="前台处理字符串"><a href="#前台处理字符串" class="headerlink" title="前台处理字符串"></a>前台处理字符串</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 处理问题字符串</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;String&#125;</span> </span>要处理的字符串。</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">formatStr</span>(<span class="params">str</span>) </span>&#123;</span><br><span class="line">  str = str.replace(<span class="regexp">/^\s+|\s+$/g</span>, <span class="string">&quot;&quot;</span>);<span class="comment">//去掉前后空格</span></span><br><span class="line">  <span class="comment">//str = str.replace(/\s+/g,&quot;&quot;);//去掉空格</span></span><br><span class="line">  <span class="comment">//str=str.replace( /^\s/, &#x27;&#x27;);//去掉左空格</span></span><br><span class="line">  <span class="comment">//str=str.replace(/(\s$)/g, &quot;&quot;);//去掉右空格</span></span><br><span class="line">  <span class="keyword">let</span> div = <span class="built_in">document</span>.createElement(<span class="string">&#x27;div&#x27;</span>);</span><br><span class="line">  div.textContent = str;<span class="comment">//利用textContent属性转化&quot;&lt;&quot;,&quot;&gt;&quot;,&quot;&amp;&quot;,&quot;&#x27;&quot;等字符 </span></span><br><span class="line">  <span class="keyword">let</span> formatString = div.innerHTML;</span><br><span class="line">  <span class="keyword">return</span> formatString;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="格式化运算表达式"><a href="#格式化运算表达式" class="headerlink" title="格式化运算表达式"></a>格式化运算表达式</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 格式化表达式</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;String&#125;</span> </span>待格式化的表达式。</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@returns <span class="type">&#123;String&#125;</span> </span>格式化后的表达式。</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">formatText</span>(<span class="params">text</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> reg = <span class="regexp">/[.0-9]/</span>;</span><br><span class="line">  <span class="keyword">var</span> tempText = <span class="string">&quot;&quot;</span>;</span><br><span class="line">  <span class="keyword">var</span> numTemp = [];</span><br><span class="line">  <span class="keyword">var</span> charTemp = [];</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>, j = <span class="number">0</span>; i &lt; text.length; i++) &#123;</span><br><span class="line">    <span class="keyword">if</span> (i === <span class="number">0</span> &amp;&amp; !reg.test(text[<span class="number">0</span>])) &#123;</span><br><span class="line">      numTemp[<span class="number">0</span>] = <span class="string">&quot;&quot;</span>;</span><br><span class="line">      charTemp[<span class="number">0</span>] = text[<span class="number">0</span>];</span><br><span class="line">      j++;</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (i === <span class="number">0</span> &amp;&amp; reg.test(text[<span class="number">0</span>]) &amp;&amp; text.length === <span class="number">1</span>) &#123;</span><br><span class="line">      numTemp[<span class="number">0</span>] = text[i];</span><br><span class="line">      charTemp[<span class="number">0</span>] = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (i !== text.length - <span class="number">1</span> &amp;&amp; reg.test(text[i])) &#123;</span><br><span class="line">      tempText += text[i];</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (i !== text.length - <span class="number">1</span> &amp;&amp; !reg.test(text[i])) &#123;</span><br><span class="line">      numTemp[j] = <span class="built_in">parseFloat</span>(tempText);</span><br><span class="line">      tempText = <span class="string">&quot;&quot;</span>;</span><br><span class="line">      charTemp[j] = text[i];</span><br><span class="line">      j++;</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (i === text.length - <span class="number">1</span> &amp;&amp; reg.test(text[text.length - <span class="number">1</span>]) &amp;&amp; text.length &gt; <span class="number">1</span>) &#123;</span><br><span class="line">      tempText += text[i];</span><br><span class="line">      numTemp[j] = <span class="built_in">parseFloat</span>(tempText);</span><br><span class="line">      numTemp[j + <span class="number">1</span>] = <span class="string">&quot;&quot;</span>;</span><br><span class="line">      tempText = <span class="string">&quot;&quot;</span>;</span><br><span class="line">      charTemp[j] = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (i === text.length - <span class="number">1</span> &amp;&amp; !reg.test(text[text.length - <span class="number">1</span>]) &amp;&amp; text.length &gt; <span class="number">1</span>) &#123;</span><br><span class="line">      numTemp[j] = <span class="built_in">parseFloat</span>(tempText);</span><br><span class="line">      numTemp[j + <span class="number">1</span>] = <span class="string">&quot;&quot;</span>;</span><br><span class="line">      tempText = <span class="string">&quot;&quot;</span>;</span><br><span class="line">      charTemp[j] = text[i];</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  text = <span class="string">&quot;&quot;</span>;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; charTemp.length; i++) &#123;</span><br><span class="line">    <span class="keyword">if</span> (charTemp.length &gt; <span class="number">1</span> &amp;&amp; i === charTemp.length - <span class="number">1</span>) &#123;</span><br><span class="line">      text += numTemp[i] + charTemp[i] + numTemp[i + <span class="number">1</span>];</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">      text += numTemp[i] + charTemp[i];</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  text = <span class="built_in">String</span>(text);</span><br><span class="line">  <span class="keyword">return</span>  text;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="onkeydown设置键盘事件"><a href="#onkeydown设置键盘事件" class="headerlink" title="onkeydown设置键盘事件"></a>onkeydown设置键盘事件</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 键盘事件</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;Event&#125;</span> </span>当前按下的按键。</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">addKeyboard</span>(<span class="params">e</span>) </span>&#123;</span><br><span class="line">  <span class="comment">//console.log(e.key);//获取键值</span></span><br><span class="line">  <span class="keyword">var</span> keyNum = <span class="built_in">window</span>.event ? e.keyCode : e.which;</span><br><span class="line">  <span class="comment">//console.log(keyNum);</span></span><br><span class="line">  <span class="keyword">if</span> (keyNum === XXX) &#123;</span><br><span class="line">    <span class="comment">//do something</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">if</span> (keyNum === XXX &amp;&amp; e.altKey) &#123;</span><br><span class="line">    <span class="comment">//do something</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">if</span> (keyNum === XXX &amp;&amp; e.ctrlKey) &#123;</span><br><span class="line">    <span class="comment">//do something</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="数组处理"><a href="#数组处理" class="headerlink" title="数组处理"></a>数组处理</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">/* 第一种方法 */</span></span><br><span class="line"><span class="keyword">let</span> a = <span class="built_in">document</span>.querySelectorAll(<span class="string">&quot;a&quot;</span>);</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; a.length; i++)&#123;</span><br><span class="line">	<span class="built_in">console</span>.log(a[i]);</span><br><span class="line">&#125;</span><br><span class="line">--------------------------------------------------</span><br><span class="line"><span class="comment">/* 第二种方法 */</span></span><br><span class="line"><span class="keyword">let</span> A = <span class="built_in">document</span>.querySelectorAll(<span class="string">&quot;a&quot;</span>);</span><br><span class="line"><span class="built_in">Array</span>.prototype.filter.call(A, <span class="function"><span class="keyword">function</span> (<span class="params">a</span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(a);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<hr>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* 取第一个值 */</span></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">let</span> key <span class="keyword">in</span> response) &#123;</span><br><span class="line">  result = response[key];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 循环处理数组/对象 */</span></span><br><span class="line">$.each([array/object], <span class="function"><span class="keyword">function</span> (<span class="params">key, val</span>) </span>&#123;</span><br><span class="line">          <span class="comment">//do something</span></span><br><span class="line">        &#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 例a */</span></span><br><span class="line">$.each([<span class="number">1</span>, <span class="number">2</span>], <span class="function"><span class="keyword">function</span>(<span class="params">key, value</span>) </span>&#123;</span><br><span class="line">  alert(index + <span class="string">&#x27;: &#x27;</span> + value);</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">/* 这将产生两个信息 */</span></span><br><span class="line"><span class="comment">/* 0: 52 */</span></span><br><span class="line"><span class="comment">/* 1: 97 */</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* 例b */</span></span><br><span class="line"><span class="keyword">let</span> obj = &#123;</span><br><span class="line">  <span class="string">&quot;a&quot;</span>: <span class="string">&quot;AAA&quot;</span>,</span><br><span class="line">  <span class="string">&quot;b&quot;</span>: <span class="string">&quot;BBB&quot;</span></span><br><span class="line">&#125;;</span><br><span class="line">$.each(obj, <span class="function"><span class="keyword">function</span>(<span class="params">key, value</span>) </span>&#123;</span><br><span class="line">  alert( key + <span class="string">&quot;: &quot;</span> + value );</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">/* 这将产生两个信息 */</span></span><br><span class="line"><span class="comment">/* a: AAA */</span></span><br><span class="line"><span class="comment">/* b: BBB */</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="产生随机数"><a href="#产生随机数" class="headerlink" title="产生随机数"></a>产生随机数</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 产生随机数</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;Number&#125;</span> </span>随机数范围</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@returns <span class="type">&#123;Number&#125;</span> </span>产生的随机数</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">getRandnum</span>(<span class="params">range</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> num = <span class="built_in">Math</span>.random() * range;</span><br><span class="line">  num = <span class="built_in">parseInt</span>(num);</span><br><span class="line">  <span class="keyword">return</span> num;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="控制台打印内容"><a href="#控制台打印内容" class="headerlink" title="控制台打印内容"></a>控制台打印内容</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">consoleInfo</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;%c博客名称%cDoubleAm&quot;</span>, <span class="string">&quot;line-height:28px;padding:4px;background:#a1afc9;color:#000;font-size:16px;margin-right:15px&quot;</span>, <span class="string">&quot;color:#3fa9f5;line-height:28px;font-size:16px;&quot;</span>);</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;%c网站地址%chttps://hexiongbiao.cn&quot;</span>, <span class="string">&quot;line-height:28px;padding:4px;background:#a1afc9;color:#000;font-size:16px;margin-right:15px&quot;</span>, <span class="string">&quot;color:#00bc12;line-height:28px;font-size:16px;&quot;</span>);</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;%c扣扣号码%c1005760694&quot;</span>, <span class="string">&quot;line-height:28px;padding:4px;background:#a1afc9;color:#000;font-size:16px;margin-right:15px&quot;</span>, <span class="string">&quot;color:#ff9900;line-height:28px;font-size:16px;&quot;</span>);</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;%c桃李春风一杯酒，江湖夜雨十年灯！&quot;</span>, <span class="string">&quot;line-height:28px;padding:5px;color:#fff;font-weight:bolder;font-size:16px;background-color:chocolate;color:#fff;&quot;</span>);</span><br><span class="line">  <span class="keyword">if</span> (<span class="built_in">window</span>.console &amp;&amp; <span class="built_in">window</span>.console.log) &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">`%c页面加载消耗了 %c<span class="subst">$&#123;(<span class="built_in">Math</span>.round(<span class="number">100</span> * performance.now()) <span class="regexp">/ 100 /</span> <span class="number">1e3</span>).toFixed(<span class="number">2</span>)&#125;</span>s`</span>, <span class="string">&quot;background: #fff;color: #333;text-shadow: 0 0 2px #eee, 0 0 3px #eee, 0 0 3px #eee, 0 0 2px #eee, 0 0 3px #eee;&quot;</span>, <span class="string">&quot;color:tomato;font-weight:bolder;&quot;</span>);</span><br><span class="line">    <span class="built_in">localStorage</span>.getItem(<span class="string">&quot;access&quot;</span>) || <span class="built_in">localStorage</span>.setItem(<span class="string">&quot;access&quot;</span>, (<span class="keyword">new</span> <span class="built_in">Date</span>).getTime());</span><br><span class="line">    <span class="keyword">let</span> e = <span class="keyword">new</span> <span class="built_in">Date</span>(<span class="built_in">parseInt</span>(<span class="built_in">localStorage</span>.getItem(<span class="string">&quot;access&quot;</span>)));</span><br><span class="line">    <span class="keyword">let</span> o = <span class="string">`<span class="subst">$&#123;e.getFullYear()&#125;</span>年<span class="subst">$&#123;e.getMonth() + <span class="number">1</span>&#125;</span>月<span class="subst">$&#123;e.getDate()&#125;</span>日`</span>;</span><br><span class="line">    <span class="keyword">let</span> t = <span class="number">0</span>;</span><br><span class="line">    <span class="built_in">localStorage</span>.getItem(<span class="string">&quot;hit&quot;</span>) ? t = <span class="built_in">parseInt</span>(<span class="built_in">localStorage</span>.getItem(<span class="string">&quot;hit&quot;</span>)) : <span class="built_in">localStorage</span>.setItem(<span class="string">&quot;hit&quot;</span>, <span class="number">0</span>);</span><br><span class="line">    <span class="built_in">localStorage</span>.setItem(<span class="string">&quot;hit&quot;</span>, ++t);</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">`%c这是你自 %c<span class="subst">$&#123;o&#125;</span> %c以来第 %c<span class="subst">$&#123;t&#125;</span> %c次在本站打开控制台，你想知道什么秘密吗～`</span>, <span class="string">&quot;&quot;</span>, <span class="string">&quot;color:chocolate;font-weight:bolder;&quot;</span>, <span class="string">&quot;&quot;</span>, <span class="string">&quot;color:chocolate;font-weight:bolder;&quot;</span>, <span class="string">&quot;&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="禁止使用快捷键打开控制台"><a href="#禁止使用快捷键打开控制台" class="headerlink" title="禁止使用快捷键打开控制台"></a>禁止使用快捷键打开控制台</h2><blockquote>
+<p>**这个是闹着玩的，只需把右键点击事件取消，在把<code>Ctrl+U</code>和<code>F12</code>这两个快捷键原本的事件取消，或者重新设置一个监听方法就可以了。</p>
+</blockquote>
+
+    </div>
+
+    
+    
+    
+      
+  <div class="popular-posts-header">相关推荐</div>
+  <ul class="popular-posts">
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="\old-now\" rel="bookmark">设置网站运行时间</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="\progress\" rel="bookmark">html+css+js实现的进度条</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="\xuanxiangka\" rel="bookmark">选项卡欺骗提示</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="\setcodes\" rel="bookmark">js验证码</a></div>
+    </li>
+  </ul>
+
+
+    <footer class="post-footer"><div>
+
+    <div style="text-align:center;color:#ccc;font-size:15px;line-height=15px;margin:50px auto 5px;padding:5px;">----------文章已到底啦&nbsp;<i class="fas fa-heart"></i>&nbsp;感谢您的阅读----------</div>
+
+</div>
+
+          <div class="reward-container">
+  <div>给博主来杯卡布奇诺~</div>
+  <button onclick="document.querySelector('.post-reward').classList.toggle('active');">
+    打赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/wechatpay.png" alt="DoubleAm 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/images/alipay.png" alt="DoubleAm 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
+</div>
+
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>博主： </strong>DoubleAm
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://doubleam.gitee.io/jsdemo/" title="Js一些常用demo">http://doubleam.gitee.io/jsdemo/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC8="><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</span> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/Demo/" rel="tag"><i class="fa fa-tag"></i> Demo</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/js-kuayu/" rel="prev" title="前端跨域">
+                  <i class="fa fa-chevron-left"></i> 前端跨域
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/phpsql/" rel="next" title="PHP与数据库的连接">
+                  PHP与数据库的连接 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+  
+  
+  
+
+
+
+      
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      
+
+      
+  <div class="beian"><span class="exturl" data-url="aHR0cHM6Ly9iZWlhbi5taWl0Lmdvdi5jbg==">湘ICP备19012697号 </span>
+      <img src="/images/beian.png" style="display: inline-block;"><span class="exturl" data-url="aHR0cDovL3d3dy5iZWlhbi5nb3YuY24vcG9ydGFsL3JlZ2lzdGVyU3lzdGVtSW5mbz9yZWNvcmRjb2RlPTQzMDIyMzAyMDAxMDMz">湘公网安备 43022302001033 号 </span>
+  </div>
+
+<div class="copyright">
+  
+  &copy; 2018 – 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fas fa-heartbeat"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">DoubleAm</span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fas fa-user"></i>
+      </span>
+      <span class="site-uv" title="游客">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fas fa-eye"></i>
+      </span>
+      <span class="site-pv" title="阅读">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div><!-- 打字特效 -->
+
+<script src="/js/activate-power-mode.js"></script>
+<script>
+var POWERMODE = {};
+POWERMODE.colorful = true;
+POWERMODE.shake = false;
+document.body.addEventListener('input', POWERMODE);
+</script>
+
+<script type="text/javascript">
+document.querySelector(".copyright .author").setAttribute("data-content"," 载入中... ");
+document.querySelector(".copyright .author").classList.add("run-times");
+function createTime() {
+  var now = new Date();
+  var run = new Date("05/28/2018 20:01:01");
+  var runTime = (now - run) / 1000,
+          days = Math.floor(runTime / 60 / 60 / 24),
+          hours = Math.floor(runTime / 60 / 60 - (24 * days)),
+          minutes = Math.floor(runTime / 60 - (24 * 60 * days) - (60 * hours)),
+          seconds = Math.floor((now - run) / 1000 - (24 * 60 * 60 * days) - (60 * 60 * hours) - (60 * minutes));
+  if (String(hours).length === 1) {
+    hours = "0" + hours;
+  }
+  if (String(minutes).length === 1) {
+    minutes = "0" + minutes;
+  }
+  if (String(seconds).length === 1) {
+    seconds = "0" + seconds;
+  }
+  document.querySelector(".run-times").setAttribute("data-content"," 网站已孵化" + days + "天" + hours
+          + "小时" + minutes + "分钟" + seconds + "秒 ");
+}
+if (!document.hidden) {
+  var siteTime = setInterval("createTime()", 500);
+} else {
+  clearInterval(siteTime);
+}
+</script>
+
+    </div>
+  </footer>
+
+  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1.15.0/dist/lozad.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+
+
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+<script>
+document.querySelectorAll('.pdfobject-container').forEach(element => {
+  const url = element.dataset.target;
+  const pdfOpenParams = {
+    navpanes : 0,
+    toolbar  : 0,
+    statusbar: 0,
+    pagemode : 'thumbs',
+    view     : 'FitH'
+  };
+  const pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
+  const fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+
+  if (NexT.utils.supportsPDFs()) {
+    element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;
+  } else {
+    element.innerHTML = `<iframe src="${fullURL}" style="height: ${element.dataset.height};" frameborder="0"></iframe>`;
+  }
+});
+</script>
+
+
+<script>
+if (document.querySelectorAll('.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8.7.0/dist/mermaid.min.js', () => {
+    mermaid.init({
+      theme    : 'forest',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    }, '.mermaid');
+  }, window.mermaid);
+}
+</script>
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+
+
+
+  
+
+  
+  <script src="//cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink.listen({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri === 'http://doubleam.gitee.io/jsdemo/',]
+      });
+      });
+  </script>
+<!-- 鼠标点击特效 -->
+  
+   <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 99999; pointer-events: none;" ></canvas> 
+   <script type="text/javascript" src="/js/anime.min.js"></script>
+   <script type="text/javascript" src="/js/fireworks.js"></script>
+  
+
+<!--网页夜间模式-->
+
+<script type="text/javascript">
+let brightness = 0;
+let div;
+function cover(brightness) {
+  if (typeof (div) === 'undefined') {
+    div = document.createElement('div');
+    div.setAttribute('style', 'position:fixed;top:0;left:0;outline:50000px solid;z-index:99999;');
+    document.body.appendChild(div);
+  } else {
+    div.style.display = '';
+  }
+  div.style.outlineColor = 'rgba(0,0,0,' + brightness + ')';
+}
+window.addEventListener('keydown', function (e) {
+  if (e.altKey && e.keyCode === 90) {//Alt+Z 关灯
+    cover(brightness = 0.3);
+  }
+  if (e.altKey && e.keyCode === 88) {//Alt+X 开灯
+    cover(brightness = 0);
+  }
+  if (e.altKey && e.keyCode === 38) {//Alt+↑ 亮度调高
+    if (brightness - 0.05 > 0.05) {
+      cover(brightness -= 0.05);
+    }
+  }
+  if (e.altKey && e.keyCode === 40) {//Alt+↓ 亮度调低
+    if (brightness + 0.05 < 0.95) {
+      cover(brightness += 0.05);
+    }
+  }
+}, false);
+/*
+let darkImg = document.querySelector("#dark-theme-img");
+if (darkImg !== null) {
+  darkImg.setAttribute("title", "【Alt+↑/↓】调节亮度哦～");
+  darkImg.addEventListener('click', function () {
+    if (brightness === 0) {
+      cover(brightness = 0.3);
+    } else {
+      cover(brightness = 0);
+    }
+  });
+}
+*/
+</script>
+
+
+<!-- 选项卡切换提示 -->
+
+<script type="text/javascript">
+var OriginTitle = document.title;
+var titleTime;
+document.addEventListener('visibilitychange',function(){
+    if(document.visibilityState=='hidden') {
+         document.title = ' (╥﹏╥) 你快回来 ~ ';
+         clearTimeout(titleTime);
+    }else {
+         document.title = ' (∩_∩) 欢迎肥家 ~ ' + OriginTitle;
+         titleTime = setTimeout(function () {
+         document.title = OriginTitle;
+         }, 2000);
+    }
+});
+</script>
+
+
+<!-- 控制台打印内容 -->
+
+<script type="text/javascript">
+function consoleInfo() {
+console.log("%c%c 博客名称 %c DoubleAm ","line-height:28px;","line-height:28px;padding:4px;background:#a1afc9;color:#000;font-size:16px;margin-right:15px;","color:#3fa9f5;line-height:28px;font-size:16px;");
+console.log("%c%c 我的简历 %c http://resume.hexiongbiao.cn ","line-height:28px;","line-height:28px;padding:4px;background:#a1afc9;color:#000;font-size:16px;margin-right:15px","color:#00bc12;line-height:28px;font-size:16px;");
+console.log("%c%c 扣扣号码 %c 1005760694 ","line-height:28px;","line-height:28px;padding:4px;background:#a1afc9;color:#000;font-size:16px;margin-right:15px","color:#ff9900;line-height:28px;font-size:16px;");
+console.log("%c%c 写歌的人断了魂啊，听歌的人最无情！  ","line-height:28px;","line-height:28px;padding:4px 0px;color:#fff;font-size:16px;color:chocolate;");
+console.log("%c%c                    ——— 陈升 牡丹亭外 ","line-height:28px;","line-height:28px;padding:4px 0px;color:#fff;font-size:16px;color:chocolate;");
+  if (window.console && window.console.log) {
+    console.log(`%c页面加载消耗了 %c${(Math.round(100 * performance.now()) / 100 / 1e3).toFixed(2)}s`, "background: #fff;color: #333;text-shadow: 0 0 2px #eee, 0 0 3px #eee, 0 0 3px #eee, 0 0 2px #eee, 0 0 3px #eee;", "color:tomato;font-weight:bolder;");
+    localStorage.getItem("access") || localStorage.setItem("access", (new Date).getTime());
+    let e = new Date(parseInt(localStorage.getItem("access")));
+    let o = `${e.getFullYear()}年${e.getMonth() + 1}月${e.getDate()}日`;
+    let t = 0;
+    localStorage.getItem("hit") ? t = parseInt(localStorage.getItem("hit")) : localStorage.setItem("hit", 0);
+    localStorage.setItem("hit", ++t);
+    console.log(`%c这是你自 %c${o} %c以来第 %c${t} %c次在本站打开控制台，你想知道什么秘密吗～`, "", "color:chocolate;font-weight:bolder;", "", "color:chocolate;font-weight:bolder;", "");
+  }
+}
+consoleInfo();
+</script>
+
+<script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var i=n.imageLazyLoadSetting.isSPA,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){i&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,e,a=0;a<r.length;a++)t=r[a],e=void 0,0<=(e=t.getBoundingClientRect()).bottom&&0<=e.left&&e.top<=(n.innerHeight||document.documentElement.clientHeight)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},n.src=i}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+</html>
