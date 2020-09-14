@@ -21,7 +21,7 @@
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"doubleam.gitee.io","root":"/","scheme":"Gemini","version":"8.0.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":15,"offset":13},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"manual"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeIn","post_body":"fadeIn","coll_header":"fadeIn","sidebar":"fadeIn"}},"prism":false,"i18n":{"placeholder":"搜索一下噜(biugle.cn)...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"db.json","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":true}};
+    var CONFIG = {"hostname":"doubleam.gitee.io","root":"/","scheme":"Gemini","version":"8.0.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":15,"offset":13},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"manual"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeIn","post_body":"fadeIn","coll_header":"fadeIn","sidebar":"fadeIn"}},"prism":false,"i18n":{"placeholder":"搜索一下噜(biugle.cn)...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":true}};
   </script>
 
   <meta name="description" content="defer和async的区别">
@@ -458,7 +458,7 @@
 </tr>
 </tbody></table>
 <p>&emsp;&emsp;<code>注意:</code>从实用角度来说呢，首先把所有脚本都丢到 <code>&lt;/body&gt;</code> 之前是最佳实践，因为对于旧浏览器来说这是唯一的优化选择，此法可保证非脚本的其他一切元素能够以最快的速度得到加载和解析。</p>
-<h3 id="图片示意"><a href="#图片示意" class="headerlink" title="图片示意"></a>图片示意</h3><p><img data-src="/images/loading.gif" data-original="/deferandasync/img/postimg/deferandasync.png"></p>
+<h3 id="图片示意"><a href="#图片示意" class="headerlink" title="图片示意"></a>图片示意</h3><p><img data-src="/images/loading.gif" data-original="../img/postimg/deferandasync.png"></p>
 <h3 id="归纳总结"><a href="#归纳总结" class="headerlink" title="归纳总结"></a>归纳总结</h3><ul>
 <li>二者都是异步去加载外部JS文件</li>
 <li><code>async</code>是在外部JS加载完成后，浏览器空闲时，Load事件触发前执行。而<code>defer</code>是在JS加载完成后，整个文档解析完成后执行。</li>
@@ -606,7 +606,6 @@
 
 <script src="/js/activate-power-mode.js"></script>
 <script>
-var POWERMODE = {};
 POWERMODE.colorful = true;
 POWERMODE.shake = false;
 document.body.addEventListener('input', POWERMODE);

@@ -21,7 +21,7 @@
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"doubleam.gitee.io","root":"/","scheme":"Gemini","version":"8.0.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":15,"offset":13},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"manual"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeIn","post_body":"fadeIn","coll_header":"fadeIn","sidebar":"fadeIn"}},"prism":false,"i18n":{"placeholder":"搜索一下噜(biugle.cn)...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"db.json","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":true}};
+    var CONFIG = {"hostname":"doubleam.gitee.io","root":"/","scheme":"Gemini","version":"8.0.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":15,"offset":13},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"manual"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeIn","post_body":"fadeIn","coll_header":"fadeIn","sidebar":"fadeIn"}},"prism":false,"i18n":{"placeholder":"搜索一下噜(biugle.cn)...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":true}};
   </script>
 
   <meta name="description" content="hexo博客搭建教程">
@@ -481,7 +481,7 @@
 <p>&emsp; <strong><em>第二步、创建一对新的SSH密钥(keys)</em></strong></p>
 <p><strong>输入命令</strong></p>
 <blockquote>
-<p><strong>ssh-keygen -t rsa -C “<span class="exturl" data-url="bWFpbHRvOiYjMTIxOyYjeDZmOyYjeDc1OyYjeDcyOyYjOTU7JiMxMDE7JiMxMDk7JiN4NjE7JiMxMDU7JiN4NmM7JiM2NDsmIzEwMTsmI3g3ODsmIzk3OyYjeDZkOyYjeDcwOyYjeDZjOyYjeDY1OyYjNDY7JiN4NjM7JiMxMTE7JiMxMDk7">&#121;&#x6f;&#x75;&#x72;&#95;&#101;&#109;&#x61;&#105;&#x6c;&#64;&#101;&#x78;&#97;&#x6d;&#x70;&#x6c;&#x65;&#46;&#x63;&#111;&#109;<i class="fa fa-external-link-alt"></i></span>“</strong><br><em>这里将按照你提供的邮箱地址，创建一对密钥。</em></p>
+<p><strong>ssh-keygen -t rsa -C “<span class="exturl" data-url="bWFpbHRvOiYjeDc5OyYjeDZmOyYjMTE3OyYjMTE0OyYjOTU7JiN4NjU7JiMxMDk7JiN4NjE7JiN4Njk7JiMxMDg7JiN4NDA7JiMxMDE7JiMxMjA7JiM5NzsmIzEwOTsmIzExMjsmI3g2YzsmI3g2NTsmIzQ2OyYjeDYzOyYjMTExOyYjeDZkOw==">&#x79;&#x6f;&#117;&#114;&#95;&#x65;&#109;&#x61;&#x69;&#108;&#x40;&#101;&#120;&#97;&#109;&#112;&#x6c;&#x65;&#46;&#x63;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span>“</strong><br><em>这里将按照你提供的邮箱地址，创建一对密钥。</em></p>
 </blockquote>
 <blockquote>
 <p><strong>Generating public/private rsa key pair.</strong><br><strong>Enter file in which to save the key (/c/Users/you/.ssh/id_rsa): [Press enter]</strong></p>
@@ -494,7 +494,7 @@
 
 <p>输入完成之后，屏幕会显示<strong>如下信息：</strong></p>
 <blockquote>
-<p>Your identification has been saved in /c/Users/you/.ssh/id_rsa.<br>Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.<br>The key fingerprint is:<br>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <span class="exturl" data-url="bWFpbHRvOiYjeDc5OyYjeDZmOyYjeDc1OyYjeDcyOyYjOTU7JiN4NjU7JiMxMDk7JiM5NzsmIzEwNTsmI3g2YzsmI3g0MDsmI3g2NTsmIzEyMDsmIzk3OyYjMTA5OyYjMTEyOyYjMTA4OyYjeDY1OyYjeDJlOyYjeDYzOyYjeDZmOyYjeDZkOw==">&#x79;&#x6f;&#x75;&#x72;&#95;&#x65;&#109;&#97;&#105;&#x6c;&#x40;&#x65;&#120;&#97;&#109;&#112;&#108;&#x65;&#x2e;&#x63;&#x6f;&#x6d;<i class="fa fa-external-link-alt"></i></span></p>
+<p>Your identification has been saved in /c/Users/you/.ssh/id_rsa.<br>Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.<br>The key fingerprint is:<br>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <span class="exturl" data-url="bWFpbHRvOiYjMTIxOyYjMTExOyYjeDc1OyYjMTE0OyYjOTU7JiN4NjU7JiN4NmQ7JiM5NzsmI3g2OTsmI3g2YzsmI3g0MDsmIzEwMTsmIzEyMDsmI3g2MTsmI3g2ZDsmI3g3MDsmIzEwODsmI3g2NTsmIzQ2OyYjOTk7JiMxMTE7JiMxMDk7">&#121;&#111;&#x75;&#114;&#95;&#x65;&#x6d;&#97;&#x69;&#x6c;&#x40;&#101;&#120;&#x61;&#x6d;&#x70;&#108;&#x65;&#46;&#99;&#111;&#109;<i class="fa fa-external-link-alt"></i></span></p>
 </blockquote>
 <p>&emsp; <strong><em>第三步、在GitHub账户中添加你的公钥</em></strong></p>
 <p><strong>运行如下命令，将公钥的内容复制到系统粘贴板(clipboard)中（手动复制也是可以的，就是你邮箱账户前面的那一串）。</strong></p>
@@ -512,7 +512,7 @@
 <p>&emsp; <strong><em>第四步、测试</em></strong></p>
 <p>&emsp;&emsp; 可以输入下面的命令，看看设置是否成功：</p>
 <blockquote>
-<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjeDY3OyYjeDY5OyYjMTE2OyYjNjQ7JiN4Njc7JiN4Njk7JiMxMTY7JiMxMDQ7JiMxMTc7JiN4NjI7JiN4MmU7JiM5OTsmI3g2ZjsmIzEwOTs=">&#x67;&#x69;&#116;&#64;&#x67;&#x69;&#116;&#104;&#117;&#x62;&#x2e;&#99;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span></strong></p>
+<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjeDY3OyYjMTA1OyYjeDc0OyYjeDQwOyYjMTAzOyYjeDY5OyYjMTE2OyYjeDY4OyYjeDc1OyYjOTg7JiM0NjsmIzk5OyYjeDZmOyYjMTA5Ow==">&#x67;&#105;&#x74;&#x40;&#103;&#x69;&#116;&#x68;&#x75;&#98;&#46;&#99;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span></strong></p>
 </blockquote>
 <p>如果是下面的反馈：</p>
 <blockquote>
@@ -523,7 +523,7 @@
 <p>&emsp;&emsp; 现在你已经可以通过 SSH 链接到GitHub了，还有一些个人信息需要完善的。Git会根据用户的名字和邮箱来记录提交。GitHub也是用这些信息来做权限的处理。</p>
 <p>&emsp;&emsp; 输入下面的代码进行个人信息的设置，把名称和邮箱替换成你自己的，名字根据自己的喜好自己取，而不是GitHub的昵称。</p>
 <blockquote>
-<p><strong>git config –global user.name “yonhuming”</strong>//用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjMTE5OyYjeDYxOyYjMTEwOyYjeDY3OyYjeDY1OyYjeDcyOyYjeDY3OyYjeDZmOyYjeDc1OyYjeDQwOyYjeDMxOyYjeDM2OyYjeDMzOyYjNDY7JiM5OTsmIzExMTsmIzEwOTs=">&#119;&#x61;&#110;&#x67;&#x65;&#x72;&#x67;&#x6f;&#x75;&#x40;&#x31;&#x36;&#x33;&#46;&#99;&#111;&#109;<i class="fa fa-external-link-alt"></i></span>“</strong>//填写自己的邮箱</p>
+<p><strong>git config –global user.name “yonhuming”</strong>//用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjeDc3OyYjOTc7JiN4NmU7JiMxMDM7JiMxMDE7JiN4NzI7JiMxMDM7JiMxMTE7JiMxMTc7JiM2NDsmIzQ5OyYjeDM2OyYjeDMzOyYjNDY7JiM5OTsmIzExMTsmIzEwOTs=">&#x77;&#97;&#x6e;&#103;&#101;&#x72;&#103;&#111;&#117;&#64;&#49;&#x36;&#x33;&#46;&#99;&#111;&#109;<i class="fa fa-external-link-alt"></i></span>“</strong>//填写自己的邮箱</p>
 </blockquote>
 <h5 id="到这里SSH-Key已经配置成功，本机已成功连接到github。"><a href="#到这里SSH-Key已经配置成功，本机已成功连接到github。" class="headerlink" title="到这里SSH Key已经配置成功，本机已成功连接到github。"></a><strong>到这里SSH Key已经配置成功，本机已成功连接到github。</strong></h5><hr>
 <h2 id="N0-6"><a href="#N0-6" class="headerlink" title="N0.6"></a>N0.6</h2><h4 id="将本地的Hexo文件更新到Github仓库："><a href="#将本地的Hexo文件更新到Github仓库：" class="headerlink" title="将本地的Hexo文件更新到Github仓库："></a>将本地的Hexo文件更新到Github仓库：</h4><ul>
@@ -699,7 +699,6 @@
 
 <script src="/js/activate-power-mode.js"></script>
 <script>
-var POWERMODE = {};
 POWERMODE.colorful = true;
 POWERMODE.shake = false;
 document.body.addEventListener('input', POWERMODE);
