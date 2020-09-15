@@ -2773,7 +2773,7 @@ mark.search-keyword {
 .main-inner {
   border-radius: 10px 10px 10px 10px;
   box-sizing: border-box;
-  width: calc(100% - 253px);
+  width: calc(100% - 255px);
 }
 @media (max-width: 991px) {
   .main-inner {
@@ -2782,7 +2782,7 @@ mark.search-keyword {
   }
 }
 .footer-inner {
-  padding-left: 253px;
+  padding-left: 255px;
 }
 @media (max-width: 991px) {
   .footer-inner {
@@ -2879,10 +2879,10 @@ mark.search-keyword {
   border-bottom-color: #fc6423;
 }
 .sidebar {
-  margin-top: 13px;
+  margin-top: 15px;
   position: -webkit-sticky;
   position: sticky;
-  top: 13px;
+  top: 15px;
   width: 240px;
 }
 @media (max-width: 991px) {
@@ -2984,7 +2984,7 @@ mark.search-keyword {
 .main-inner > .pagination:not(:first-child):not(.sub-menu) {
   border-radius: 10px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
-  margin-top: 13px;
+  margin-top: 15px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .main-inner > .sub-menu:not(:first-child):not(.sub-menu),
@@ -3041,13 +3041,13 @@ mark.search-keyword {
     padding: 8px;
   }
   .posts-expand .post-button {
-    margin: 13px 0;
+    margin: 15px 0;
   }
   .post-block {
-    padding: 13px;
+    padding: 15px;
   }
   .comments {
-    padding: 10px 13px;
+    padding: 10px 15px;
   }
 }
 /**
@@ -3359,12 +3359,12 @@ h5:hover {
     background: #fff;
   }
 }
-.posts-expand article.post-block {
+.post-block {
   border-radius: 10px !important;
-  background: rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.5) !important;
 }
 @media (max-width: 767px) {
-  .posts-expand article.post-block {
+  .post-block {
     border-radius: 0px !important;
     background: #fff;
   }
@@ -3468,34 +3468,6 @@ div#comments div.vpower {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 /**
-页码栏
-*/
-.pagination,
-.pagination .prev,
-.pagination .next,
-.pagination .page-number {
-  border: none;
-}
-.pagination .page-number.current {
-  border-radius: 15px;
-}
-.pagination {
-  border-radius: 15px;
-  background: rgba(0,0,0,0);
-  margin: 30px auto 0;
-}
-@media (max-width: 767px) {
-  .pagination {
-    margin-bottom: 20px;
-  }
-}
-.page-number:hover,
-.page-number:active {
-  color: #88ff0d;
-  border-radius: 100%;
-  background-color: rgba(0,0,0,0.75);
-}
-/**
 文章分割线
 */
 .posts-expand .post-eof {
@@ -3533,35 +3505,6 @@ div#comments div.vpower {
 }
 ::-webkit-scrollbar-thumb:hover {
   background-color: #d2691e;
-}
-/**
-小代码块`` 内容 ``
-*/
-code {
-  margin: 2px;
-  color: #c7254e;
-  background-color: rgba(249,242,244,0.533);
-}
-.highlight figcaption {
-  background: #000;
-  border-bottom: 1px dotted #343434;
-}
-.highlight *::selection {
-  background: #06d633;
-}
-.gutter>pre {
-  background: #282c34 !important;
-}
-/**
-侧栏收藏夹样式
-*/
-.links-of-blogroll-title {
-  margin-top: 5px;
-  margin-left: -9px;
-}
-.links-of-blogroll-item {
-  padding-left: 3px;
-  padding-right: 3px;
 }
 /**
 阅读全文样式
@@ -3666,9 +3609,6 @@ input:focus {
   background: none;
   border-radius: 10px;
 }
-.sidebar-inner.affix {
-  top: 5px;
-}
 .sidebar-inner {
   margin-top: 10px;
   padding: 10px 10px 10px;
@@ -3683,6 +3623,69 @@ input:focus {
 }
 .popup {
   opacity: 0.95;
+}
+/**
+页码栏
+*/
+.pagination,
+.pagination .prev,
+.pagination .next,
+.pagination .page-number {
+  border: none;
+}
+.pagination .page-number.current {
+  border-radius: 15px;
+}
+.pagination {
+  border-radius: 15px;
+  background: rgba(0,0,0,0) !important;
+  margin: 30px auto 0;
+}
+@media (max-width: 767px) {
+  .pagination {
+    margin-bottom: 20px;
+  }
+}
+.page-number:hover,
+.page-number:active {
+  color: #88ff0d;
+  border-radius: 15px;
+  background-color: rgba(10,10,10,0.65);
+}
+/**
+小代码块`` 内容 ``
+*/
+code {
+  margin: 2px;
+  color: #c7254e;
+  background-color: rgba(249,242,244,0.533);
+}
+.highlight figcaption {
+  background: #000;
+  border-bottom: 1px dotted #343434;
+}
+.highlight *::selection {
+  background: #06d633;
+}
+.gutter>pre {
+  background: #282c34 !important;
+}
+.highlight figcaption {
+  background: #282c34 !important;
+}
+/**
+侧栏收藏夹样式
+*/
+.links-of-author-item {
+  margin: 3px;
+}
+.links-of-blogroll-title {
+  margin-top: 3px;
+  margin-left: -9px;
+}
+.links-of-blogroll-item {
+  padding-left: 3px;
+  padding-right: 3px;
 }
 /**
 修改选中字符的颜色
@@ -3771,6 +3774,52 @@ doubleam修改内容 START!!!!!!!!
 }
 .post-doubleam:after {
   background-image: url("../images/doubleam.png");
+}
+#dark-theme-img {
+  width: 3vw;
+  height: 3vw;
+  position: fixed;
+  z-index: 999;
+  left: -1.5vw;
+  top: 0;
+  transition-duration: 0.6s;
+}
+#dark-theme-img:hover {
+  transform: rotate(360deg);
+  left: 0;
+  width: 3.5vw;
+  height: 3.5vw;
+}
+@media (max-width: 767px) {
+  #dark-theme-img {
+    display: none;
+  }
+}
+.page .post-header {
+  margin-bottom: 0 !important;
+}
+.reward-container {
+  margin-top: 0;
+}
+.post-reward img {
+  border-radius: 10px;
+}
+.post-reward span {
+  font-weight: bolder;
+}
+.category-list-item {
+  text-align: center;
+}
+.category-all-page .category-list-item {
+  float: left;
+  display: inline-block;
+  background-color: rgba(214,220,225,0.3);
+  border-radius: 10px;
+  padding: 3px 6px;
+}
+.category-all-page .category-all {
+  overflow: hidden;
+  margin-top: 10px;
 }
 /**
 ------------------------------
