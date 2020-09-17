@@ -3341,6 +3341,15 @@ h5:hover {
 .archive,
 .content-wrap {
   margin-top: 10px;
+  padding: 20px;
+  background: rgba(255,255,255,0.3);
+}
+@media (max-width: 767px) {
+  .category,
+  .archive,
+  .content-wrap {
+    padding: 0;
+  }
 }
 /**
 文章样式修改
@@ -3353,9 +3362,9 @@ h5:hover {
 }
 @media (max-width: 767px) {
   .posts-expand {
-    margin-top: 0px;
-    padding: 0px;
-    border-radius: 0px;
+    margin-top: 8px;
+    padding: 0;
+    border-radius: 0 !important;
     background: #fff;
   }
 }
@@ -3382,17 +3391,9 @@ h5:hover {
 @media (max-width: 767px) {
   .post,
   .page {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     background: #fff;
     border-radius: 10px;
-  }
-}
-/**
-移动端菜单
-*/
-@media (max-width: 767px) {
-  .main-menu {
-    padding-top: 0;
   }
 }
 /**
@@ -3600,7 +3601,7 @@ input:focus {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 130px !important;
+  height: 140px !important;
 }
 @media (max-width: 767px) {
   .site-brand-container {
@@ -3645,6 +3646,7 @@ input:focus {
 }
 @media (max-width: 767px) {
   .pagination {
+    border-radius: 0 !important;
     margin-bottom: 20px;
   }
 }
@@ -3701,6 +3703,29 @@ code {
 ::-moz-selection {
   background: #06d633;
   color: #f7f7f7;
+}
+.sub-menu {
+  padding: 10px !important;
+  background: rgba(255,255,255,0.3) !important;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 14px #cacbcb;
+  -moz-box-shadow: 0 0 14px #cacbcb;
+  box-shadow: 0 0 14px #cacbcb;
+}
+@media (max-width: 767px) {
+  .sub-menu {
+    background: #fff !important;
+    border-radius: 0px;
+  }
+}
+.sub-menu a {
+  text-decoration: underline !important;
+  background: none !important;
+}
+.sub-menu a text,
+.sub-menu a +mobile() {
+  text-decoration: none;
+  background: #fff !important;
 }
 /**
 ------------------------------
@@ -3824,22 +3849,45 @@ doubleam修改内容 START!!!!!!!!
   text-align: center;
 }
 .category-all-page .category-list-item {
-  float: left;
   display: inline-block;
   background-color: rgba(214,220,225,0.3);
   border-radius: 10px;
   padding: 3px 6px;
 }
 .category-all-page .category-all {
-  overflow: hidden;
-  margin-top: 10px;
+  margin: 10px auto;
+}
+.category-all-page .category-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-evenly;
+  justify-content: space-between;
 }
 .site-subtitle,
 .site-title {
   font-weight: bolder;
 }
 .toggle-line {
-  background: #333 !important;
+  background: #222 !important;
+  height: 2.6px !important;
+}
+.menu {
+  padding: 1.5em 0;
+}
+@media (max-width: 767px) {
+  .menu {
+    padding: 1em 0;
+  }
+}
+.popular-posts-header {
+  margin-top: 50px;
+}
+.search-popup input.search-input {
+  height: 35px;
 }
 /**
 ------------------------------

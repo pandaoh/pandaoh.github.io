@@ -22,21 +22,23 @@
     var CONFIG = {"hostname":"doubleam.gitee.io","root":"/","scheme":"Gemini","version":"8.0.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":15,"offset":15},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"manual"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeIn","post_body":"fadeIn","coll_header":"fadeIn","sidebar":"fadeIn"}},"prism":false,"i18n":{"placeholder":"搜索一下噜(biugle.cn)...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":true}};
   </script>
 
-  <meta name="description" content="PHP连接数据库">
-<meta property="og:type" content="article">
-<meta property="og:title" content="PHP与数据库的连接">
-<meta property="og:url" content="http://doubleam.gitee.io/phpsql/">
+  <meta name="description" content="DoubleAm（ hexiongbiao.cn）&amp;emsp;Blog❤足迹        Introduction    &amp;emsp;&amp;emsp;**Hello,welcome to my website.**I am DoubleAm,21 years old.I will graduate from HNIE University with a bachelor degree in Com">
+<meta property="og:type" content="website">
+<meta property="og:title" content="NoteBooks">
+<meta property="og:url" content="http://doubleam.gitee.io/others/notebooks/">
 <meta property="og:site_name" content="江湖小栈">
-<meta property="og:description" content="PHP连接数据库">
+<meta property="og:description" content="DoubleAm（ hexiongbiao.cn）&amp;emsp;Blog❤足迹        Introduction    &amp;emsp;&amp;emsp;**Hello,welcome to my website.**I am DoubleAm,21 years old.I will graduate from HNIE University with a bachelor degree in Com">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2019-04-06T23:37:04.000Z">
-<meta property="article:modified_time" content="2020-09-15T02:03:35.935Z">
+<meta property="og:image" content="http://doubleam.gitee.io/images/loading.gif">
+<meta property="article:published_time" content="2019-11-26T12:36:03.022Z">
+<meta property="article:modified_time" content="2019-11-26T12:36:03.022Z">
 <meta property="article:author" content="DoubleAm">
-<meta property="article:tag" content="PHP">
+<meta property="article:tag" content="江湖小栈,贺雄彪,doubleam,鲸落,web,php,前端,后端,全栈">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://doubleam.gitee.io/images/loading.gif">
 
 
-<link rel="canonical" href="http://doubleam.gitee.io/phpsql/">
+<link rel="canonical" href="http://doubleam.gitee.io/others/notebooks/">
 
 
 <script class="page-configurations">
@@ -44,16 +46,15 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : true,
+    isPost : false,
     lang   : 'zh-CN'
   };
 </script>
-  <meta name="keywords" content="PHP与数据库" />
-
 
 <link rel="shortcut icon" href="/images/favicon.png">
 
-  <title>PHP与数据库的连接 | 江湖小栈</title>
+  <title>NoteBooks | 江湖小栈
+</title>
   
 
 
@@ -327,203 +328,162 @@
 </noscript>
 
 
-    <div class="main-inner post posts-expand">
+    <div class="main-inner page posts-expand">
       
+  
 
       
-
-    
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://doubleam.gitee.io/phpsql/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="DoubleAm">
-      <meta itemprop="description" content="山中何事？松花酿酒，春水煎茶。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="江湖小栈">
-    </span>
-
-    
-    
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          PHP与数据库的连接
-        </h1>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2019-04-07 07:37:04" itemprop="dateCreated datePublished" datetime="2019-04-07T07:37:04+08:00">2019-04-07</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2020-09-15 10:03:35" itemprop="dateModified" datetime="2020-09-15T10:03:35+08:00">2020-09-15</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%B9%B2%E5%9E%83%E5%9C%BE/" itemprop="url" rel="index"><span itemprop="name">干垃圾</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
-      <span class="post-meta-item-icon">
-        <i class="fas fa-eye"></i>
-      </span>
-      <span class="post-meta-item-text">阅读次数：</span>
-      <span id="busuanzi_value_page_pv"></span>
-    </span>
-
-
-
-
-
-
-      </div>
-      <div class="post-meta">
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>892</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-            <div class="post-description">PHP连接数据库</div>
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-        <div class="note warning no-icon"><p>PHP与数据库的连接方法</p>
-</div>
-<a id="more"></a> 
-
-<blockquote class="blockquote-center">
-<p><strong>废话不多说，贴代码。</strong></p>
-
-</blockquote>
-
-<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 数据库链接</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">$host = <span class="string">&quot;数据库地址&quot;</span>;</span><br><span class="line">$user = <span class="string">&quot;账号&quot;</span>;</span><br><span class="line">$pwd = <span class="string">&quot;密码&quot;</span>;</span><br><span class="line">$dbname = <span class="string">&quot;数据库名&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//$hxb_db = new mysqli($host, $user, $pwd, $dbname); //面向对象连接方式</span></span><br><span class="line">$hxb_db = mysqli_connect($host, $user, $pwd, $dbname); <span class="comment">//面向过程连接方式</span></span><br><span class="line"><span class="keyword">if</span> (!$hxb_db) &#123;</span><br><span class="line">  <span class="keyword">die</span>(<span class="string">&quot;数据库连接失败！！！！！&quot;</span> . mysqli_connect_error());</span><br><span class="line">  <span class="keyword">exit</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">$set_code = <span class="string">&quot;SET NAMES UTF8&quot;</span>; <span class="comment">//设置编码格式</span></span><br><span class="line">mysqli_query($hxb_db, $set_code); <span class="comment">//执行查询</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (filter_input(INPUT_SERVER, <span class="string">&quot;REQUEST_METHOD&quot;</span>) === <span class="string">&quot;GET&quot;</span>) &#123;</span><br><span class="line">  mysqli_close($hxb_db); <span class="comment">//直接访问此文件时关闭数据库！</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<blockquote class="blockquote-center">
-<p>其他</p>
-
-</blockquote>
-
-<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">mysqli_fetch_row($result);          <span class="comment">//只能返回一个一位数组，只能通过下标来显示，$row[0];</span></span><br><span class="line">mysqli_fetch_array($result);        <span class="comment">//不只可以返回一个一维数组，还可以返回键值对的方式，从而通过$array[&#x27;title&#x27;]方式来显示。</span></span><br><span class="line">mysqli_fetch_object($result);       <span class="comment">//从结果集中取得一行，并作为对象返回。</span></span><br><span class="line">mysql_num_rows($result);            <span class="comment">//返回mysql查询结果的数目</span></span><br><span class="line">mysqli_affected_rows($connect);     <span class="comment">//取得影响行数</span></span><br><span class="line">mysqli_insert_id($connect);         <span class="comment">//取得最后一笔自动新增的 id</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-    </div>
-
-    
-    
-    
-      
-  <div class="popular-posts-header">相关推荐</div>
-  <ul class="popular-posts">
-    <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\phpip\" rel="bookmark">PHP获取ip地址</a></div>
-    </li>
-    <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\phpformdata\" rel="bookmark">PHP的资料接收传递</a></div>
-    </li>
-    <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\phpstudy\" rel="bookmark">PHP学习记录</a></div>
-    </li>
-  </ul>
-
-
-    <footer class="post-footer"><div>
-
-    <div style="text-align:center;color:#ccc;font-size:15px;line-height=15px;margin:10px auto 5px;padding:5px;">----------文章已到底啦&nbsp;<i class="fas fa-heart"></i>&nbsp;感谢您的阅读----------</div>
-
-</div>
-
-          <div class="reward-container">
-  <div>给博主来杯卡布奇诺~</div>
-  <button onclick="document.querySelector('.post-reward').classList.toggle('active');">
-    打赏
-  </button>
-  <div class="post-reward">
-      <div>
-        <img src="/images/wechatpay.png" alt="DoubleAm 微信">
-        <span>微信</span>
-      </div>
-      <div>
-        <img src="/images/alipay.png" alt="DoubleAm 支付宝">
-        <span>支付宝</span>
-      </div>
-
-  </div>
-</div>
-
-          
-
-<div class="post-copyright">
-<ul>
-  <li class="post-copyright-author">
-      <strong>博主： </strong>DoubleAm
-  </li>
-  <li class="post-copyright-link">
-      <strong>本文链接：</strong>
-      <a href="http://doubleam.gitee.io/phpsql/" title="PHP与数据库的连接">http://doubleam.gitee.io/phpsql/</a>
-  </li>
-  <li class="post-copyright-license">
-    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC8="><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</span> 许可协议。转载请注明出处！
-  </li>
-</ul>
-</div>
-
-          <div class="post-tags">
-              <a href="/tags/PHP/" rel="tag"><i class="fa fa-tag"></i> PHP</a>
-          </div>
 
         
+        <ul class="sub-menu menu">
+          
+            
+          
+          
+              
+  <li class="menu-item menu-item-notebooks">
 
-          <div class="post-nav">
-            <div class="post-nav-item">
-                <a href="/jsdemo/" rel="prev" title="Js一些常用demo">
-                  <i class="fa fa-chevron-left"></i> Js一些常用demo
-                </a>
-            </div>
-            <div class="post-nav-item">
-                <a href="/phpstudy/" rel="next" title="PHP学习记录">
-                  PHP学习记录 <i class="fa fa-chevron-right"></i>
-                </a>
-            </div>
-          </div>
-    </footer>
-  </article>
-  
-  
+    <a href="/others/notebooks/" rel="section"><i class="fas fa-user-secret fa-fw"></i>notebooks</a>
+
+  </li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-resume">
+
+    <span class="exturl" data-url="aHR0cHM6Ly9yZXN1bWUuaGV4aW9uZ2JpYW8uY24="><i class="fas fa-user-secret fa-fw"></i>resume</span>
+
+  </li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-love">
+
+    <span class="exturl" data-url="aHR0cHM6Ly9vcW0uaGV4aW9uZ2JpYW8uY24="><i class="fas fa-heart fa-fw"></i>love</span>
+
+  </li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-otherlinks">
+
+    <a href="/others/../otherlinks/" rel="section"><i class="fas fa-users fa-fw"></i>otherlinks</a>
+
+  </li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-zhaimusic">
+
+    <span class="exturl" data-url="aHR0cHM6Ly9wbGF5ZXIuaGV4aW9uZ2JpYW8uY24="><i class="fas fa-music fa-fw"></i>zhaimusic</span>
+
+  </li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-tapmusic">
+
+    <span class="exturl" data-url="aHR0cHM6Ly90YXAuaGV4aW9uZ2JpYW8uY24="><i class="fas fa-bolt fa-fw"></i>tapmusic</span>
+
+  </li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-commonweal">
+
+    <a href="/others/../404/" rel="section"><i class="fas fa-heartbeat fa-fw"></i>公益404</a>
+
+  </li>
+
+
+          
+        </ul>
+        
+
+        
+        
+      
   
 
+      
+
+    
+    
+    
+    <div class="post-block" lang="zh-CN">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">NoteBooks
+</h1>
+
+<div class="post-meta-container">
+  
+  <ul class="breadcrumb">
+          
+            <li><a href="/others/">OTHERS</a></li>
+          <li>NOTEBOOKS</li>
+        
+  </ul>
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <blockquote class="blockquote-center">
+<p><ruby>DoubleAm<rp>（</rp> <rt>hexiongbiao.cn</rt><rp>）</rp></ruby>&emsp;<strong>Blog❤足迹</strong></p>
+
+</blockquote>
+
+<img style="box-sizing: border-box;border: 5px solid snow !important;border-radius: 15px;padding: 0;margin: 0 auto;" data-src="/images/loading.gif" data-original="https://source.unsplash.com/random/700x300">
+<hr>
+
+<blockquote class="blockquote-center">
+<p><strong>Introduction</strong></p>
+
+</blockquote>
+
+<p>&emsp;&emsp;**Hello,welcome to my website.**I am DoubleAm,21 years old.I will graduate from HNIE University with a bachelor degree in Computer Science And Technology.and I am so glad to introduce myself.</p>
+<p>&emsp;&emsp;During school,My GPA was among the <strong>top 5</strong> in my class,and achieved scholarships every year.I passed the <strong><em>Software Designer</em></strong> exam.Besides studying,I was very active on campus,I won the second and third prize in the <strong><em>Internet+ Competition</em></strong> and the <strong><em>Public Service Advertising Competition</em></strong> respectively.</p>
+<p>&emsp;&emsp;In skills of knowledge,I’m very familiar with <strong>HTML5、CSS3、JavaScript、Sql and Php</strong>,I understand <strong>ECMAscript6 rules、website SEO</strong>,and also know how to use <strong>jQuery、Bootstrap、Fontawesome、Git、Premiere、PhotoShop</strong> and so more.By the way,my website has more than <strong><em>10K</em></strong> visits,and the video I posted on Bilibili has more than <strong><em>150K</em></strong> plays over the past year.</p>
+<p>&emsp;&emsp;When I was young,I wanna be a superhero like IronMan,it may sound ridiculous,but it not means to save the world.I mean to say that I wanna use science and technology to make humans more convenient,more comfortable and more wonderful.</p>
+<p>&emsp;&emsp;My friends always said that I am a people person,a team player,a good listener,emmm,I think so.I am an outgoing person.I am very responsible and hardworking.So I believe I can do better anywhere,and also can do a great job in company.I will realize self-worth while creating value for the company.<strong>That’s all,thank you!</strong></p>
+<blockquote class="blockquote-center">
+<p><strong><em>2019.11.30</em></strong></p>
+
+</blockquote>
+
+      </div>
+      
+      
+      
+    </div>
+    
+  <ul class="breadcrumb">
+          
+            <li><a href="/others/">OTHERS</a></li>
+          <li>NOTEBOOKS</li>
+        
+  </ul>
+
+    
+    
+    
 
 
       
