@@ -3711,11 +3711,19 @@ code {
   -webkit-box-shadow: 0 0 14px #cacbcb;
   -moz-box-shadow: 0 0 14px #cacbcb;
   box-shadow: 0 0 14px #cacbcb;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: center;
+  align-content: space-evenly;
+  align-items: flex-start;
 }
 @media (max-width: 767px) {
   .sub-menu {
     background: #fff !important;
-    border-radius: 0px;
+    border-radius: 0 !important;
   }
 }
 .sub-menu a {
