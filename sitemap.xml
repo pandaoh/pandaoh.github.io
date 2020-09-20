@@ -697,14 +697,14 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/Hello-World/</loc>
+    <loc>http://a.biugle.cn/tags/%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/</loc>
     <lastmod>2020-09-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/</loc>
+    <loc>http://a.biugle.cn/tags/Hello-World/</loc>
     <lastmod>2020-09-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -746,13 +746,6 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/IE/</loc>
-    <lastmod>2020-09-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://a.biugle.cn/tags/%E9%B2%B8%E8%90%BD/</loc>
     <lastmod>2020-09-20</lastmod>
     <changefreq>daily</changefreq>
@@ -761,6 +754,13 @@
   
   <url>
     <loc>http://a.biugle.cn/tags/jQuery/</loc>
+    <lastmod>2020-09-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://a.biugle.cn/tags/IE/</loc>
     <lastmod>2020-09-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -823,14 +823,14 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/%E5%87%BD%E6%95%B0%E4%B8%8E%E6%96%B9%E6%B3%95/</loc>
+    <loc>http://a.biugle.cn/tags/MarkDown/</loc>
     <lastmod>2020-09-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/MarkDown/</loc>
+    <loc>http://a.biugle.cn/tags/%E5%87%BD%E6%95%B0%E4%B8%8E%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2020-09-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -844,14 +844,14 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/%E6%90%AD%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%BF%83%E8%B7%AF%E5%8E%86%E7%A8%8B/</loc>
+    <loc>http://a.biugle.cn/tags/MVC%E3%80%81MVP%E3%80%81MVVM/</loc>
     <lastmod>2020-09-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/MVC%E3%80%81MVP%E3%80%81MVVM/</loc>
+    <loc>http://a.biugle.cn/tags/%E6%90%AD%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%BF%83%E8%B7%AF%E5%8E%86%E7%A8%8B/</loc>
     <lastmod>2020-09-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -865,14 +865,14 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/PHP/</loc>
+    <loc>http://a.biugle.cn/tags/%E5%8D%9A%E5%AE%A2%E6%8D%A2%E8%A1%A3%E6%9C%8D/</loc>
     <lastmod>2020-09-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/%E5%8D%9A%E5%AE%A2%E6%8D%A2%E8%A1%A3%E6%9C%8D/</loc>
+    <loc>http://a.biugle.cn/tags/PHP/</loc>
     <lastmod>2020-09-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1084,14 +1084,14 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/categories/%E6%9C%89%E5%AE%B3%E5%9E%83%E5%9C%BE/</loc>
+    <loc>http://a.biugle.cn/categories/%E6%91%98%E5%BD%95/</loc>
     <lastmod>2020-09-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/categories/%E6%91%98%E5%BD%95/</loc>
+    <loc>http://a.biugle.cn/categories/%E6%9C%89%E5%AE%B3%E5%9E%83%E5%9C%BE/</loc>
     <lastmod>2020-09-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
