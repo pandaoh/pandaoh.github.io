@@ -3400,27 +3400,35 @@ h5:hover {
 评论框样式
 */
 .comments {
-  padding: 15px;
-  -webkit-box-shadow: 0 0 14px #cacbcb;
+  padding: 15px !important;
+  -webkit-box-shadow: 0 0 14px #cacbcb !important;
   -moz-box-shadow: 0 0 14px #cacbcb;
-  box-shadow: 0 0 14px #cacbcb;
-  background: rgba(255,255,255,0.3);
+!important
+  box-shadow: 0 0 14px #cacbcb !important;
+  background: rgba(255,255,255,0.3) !important;
   margin: 0;
   border-radius: 10px;
 }
+!important
 @media (max-width: 767px) {
   .comments {
-    margin: 20px;
-    padding: 12px;
-    border-radius: 0px;
-    -webkit-box-shadow: 0 0 1px #cacbcb;
+    margin: 20px !important;
+    padding: 13px !important;
+    border-radius: 0 !important;
+    -webkit-box-shadow: 0 0 1px #cacbcb !important;
     -moz-box-shadow: 0 0 1px #cacbcb;
-    box-shadow: 0 0 1px #cacbcb;
+    box-shadow: 0 0 1px #cacbcb !important;
   }
+!important
 }
-div#comments a.vicon,
-div#comments div.vpower {
-  display: none;
+div.comments a.vicon,
+div.comments div.vpower {
+  display: none !important;
+}
+@media (max-width: 999px) {
+  .comments {
+    border-radius: 0 !important;
+  }
 }
 /**
 文章页内标签样式
