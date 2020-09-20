@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /vendors/
+Disallow: /css/
+Disallow: /js/
+Sitemap: https://a.biugle.cn/sitemap.xml
+Sitemap: https://a.biugle.cn/baidusitemap.xml
+Sitemap: http://a.biugle.cn/baidusitemap.xml
+Sitemap: http://a.biugle.cn/sitemap.xml
