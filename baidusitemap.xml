@@ -2,294 +2,298 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://a.biugle.cn/morethinks/</loc>
-    <lastmod>2020-09-19</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
-    <loc>http://a.biugle.cn/jsdomandbom/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/shortcutkey-netbeans/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/zhaimusic-and-tapmusic/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/webstorage/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/oldblog/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/mvcmvpmvvm/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/jsstudy/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/jsdemo/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/js-kuayu/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/ietest/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/hxb/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/htmlform/</loc>
-    <lastmod>2020-09-19</lastmod>
+    <loc>http://a.biugle.cn/jsstring/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/hexomoreandnext/</loc>
-    <lastmod>2020-09-19</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
-    <loc>http://a.biugle.cn/hexobuildsource/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/hexobuild/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/git/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/dev-rules/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/fancyboxandlazyload/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/cssstudy/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/cssflex/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/androidproject/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/BVN/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/24hours-before/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/cssmore/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/htmlstudy/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/cssdemo/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/deferandasync/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/flex-calc/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/gitlog/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/phpstudy/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/ruankao/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/setcodes/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/sql/</loc>
-    <lastmod>2020-09-19</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/biugle/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <loc>http://a.biugle.cn/zhaimusic-and-tapmusic/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/xuanxiangka/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/xml/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/webstorage/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/wdgs/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/sxyz/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/sql/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/shortcutkey-win/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/shortcutkey-office/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/shortcutkey-netbeans/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/shortcutkey-lol/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/shortcutkey-eclipse/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/shortcutkey-chrome/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/shortcut-codeman/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/setcodes/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/set-console/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/ruankao/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/progress/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/product0t1/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/poem/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/phpstudy/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/phpsql/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/phpip/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/phpformdata/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/oldblog/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/old-now/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/netbeans-setting/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/myidea/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/mvcmvpmvvm/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/methodandfunction/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/markdown/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/logo/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/keycode/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/jsstudy/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/jsondemo/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/jsnode/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/jsdomandbom/</loc>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/jsdemo/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/jsandjquery/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/js-kuayu/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/jquerynode/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/ietest/</loc>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/hxb/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/http-code/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/htmlstudy/</loc>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/htmlform/</loc>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/hexobuildsource/</loc>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/hexobuild/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/hello-world/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/glossary/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/gitlog/</loc>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/git/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/git-more/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/flex-calc/</loc>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/fancyboxandlazyload/</loc>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/dev-rules/</loc>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/deferandasync/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/darktheme/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/cssstudy/</loc>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/cssmore/</loc>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/cssflex/</loc>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/cssdemo/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/copyevent/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/colorrgb/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/chinesetradition/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/biuglejs/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/biugle/</loc>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/androidproject/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/ajaxnormal/</loc>
-    <lastmod>2020-09-18</lastmod>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/BVN/</loc>
+    <lastmod>2020-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/24hours-before/</loc>
+    <lastmod>2020-09-26</lastmod>
   </url>
 </urlset> 

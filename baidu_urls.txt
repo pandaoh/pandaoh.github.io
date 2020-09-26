@@ -1,6 +1,7 @@
 http://a.biugle.cn/logo/
 http://a.biugle.cn/biugle/
 http://a.biugle.cn/biuglejs/
+http://a.biugle.cn/jsstring/
 http://a.biugle.cn/gitlog/
 http://a.biugle.cn/keycode/
 http://a.biugle.cn/xml/
