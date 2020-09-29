@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://a.biugle.cn/morethinks/</loc>
+    
+    <lastmod>2020-09-29</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://a.biugle.cn/sxyz/</loc>
     
     <lastmod>2020-09-29</lastmod>
@@ -17,13 +24,6 @@
   
   <url>
     <loc>http://a.biugle.cn/others/</loc>
-    
-    <lastmod>2020-09-27</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://a.biugle.cn/morethinks/</loc>
     
     <lastmod>2020-09-27</lastmod>
     
@@ -592,14 +592,14 @@
 
   
   <url>
-    <loc>http://a.biugle.cn/tags/%E6%AD%BB%E7%A5%9EVs%E7%81%AB%E5%BD%B1%E6%94%B9%E7%89%88%E8%B5%84%E6%BA%90/</loc>
+    <loc>http://a.biugle.cn/tags/%E7%9F%A5%E4%B9%8E/</loc>
     <lastmod>2020-09-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/%E7%9F%A5%E4%B9%8E/</loc>
+    <loc>http://a.biugle.cn/tags/%E6%AD%BB%E7%A5%9EVs%E7%81%AB%E5%BD%B1%E6%94%B9%E7%89%88%E8%B5%84%E6%BA%90/</loc>
     <lastmod>2020-09-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -641,14 +641,14 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/CSS/</loc>
+    <loc>http://a.biugle.cn/tags/%E5%A4%8D%E5%88%B6%E4%BA%8B%E4%BB%B6/</loc>
     <lastmod>2020-09-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/%E5%A4%8D%E5%88%B6%E4%BA%8B%E4%BB%B6/</loc>
+    <loc>http://a.biugle.cn/tags/CSS/</loc>
     <lastmod>2020-09-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -928,13 +928,6 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/Eclipse%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
-    <lastmod>2020-09-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://a.biugle.cn/tags/Chrome%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
     <lastmod>2020-09-29</lastmod>
     <changefreq>daily</changefreq>
@@ -943,6 +936,13 @@
   
   <url>
     <loc>http://a.biugle.cn/tags/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
+    <lastmod>2020-09-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://a.biugle.cn/tags/Eclipse%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
     <lastmod>2020-09-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1028,14 +1028,14 @@
 
   
   <url>
-    <loc>http://a.biugle.cn/categories/%E6%B9%BF%E5%9E%83%E5%9C%BE/</loc>
+    <loc>http://a.biugle.cn/categories/%E6%94%B6%E8%97%8F/</loc>
     <lastmod>2020-09-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/categories/%E6%94%B6%E8%97%8F/</loc>
+    <loc>http://a.biugle.cn/categories/%E6%B9%BF%E5%9E%83%E5%9C%BE/</loc>
     <lastmod>2020-09-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
