@@ -361,12 +361,12 @@ document.querySelector("#intro-translate").addEventListener("click", function ()
 let emoji = ["laugh-wink", "grin-hearts", "kiss-wink-heart", "grin-tongue-squint", "grin-squint-tears", "laugh-squint", "grin-stars"];
 document.querySelector("#random-skin").addEventListener("click", function () {
   let randNum = getRandnum(6);
-  document.querySelector("#skin-css").setAttribute("href", "css/skins/skin" + randNum + ".css");
+  document.querySelector("#skin-css").setAttribute("href", "./resume/css/skins/skin" + randNum + ".css");
   $("#random-skin").find("i").removeClass();
   $("#random-skin").find("i").addClass("fas").addClass("fa-" + emoji[randNum]);
   $("#random-skin").find("i").addClass("fa-fw");
-  $(".main-content#about .inner-content .content #personal-info .profile-picture").css("background-image","url(./img/myphoto" + randNum + ".jpg)");
-  $(".lg-profile-picture").css("background-image","url(./img/myphoto" + randNum + ".jpg)");
+  $(".main-content#about .inner-content .content #personal-info .profile-picture").css("background-image","url(./resume/img/myphoto" + randNum + ".jpg)");
+  $(".lg-profile-picture").css("background-image","url(./resume/img/myphoto" + randNum + ".jpg)");
 });
 
 function getRandnum(range) {
