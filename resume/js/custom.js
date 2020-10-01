@@ -110,7 +110,7 @@
 			new TypeIt('.passion', {
 				speed: 200,
 		        startDelay: 800,
-		        strings: ['Web Developer', 'Uploader','Student'],
+		        strings: ['Web Developer', 'Uploader','Own Hero'],
 		        breakLines: false,
 		        loop: true
 			});
@@ -276,9 +276,9 @@
 /* doublelove */
 /* console */
 console.log("%c博客名称%cDoubleAm", "line-height:28px;padding:4px;background:#a1afc9;color:#000;font-size:16px;margin-right:15px", "color:#3fa9f5;line-height:28px;font-size:16px;");
-console.log("%c网站地址%chttps://hexiongbiao.cn", "line-height:28px;padding:4px;background:#a1afc9;color:#000;font-size:16px;margin-right:15px", "color:#00bc12;line-height:28px;font-size:16px;");
+console.log("%c网站地址%chttps://a.biugle.cn", "line-height:28px;padding:4px;background:#a1afc9;color:#000;font-size:16px;margin-right:15px", "color:#00bc12;line-height:28px;font-size:16px;");
 console.log("%c扣扣号码%c1005760694", "line-height:28px;padding:4px;background:#a1afc9;color:#000;font-size:16px;margin-right:15px", "color:#ff9900;line-height:28px;font-size:16px;");
-console.log("%c欢迎使用doublelove！", "line-height:28px;padding:5px;color:#fff;font-weight:bolder;font-size:16px;background-color:chocolate;color:#fff;");
+console.log("%c欢迎使用来到我的Blog！", "line-height:28px;padding:5px;color:#fff;font-weight:bolder;font-size:16px;background-color:chocolate;color:#fff;");
 if (window.console && window.console.log) {
   console.log(`%c页面加载消耗了 %c${(Math.round(100 * performance.now()) / 100 / 1e3).toFixed(2)}s`, "background: #fff;color: #333;text-shadow: 0 0 2px #eee, 0 0 3px #eee, 0 0 3px #eee, 0 0 2px #eee, 0 0 3px #eee;", "color:tomato;font-weight:bolder;");
   localStorage.getItem("access") || localStorage.setItem("access", (new Date).getTime());
