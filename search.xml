@@ -3,7 +3,7 @@
   <entry>
     <title>Biugle主页---更纯粹的网址导航</title>
     <url>/biugle/</url>
-    <content><![CDATA[<div class="note danger no-icon"><p>Biugle主页～别开生面，纯粹自由。</p>
+    <content><![CDATA[<div class="note danger no-icon"><p>Biugle主页～别开生面，纯粹自由。(2020/4/25)</p>
 </div>
 <a id="more"></a>
 
@@ -82,9 +82,10 @@
 <p>待写分享</p>
 
 </blockquote>
-1. BootStrap、FontAwesome、Echarts、Restful、ES6、PHP-UUid、phpOO、JavaScriptOO(class语法糖与原型-原型链等)、跨域问题&CORS
 
 <ol>
+<li><p>BootStrap、FontAwesome、Echarts、Restful、ES6、PHP-UUid、phpOO、JavaScriptOO(class语法糖与原型-原型链等)、跨域问题&amp;CORS</p>
+</li>
 <li><p>Websocket、Cache、ARIA、History Push&amp;Pop With Ajax Attachment Cache</p>
 </li>
 <li><p>MVC、MVVM、Laravel、Vue、TypeScript、EventLoop、JS异步处理</p>
@@ -1190,10 +1191,10 @@
 <li>属于 SQL 语法使用大写 (SELECT, WHERE, INSERT etc..)</li>
 <li>属于使用者自己定义的使用小写 (表名 table name, 字段名 column name etc..)</li>
 <li>表名、字段名前后需加上 `</li>
-<li>*Example**<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">INSERT INTO &#96;user&#96; VALUES(&#39;a&#39;, &#39;b&#39;);</span><br></pre></td></tr></table></figure>
-
-</li>
 </ul>
+<p><strong>Example</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">INSERT INTO &#96;user&#96; VALUES(&#39;a&#39;, &#39;b&#39;);</span><br></pre></td></tr></table></figure>
+
 <h1 id="统一用词"><a href="#统一用词" class="headerlink" title="统一用词"></a>统一用词</h1><blockquote>
 <p>仅为举例，不限于此。碰到问题，再行商榷。</p>
 </blockquote>
@@ -1281,7 +1282,7 @@
   <entry>
     <title>Hexo插件及Next内置样式集</title>
     <url>/hexomoreandnext/</url>
-    <content><![CDATA[<div class="note primary no-icon"><p>Hexo插件集使用以及插入视频音乐等</p>
+    <content><![CDATA[<div class="note primary no-icon"><p>Hexo与Next插件集、自定义样式以及插入视频音乐等</p>
 </div>
 <a id="more"></a> 
 
@@ -1359,7 +1360,7 @@
 <h4 id="2、海外推荐-CDN"><a href="#2、海外推荐-CDN" class="headerlink" title="2、海外推荐 CDN"></a>2、海外推荐 CDN</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;link rel&#x3D;&quot;stylesheet&quot; href&#x3D;&quot;https:&#x2F;&#x2F;cdnjs.cloudflare.com&#x2F;ajax&#x2F;libs&#x2F;font-awesome&#x2F;4.7.0&#x2F;css&#x2F;font-awesome.min.css&quot;&gt;</span><br></pre></td></tr></table></figure>
 
 <p>next已经引用了，可以直接用，比如：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;i class&#x3D;&quot;fa fa-car&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-car&quot; style&#x3D;&quot;font-size:48px;&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-car&quot; style&#x3D;&quot;font-size:60px;color:red;&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-car fa-lg&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-car fa-2x&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-car fa-3x&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-car fa-4x&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-car fa-5x&quot;&gt;&lt;&#x2F;i&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Ps: 最新版已经使用新的写法，请升级~</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-car&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-car&quot; style&#x3D;&quot;font-size:48px;&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-car&quot; style&#x3D;&quot;font-size:60px;color:red;&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-car fa-lg&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-car fa-2x&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-car fa-3x&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-car fa-4x&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-car fa-5x&quot;&gt;&lt;&#x2F;i&gt;</span><br></pre></td></tr></table></figure>
 <p><i class="fa fa-car"></i> <i class="fa fa-car" style="font-size:48px;"></i> <i class="fa fa-car" style="font-size:60px;color:red;"></i> <i class="fa fa-car fa-lg"></i> <i class="fa fa-car fa-2x"></i> <i class="fa fa-car fa-3x"></i> <i class="fa fa-car fa-4x"></i> <i class="fa fa-car fa-5x"></i></p>
 <p>动态图标</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;i class&#x3D;&quot;fa fa-spinner fa-spin&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-circle-o-notch fa-spin&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-refresh fa-spin&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-cog fa-spin&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-spinner fa-pulse&quot;&gt;&lt;&#x2F;i&gt;</span><br></pre></td></tr></table></figure>
@@ -3069,7 +3070,7 @@
         <category>干垃圾</category>
       </categories>
       <tags>
-        <tag>HTML</tag>
+        <tag>html</tag>
       </tags>
   </entry>
   <entry>
@@ -3214,7 +3215,7 @@
         <category>干垃圾</category>
       </categories>
       <tags>
-        <tag>HTML</tag>
+        <tag>html</tag>
         <tag>WebStorage</tag>
       </tags>
   </entry>
@@ -3367,7 +3368,7 @@
         <category>干垃圾</category>
       </categories>
       <tags>
-        <tag>HTML</tag>
+        <tag>html</tag>
       </tags>
   </entry>
   <entry>
@@ -3819,7 +3820,7 @@
 
 <h1 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h1><p>&emsp;&emsp;因为图片懒加载预先会使用占位图来替代图片的<code>src</code>，等图片加载完成后，再用<code>data-original</code>里面的内容替换<code>src里面的内容</code>。然而fancybox的原理是在页面加载时给页面中所有的图片套一层<code>a标签</code>，<code>a标签</code>的<code>href</code>就是fancybox在页面加载时获取的<code>图片src</code>，恰好这时候获取的<code>src</code>偏偏就是lazyload的占位图的url，因此针对这个问题的解决办法有两种，一种是修改fancybox的代码（因为有些人引入的是外部js，所以不推荐。），我们来看另一种解决办法。</p>
 <h1 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h1><p>&emsp;&emsp;<strong>思路：</strong> 在图片加载完成后，找到所以图片上一级的<code>a标签</code>，修改他的<code>href</code>属性。<br><strong>代码如下：</strong></p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;script type=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><br><span class="line">  <span class="keyword">var</span> img = $(<span class="string">&#x27;img&#x27;</span>);                        <span class="comment">//获取所有的img标签</span></span><br><span class="line">  img.onload = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;                   <span class="comment">//设置其完成后加载的方法</span></span><br><span class="line">    $(<span class="built_in">document</span>).find(<span class="string">&#x27;img[data-original]&#x27;</span>).each(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">      $(<span class="built_in">this</span>).parents(<span class="string">&#x27;a[class=&quot;fancybox fancybox.image&quot;]&#x27;</span>).attr(<span class="string">&quot;href&quot;</span>, $(<span class="built_in">this</span>).attr(<span class="string">&quot;data-original&quot;</span>));</span><br><span class="line">  &#125;);                                        <span class="comment">//获取img[data-original]的值，然后找到img上级的a标签，将值赋给其href属性</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//2020年4月测试测BUG已修复</span></span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;script type=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><br><span class="line">  <span class="keyword">var</span> img = $(<span class="string">&#x27;img&#x27;</span>);                        <span class="comment">//获取所有的img标签</span></span><br><span class="line">  img.onload = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;                   <span class="comment">//设置其完成后加载的方法</span></span><br><span class="line">    $(<span class="built_in">document</span>).find(<span class="string">&#x27;img[data-original]&#x27;</span>).each(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">      $(<span class="built_in">this</span>).parents(<span class="string">&#x27;a[class=&quot;fancybox fancybox.image&quot;]&#x27;</span>).attr(<span class="string">&quot;href&quot;</span>, $(<span class="built_in">this</span>).attr(<span class="string">&quot;data-original&quot;</span>));</span><br><span class="line">  &#125;);                                        <span class="comment">//获取img[data-original]的值，然后找到img上级的a标签，将值赋给其href属性</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//2019年4月测试此BUG已修复</span></span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 <p><code>注意：</code>以上代码使用了jQuery，如果之前没有引用jQuery的话，记得在代码前引入。</p>
 ]]></content>
       <categories>
@@ -4053,26 +4054,6 @@
       </tags>
   </entry>
   <entry>
-    <title>宅音乐 &amp; TapMusic</title>
-    <url>/zhaimusic-and-tapmusic/</url>
-    <content><![CDATA[<div class="note danger no-icon"><p><code>宅音乐</code> — 一款简洁好用的HTML悬浮音乐播放器</p>
-<p><code>TapMusic</code> — 一款有意思的解压神器</p>
-</div>
-<a id="more"></a> 
-
-<h1 id="宅音乐"><a href="#宅音乐" class="headerlink" title="宅音乐"></a>宅音乐</h1><iframe src="https://player.hexiongbiao.cn/" width="100%" height="400" frameborder="0" loading="lazy" allowfullscreen></iframe>
-
-<h1 id="TapMusic"><a href="#TapMusic" class="headerlink" title="TapMusic"></a>TapMusic</h1><iframe src="https://tap.hexiongbiao.cn/" width="100%" height="400" frameborder="0" loading="lazy" allowfullscreen></iframe>
-]]></content>
-      <categories>
-        <category>湿垃圾</category>
-      </categories>
-      <tags>
-        <tag>宅音乐</tag>
-        <tag>TapMusic</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>MVC、MVP、MVVM 架构的特点与区别</title>
     <url>/mvcmvpmvvm/</url>
     <content><![CDATA[<div class="note default no-icon"><p>关于MVC、MVP、MVVM这几种架构方式的理解。</p>
@@ -4211,7 +4192,10 @@
 <p>ViewModel: 比起MVP中View需要自己提供API，MVVM在VM中构建一组状态数据（state data），作为View状态的抽象。然后通过双向数据绑定（data binding）使VM中的状态数据（state data）与View中的显示状态（screen state）保持一致。这样，VM中的展示逻辑只需要修改对应的状态数据，就可以控制View的状态，从而避免在View上开发大量的接口。</p>
 </blockquote>
 <p>&emsp; &emsp;<em>那么VM有没有什么缺点？有的，当UI比较简单的时候，使用VM就会使业务逻辑变得复杂，有过分设计的嫌疑。所以VM只适合复杂UI交互的项目。</em></p>
-<h5 id="举个例子："><a href="#举个例子：" class="headerlink" title="举个例子："></a>举个例子：</h5><p>&emsp; &emsp;我们的界面上原本没有任何东西，现在用户发出一个请求（点击按钮），界面上出现一张图片，或者一段文字。那么MVC、MVP、MVVM这三种架构都是如何处理的呢。</p>
+<blockquote>
+<p>举个例子：</p>
+</blockquote>
+<p>&emsp; &emsp;我们的界面上原本没有任何东西，现在用户发出一个请求（点击按钮），界面上出现一张图片，或者一段文字。那么MVC、MVP、MVVM这三种架构都是如何处理的呢。</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1. View获取用户请求，通知Controller。</span><br><span class="line">2. Controller向后台Model发起请求</span><br><span class="line">3. Model获得该请求所需要的数据，传递给Controller。</span><br><span class="line">4. Controller拿到这些数据，可能做一些处理，然后拿处理好的数据渲染View。</span><br><span class="line">    MVC: 拿到UI节点，渲染这些数据</span><br><span class="line">    MVP: 通过View提供的接口渲染这些数据</span><br><span class="line">    MVVM: 无需操作，只要VM的数据变化，通过数据双向绑定，View直接随之变化。</span><br></pre></td></tr></table></figure>
 
 
@@ -4355,6 +4339,10 @@
 <td align="center">大笑快捷键</td>
 </tr>
 <tr>
+<td align="center"><strong>Ctrl+6</strong></td>
+<td align="center">向对手表示尊敬嘻嘻</td>
+</tr>
+<tr>
 <td align="center"><strong>Tab</strong></td>
 <td align="center">统计页/排行榜/计分板(松开即消失)</td>
 </tr>
@@ -4380,7 +4368,7 @@
 </tr>
 <tr>
 <td align="center"><strong>Ctrl+鼠标拖动</strong></td>
-<td align="center">快速信号(快捷键)</td>
+<td align="center">快速信号(快捷键)建议多向队友发送黄色问号，表达对其的赞扬与崇拜~</td>
 </tr>
 <tr>
 <td align="center"><strong>眼位标记</strong></td>
@@ -5483,31 +5471,6 @@
       </tags>
   </entry>
   <entry>
-    <title>博客工具下载资源</title>
-    <url>/hexobuildsource/</url>
-    <content><![CDATA[ <div class="note primary no-icon"><p>接上篇博文，这篇里面是搭建博客所需的工具资源。</p>
-</div>
-<a id="more"></a>   
-
-
-<p><strong><em>在上篇博文里可能工具下载有些慢，你可以在这里下载。这是我的云盘资源。</em></strong></p>
-<ul>
-<li><p>&emsp;&emsp; <span class="exturl" data-url="aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMTV3el9TQUlNNVdkaGNDUFA2TjVWRVE=">Git<i class="fa fa-external-link-alt"></i></span>（提取码：ispm）</p>
-</li>
-<li><p>&emsp;&emsp; <span class="exturl" data-url="aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMW1HQWU1R0g1c1RjZDRXNURDYWZqcEE=">Nodejs<i class="fa fa-external-link-alt"></i></span>（提取码：oprg）</p>
-</li>
-<li><p>&emsp;&emsp; <span class="exturl" data-url="aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMU1ZdTNVVmt6ZEo4cFFkNXFsUkZXckE=">Sublime Text<i class="fa fa-external-link-alt"></i></span>（提取码：bo84）</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>博客工具资源</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>如何使用github和hexo搭建个人博客</title>
     <url>/hexobuild/</url>
     <content><![CDATA[ <div class="note info no-icon"><p>利用github和hexo搭建个人博客的简单教程。 </p>
@@ -5515,7 +5478,7 @@
 <a id="more"></a>                                                                                             
 
 
-<div align="center">欢迎你来到我的[博客](https://hexiongbiao.cn)</div>
+<div align="center">欢迎你来到我的[博客](https://a.biugle.cn)</div>
 
 
 <hr>
@@ -5524,38 +5487,37 @@
 <p>&emsp;&emsp; <strong>有可能我写的文章中有一些错误，也希望大家能够在评论区指出来，谢谢理解。</strong></p>
 <p>&emsp;&emsp; <strong>如果你也想搭建一个自己的博客，希望你做好准备，因为过程可能有些复杂，必须要经得折腾。好了，废话不多说，我们开始吧。</strong></p>
 <hr>
-<h2 id="NO-1"><a href="#NO-1" class="headerlink" title="NO.1"></a>NO.1</h2><h4 id="首先我们要做一些准备工作（搭建之前最好阅读一下官方文档）："><a href="#首先我们要做一些准备工作（搭建之前最好阅读一下官方文档）：" class="headerlink" title="首先我们要做一些准备工作（搭建之前最好阅读一下官方文档）："></a>首先我们要做一些准备工作（搭建之前最好阅读一下<span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3poLWNuL2RvY3MvaW5kZXguaHRtbA==">官方文档<i class="fa fa-external-link-alt"></i></span>）：</h4><ul>
+<h3 id="NO-1"><a href="#NO-1" class="headerlink" title="NO.1"></a>NO.1</h3><h4 id="首先我们要做一些准备工作（搭建之前最好阅读一下官方文档）："><a href="#首先我们要做一些准备工作（搭建之前最好阅读一下官方文档）：" class="headerlink" title="首先我们要做一些准备工作（搭建之前最好阅读一下官方文档）："></a>首先我们要做一些准备工作（搭建之前最好阅读一下<span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3poLWNuL2RvY3MvaW5kZXguaHRtbA==">官方文档<i class="fa fa-external-link-alt"></i></span>）：</h4><ul>
 <li><p><em><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw==">github账户<i class="fa fa-external-link-alt"></i></span></em></p>
 </li>
 <li><p><em><span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnL2VuL2Rvd25sb2FkLw==">Node.js<i class="fa fa-external-link-alt"></i></span></em></p>
 </li>
 <li><p><em><span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS9kb3dubG9hZC93aW4=">Git<i class="fa fa-external-link-alt"></i></span></em></p>
-<p><em>如果资源下载慢可在<span class="exturl" data-url="aHR0cDovL3BhbmRhb2guZ2l0aHViLmlvL2hleG9idWlsZHNvdXJjZS8=">下一篇博文<i class="fa fa-external-link-alt"></i></span>中下载</em></p>
 </li>
 </ul>
 <p>&emsp;&emsp; <strong>以上必须全部准备好！github账户注册我就不多说了。我们先在自己喜欢的磁盘里面创建一个文件夹，文件夹名称随你自己取，最好是英文，例如dog啊，pig啊，blog啊等等。将另外两个工具都安装到我们创建的文件夹中，这样以便于之后的管理。</strong></p>
 <p>&emsp;&emsp; <strong>安装Node.js非常简单，只要选择对应版本安装即可，不需要配置环境变量。安装Git的话，也是在官网选择对应版本安装，安装完成后在命令行输入 git version 有输出版本号说明安装成功。</strong></p>
 <p>&emsp;&emsp; <strong>安装成功后在该文件夹目录下单击鼠标右键，我们就会发现右键菜单里就多了两个选项 Git GUI Here和Git Bash Here 两个按钮，一个是图形界面的Git操作，一个是命令行，我们选择Git Bash Here。</strong></p>
 <hr>
-<h2 id="NO-2"><a href="#NO-2" class="headerlink" title="NO.2"></a>NO.2</h2><h4 id="然后就是安装Hexo："><a href="#然后就是安装Hexo：" class="headerlink" title="然后就是安装Hexo："></a>然后就是安装Hexo：</h4><ul>
+<h3 id="NO-2"><a href="#NO-2" class="headerlink" title="NO.2"></a>NO.2</h3><h4 id="然后就是安装Hexo："><a href="#然后就是安装Hexo：" class="headerlink" title="然后就是安装Hexo："></a>然后就是安装Hexo：</h4><ul>
 <li><em>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</em></li>
 </ul>
-<h5 id="点击Git-Bash-Here之后，输入npm命令即可安装。"><a href="#点击Git-Bash-Here之后，输入npm命令即可安装。" class="headerlink" title="点击Git Bash Here之后，输入npm命令即可安装。"></a><strong>点击Git Bash Here之后，输入npm命令即可安装。</strong></h5><p>&emsp;&emsp; <em>第一句是安装 Hexo，第二句是安装hexo部署到git page的deployer，两个都需要安装。（注意粘贴代码时不要用Ctrl+C，否则会停止命令）</em></p>
+<h4 id="点击Git-Bash-Here之后，输入npm命令即可安装。"><a href="#点击Git-Bash-Here之后，输入npm命令即可安装。" class="headerlink" title="点击Git Bash Here之后，输入npm命令即可安装。"></a><strong>点击Git Bash Here之后，输入npm命令即可安装。</strong></h4><p>&emsp;&emsp; <em>第一句是安装 Hexo，第二句是安装hexo部署到git page的deployer，两个都需要安装。（注意粘贴代码时不要用Ctrl+C，否则会停止命令）</em></p>
 <blockquote>
 <p><strong>npm install hexo-cli -g</strong><br><strong>npm install hexo-deployer-git –save</strong></p>
 </blockquote>
 <hr>
-<h2 id="N0-3"><a href="#N0-3" class="headerlink" title="N0.3"></a>N0.3</h2><h4 id="安装完成我们要开始建站了："><a href="#安装完成我们要开始建站了：" class="headerlink" title="安装完成我们要开始建站了："></a>安装完成我们要开始建站了：</h4><h5 id="在我们刚刚创建的文件夹里面新建一个文件夹Hexo，然后在Hexo文件夹里单击鼠标右键，选择"><a href="#在我们刚刚创建的文件夹里面新建一个文件夹Hexo，然后在Hexo文件夹里单击鼠标右键，选择" class="headerlink" title="在我们刚刚创建的文件夹里面新建一个文件夹Hexo，然后在Hexo文件夹里单击鼠标右键，选择"></a>在我们刚刚创建的文件夹里面新建一个文件夹Hexo，然后在Hexo文件夹里单击鼠标右键，选择</h5><h5 id="Git-Bash-Here，输入命令："><a href="#Git-Bash-Here，输入命令：" class="headerlink" title="Git Bash Here，输入命令："></a>Git Bash Here，<strong>输入命令：</strong></h5><blockquote>
+<h3 id="N0-3"><a href="#N0-3" class="headerlink" title="N0.3"></a>N0.3</h3><h4 id="安装完成我们要开始建站了："><a href="#安装完成我们要开始建站了：" class="headerlink" title="安装完成我们要开始建站了："></a>安装完成我们要开始建站了：</h4><h5 id="在我们刚刚创建的文件夹里面新建一个文件夹Hexo，然后在Hexo文件夹里单击鼠标右键，选择"><a href="#在我们刚刚创建的文件夹里面新建一个文件夹Hexo，然后在Hexo文件夹里单击鼠标右键，选择" class="headerlink" title="在我们刚刚创建的文件夹里面新建一个文件夹Hexo，然后在Hexo文件夹里单击鼠标右键，选择"></a>在我们刚刚创建的文件夹里面新建一个文件夹Hexo，然后在Hexo文件夹里单击鼠标右键，选择</h5><h5 id="Git-Bash-Here，输入命令："><a href="#Git-Bash-Here，输入命令：" class="headerlink" title="Git Bash Here，输入命令："></a>Git Bash Here，<strong>输入命令：</strong></h5><blockquote>
 <p><strong>hexo init</strong></p>
 </blockquote>
 <p>&emsp; 安装 Hexo 完成后，Hexo 将会在 Hexo 文件夹中新建所需要的文件(初始化)。</p>
-<h5 id="接下来安装Hexo其他插件（如果不想之后出错的话，最好全装上把。）："><a href="#接下来安装Hexo其他插件（如果不想之后出错的话，最好全装上把。）：" class="headerlink" title="接下来安装Hexo其他插件（如果不想之后出错的话，最好全装上把。）："></a><strong>接下来安装Hexo其他插件（如果不想之后出错的话，最好全装上把。）：</strong></h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-index --save</span><br><span class="line">npm install hexo-generator-archive --save</span><br><span class="line">npm install hexo-generator-category --save</span><br><span class="line">npm install hexo-generator-tag --save</span><br><span class="line">npm install hexo-server --save</span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">npm install hexo-deployer-heroku --save</span><br><span class="line">npm install hexo-deployer-rsync --save</span><br><span class="line">npm install hexo-deployer-openshift --save</span><br><span class="line">npm install hexo-renderer-marked@0.2 --save</span><br><span class="line">npm install hexo-renderer-stylus@0.2 --save</span><br><span class="line">npm install hexo-generator-feed@1 --save</span><br><span class="line">npm install hexo-generator-sitemap@1 --save</span><br></pre></td></tr></table></figure>
+<h4 id="接下来安装Hexo其他插件（如果不想之后出错的话，最好全装上把。）："><a href="#接下来安装Hexo其他插件（如果不想之后出错的话，最好全装上把。）：" class="headerlink" title="接下来安装Hexo其他插件（如果不想之后出错的话，最好全装上把。）："></a><strong>接下来安装Hexo其他插件（如果不想之后出错的话，最好全装上把。）：</strong></h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-index --save</span><br><span class="line">npm install hexo-generator-archive --save</span><br><span class="line">npm install hexo-generator-category --save</span><br><span class="line">npm install hexo-generator-tag --save</span><br><span class="line">npm install hexo-server --save</span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">npm install hexo-deployer-heroku --save</span><br><span class="line">npm install hexo-deployer-rsync --save</span><br><span class="line">npm install hexo-deployer-openshift --save</span><br><span class="line">npm install hexo-renderer-marked@0.2 --save</span><br><span class="line">npm install hexo-renderer-stylus@0.2 --save</span><br><span class="line">npm install hexo-generator-feed@1 --save</span><br><span class="line">npm install hexo-generator-sitemap@1 --save</span><br></pre></td></tr></table></figure>
 
-<h5 id="然后再执行以下语句："><a href="#然后再执行以下语句：" class="headerlink" title="然后再执行以下语句："></a><strong>然后再执行以下语句：</strong></h5><blockquote>
+<h4 id="然后再执行以下语句："><a href="#然后再执行以下语句：" class="headerlink" title="然后再执行以下语句："></a><strong>然后再执行以下语句：</strong></h4><blockquote>
 <p><strong>hexo generate（ hexo g ）</strong><br><strong>hexo  server （ hexo s ）</strong></p>
 </blockquote>
-<h5 id="大功告成，现在我们就可以在浏览器地址栏输入：-localhost-4000-在本地预览最初的效果啦。"><a href="#大功告成，现在我们就可以在浏览器地址栏输入：-localhost-4000-在本地预览最初的效果啦。" class="headerlink" title="大功告成，现在我们就可以在浏览器地址栏输入： localhost:4000 在本地预览最初的效果啦。"></a>大功告成，现在我们就可以在浏览器地址栏输入： localhost:4000 在本地预览最初的效果啦。</h5><hr>
-<h2 id="N0-4"><a href="#N0-4" class="headerlink" title="N0.4"></a>N0.4</h2><h4 id="将博客部署到Github上："><a href="#将博客部署到Github上：" class="headerlink" title="将博客部署到Github上："></a>将博客部署到Github上：</h4><p>&emsp;&emsp; 我们现在需要做的就是把本地的博客发布到服务器上，让别人也可以连接我们的博客。而 Github Pages 就帮我完成了这件事情。</p>
+<h4 id="大功告成，现在我们就可以在浏览器地址栏输入：-localhost-4000-在本地预览最初的效果啦。"><a href="#大功告成，现在我们就可以在浏览器地址栏输入：-localhost-4000-在本地预览最初的效果啦。" class="headerlink" title="大功告成，现在我们就可以在浏览器地址栏输入： localhost:4000 在本地预览最初的效果啦。"></a>大功告成，现在我们就可以在浏览器地址栏输入： localhost:4000 在本地预览最初的效果啦。</h4><hr>
+<h3 id="N0-4"><a href="#N0-4" class="headerlink" title="N0.4"></a>N0.4</h3><h4 id="将博客部署到Github上："><a href="#将博客部署到Github上：" class="headerlink" title="将博客部署到Github上："></a>将博客部署到Github上：</h4><p>&emsp;&emsp; 我们现在需要做的就是把本地的博客发布到服务器上，让别人也可以连接我们的博客。而 Github Pages 就帮我完成了这件事情。</p>
 <p>&emsp;&emsp; 但是 Github Pages 的代码就是寄存在Github上面的。那么接下来我们需要在Github上面创建一个新的项目。</p>
 <p>&emsp;&emsp; <em>前面我们已经注册了github账户，<strong>现在我们登录</strong><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw==">github<i class="fa fa-external-link-alt"></i></span>。</em></p>
 <p>&emsp;&emsp; <strong>然后点击右上角的个人中心</strong></p>
@@ -5568,7 +5530,7 @@
 <p>&emsp;&emsp; <strong>注意：yourname改成你自己自定义的名称（例如：wangergou.github.io）</strong></p>
 <p><em>欢迎 follow <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3BhbmRhb2g=">我的github<i class="fa fa-external-link-alt"></i></span></em></p>
 <hr>
-<h2 id="N0-5"><a href="#N0-5" class="headerlink" title="N0.5"></a>N0.5</h2><h4 id="配置SSH密钥："><a href="#配置SSH密钥：" class="headerlink" title="配置SSH密钥："></a>配置SSH密钥：</h4><p>&emsp;&emsp; 配置Github的SSH密钥可以让本地git项目与远程的github建立联系，让我们在本地写了代码之后直接通过git操作就可以实现本地代码库与Github代码库同步。</p>
+<h3 id="N0-5"><a href="#N0-5" class="headerlink" title="N0.5"></a>N0.5</h3><h4 id="配置SSH密钥："><a href="#配置SSH密钥：" class="headerlink" title="配置SSH密钥："></a>配置SSH密钥：</h4><p>&emsp;&emsp; 配置Github的SSH密钥可以让本地git项目与远程的github建立联系，让我们在本地写了代码之后直接通过git操作就可以实现本地代码库与Github代码库同步。</p>
 <p>&emsp;&emsp; <strong><em>操作如下：</em></strong></p>
 <p>&emsp; <strong><em>第一步、看看是否存在SSH密钥(keys)</em></strong></p>
 <p>首先，我们需要看看是否看看本机是否存在SSH keys,打开Git Bash,并<strong>输入命令:</strong></p>
@@ -5594,14 +5556,14 @@
 
 <p>输入完成之后，屏幕会显示<strong>如下信息：</strong></p>
 <blockquote>
-<p>Your identification has been saved in /c/Users/you/.ssh/id_rsa.<br>Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.<br>The key fingerprint is:<br>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <span class="exturl" data-url="bWFpbHRvOiYjeDc5OyYjeDZmOyYjMTE3OyYjeDcyOyYjeDVmOyYjMTAxOyYjMTA5OyYjOTc7JiN4Njk7JiMxMDg7JiN4NDA7JiN4NjU7JiN4Nzg7JiM5NzsmIzEwOTsmI3g3MDsmIzEwODsmIzEwMTsmI3gyZTsmIzk5OyYjeDZmOyYjeDZkOw==">&#x79;&#x6f;&#117;&#x72;&#x5f;&#101;&#109;&#97;&#x69;&#108;&#x40;&#x65;&#x78;&#97;&#109;&#x70;&#108;&#101;&#x2e;&#99;&#x6f;&#x6d;<i class="fa fa-external-link-alt"></i></span></p>
+<p>Your identification has been saved in /c/Users/you/.ssh/id_rsa.<br>Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.<br>The key fingerprint is:<br>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <span class="exturl" data-url="bWFpbHRvOiYjeDc5OyYjeDZmOyYjMTE3OyYjeDcyOyYjeDVmOyYjMTAxOyYjMTA5OyYjOTc7JiN4Njk7JiMxMDg7JiN4NDA7JiN4NjU7JiN4Nzg7JiM5NzsmI3g2ZDsmI3g3MDsmI3g2YzsmI3g2NTsmIzQ2OyYjeDYzOyYjeDZmOyYjMTA5Ow==">&#x79;&#x6f;&#117;&#x72;&#x5f;&#101;&#109;&#97;&#x69;&#108;&#x40;&#x65;&#x78;&#97;&#x6d;&#x70;&#x6c;&#x65;&#46;&#x63;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span></p>
 </blockquote>
 <p>&emsp; <strong><em>第三步、在GitHub账户中添加你的公钥</em></strong></p>
 <p><strong>运行如下命令，将公钥的内容复制到系统粘贴板(clipboard)中（手动复制也是可以的，就是你邮箱账户前面的那一串）。</strong></p>
 <blockquote>
 <p><strong>clip &lt; ~/.ssh/id_rsa.pub</strong></p>
 </blockquote>
-<h5 id="现在登陆我们的github"><a href="#现在登陆我们的github" class="headerlink" title="现在登陆我们的github"></a>现在登陆<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw==">我们的github<i class="fa fa-external-link-alt"></i></span></h5><ol>
+<h4 id="现在登陆我们的github"><a href="#现在登陆我们的github" class="headerlink" title="现在登陆我们的github"></a>现在登陆<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw==">我们的github<i class="fa fa-external-link-alt"></i></span></h4><ol>
 <li><p>进入你的Settings,点Account。</p>
 </li>
 <li><p>选择SSH Keys。</p>
@@ -5612,7 +5574,7 @@
 <p>&emsp; <strong><em>第四步、测试</em></strong></p>
 <p>&emsp;&emsp; 可以输入下面的命令，看看设置是否成功：</p>
 <blockquote>
-<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjeDY3OyYjeDY5OyYjeDc0OyYjeDQwOyYjMTAzOyYjeDY5OyYjeDc0OyYjMTA0OyYjMTE3OyYjOTg7JiN4MmU7JiN4NjM7JiMxMTE7JiN4NmQ7">&#x67;&#x69;&#x74;&#x40;&#103;&#x69;&#x74;&#104;&#117;&#98;&#x2e;&#x63;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span></strong></p>
+<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjMTAzOyYjMTA1OyYjMTE2OyYjNjQ7JiN4Njc7JiMxMDU7JiMxMTY7JiMxMDQ7JiN4NzU7JiM5ODsmIzQ2OyYjeDYzOyYjeDZmOyYjeDZkOw==">&#103;&#105;&#116;&#64;&#x67;&#105;&#116;&#104;&#x75;&#98;&#46;&#x63;&#x6f;&#x6d;<i class="fa fa-external-link-alt"></i></span></strong></p>
 </blockquote>
 <p>如果是下面的反馈：</p>
 <blockquote>
@@ -5623,10 +5585,10 @@
 <p>&emsp;&emsp; 现在你已经可以通过 SSH 链接到GitHub了，还有一些个人信息需要完善的。Git会根据用户的名字和邮箱来记录提交。GitHub也是用这些信息来做权限的处理。</p>
 <p>&emsp;&emsp; 输入下面的代码进行个人信息的设置，把名称和邮箱替换成你自己的，名字根据自己的喜好自己取，而不是GitHub的昵称。</p>
 <blockquote>
-<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjeDc3OyYjeDYxOyYjMTEwOyYjMTAzOyYjeDY1OyYjeDcyOyYjeDY3OyYjMTExOyYjMTE3OyYjNjQ7JiN4MzE7JiN4MzY7JiN4MzM7JiM0NjsmIzk5OyYjMTExOyYjeDZkOw==">&#x77;&#x61;&#110;&#103;&#x65;&#x72;&#x67;&#111;&#117;&#64;&#x31;&#x36;&#x33;&#46;&#99;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
+<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjMTE5OyYjeDYxOyYjeDZlOyYjMTAzOyYjMTAxOyYjeDcyOyYjeDY3OyYjeDZmOyYjMTE3OyYjeDQwOyYjeDMxOyYjeDM2OyYjeDMzOyYjNDY7JiM5OTsmIzExMTsmI3g2ZDs=">&#119;&#x61;&#x6e;&#103;&#101;&#x72;&#x67;&#x6f;&#117;&#x40;&#x31;&#x36;&#x33;&#46;&#99;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
 </blockquote>
-<h5 id="到这里SSH-Key已经配置成功，本机已成功连接到github。"><a href="#到这里SSH-Key已经配置成功，本机已成功连接到github。" class="headerlink" title="到这里SSH Key已经配置成功，本机已成功连接到github。"></a><strong>到这里SSH Key已经配置成功，本机已成功连接到github。</strong></h5><hr>
-<h2 id="N0-6"><a href="#N0-6" class="headerlink" title="N0.6"></a>N0.6</h2><h4 id="将本地的Hexo文件更新到Github仓库："><a href="#将本地的Hexo文件更新到Github仓库：" class="headerlink" title="将本地的Hexo文件更新到Github仓库："></a>将本地的Hexo文件更新到Github仓库：</h4><ul>
+<h4 id="到这里SSH-Key已经配置成功，本机已成功连接到github。"><a href="#到这里SSH-Key已经配置成功，本机已成功连接到github。" class="headerlink" title="到这里SSH Key已经配置成功，本机已成功连接到github。"></a><strong>到这里SSH Key已经配置成功，本机已成功连接到github。</strong></h4><hr>
+<h3 id="N0-6"><a href="#N0-6" class="headerlink" title="N0.6"></a>N0.6</h3><h4 id="将本地的Hexo文件更新到Github仓库："><a href="#将本地的Hexo文件更新到Github仓库：" class="headerlink" title="将本地的Hexo文件更新到Github仓库："></a>将本地的Hexo文件更新到Github仓库：</h4><ul>
 <li>登录Github打开自己的项目(我们之前创建的) yourname.github.io</li>
 </ul>
 <p><img data-src="/images/loading.gif" data-original="https://i.loli.net/2018/10/08/5bbb571ab3308.png" alt="点击绿色的按钮选择SSH方式(use SSH)，然后点击链接右边的按钮复制。"></p>
@@ -5770,7 +5732,7 @@
 <p><img data-src="/images/loading.gif" data-original="https://www.baidu.com/img/bd_logo1.png" alt="图片Alt" title="图片Title">   </p>
 <p>其他媒体演示省略。   </p>
 <p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYmFpZHUuY29tLw==">超链接名<i class="fa fa-external-link-alt"></i></span>   </p>
-<p><span class="exturl" data-url="bWFpbHRvOiYjeDMxOyYjNDg7JiN4MzA7JiN4MzU7JiM1NTsmIzU0OyYjNDg7JiN4MzY7JiN4Mzk7JiN4MzQ7JiM2NDsmIzExMzsmIzExMzsmI3gyZTsmIzk5OyYjMTExOyYjeDZkOw==">&#x31;&#48;&#x30;&#x35;&#55;&#54;&#48;&#x36;&#x39;&#x34;&#64;&#113;&#113;&#x2e;&#99;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span>   </p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjeDMxOyYjeDMwOyYjeDMwOyYjNTM7JiN4Mzc7JiN4MzY7JiN4MzA7JiN4MzY7JiN4Mzk7JiN4MzQ7JiM2NDsmIzExMzsmI3g3MTsmI3gyZTsmIzk5OyYjMTExOyYjeDZkOw==">&#x31;&#x30;&#x30;&#53;&#x37;&#x36;&#x30;&#x36;&#x39;&#x34;&#64;&#113;&#x71;&#x2e;&#99;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span>   </p>
 <p><br><br><br></p>
 <h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><hr>
 <blockquote>
@@ -5948,205 +5910,6 @@
       </categories>
       <tags>
         <tag>死神Vs火影改版资源</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>鲸落oh</title>
-    <url>/hxb/</url>
-    <content><![CDATA[ <div class="note info no-icon"><p><code>测试文章</code><br><del>鲁迅说过</del>：人间最美，不过鲸落。</p>
-</div>
-
-<a id="more"></a>                       
-
-
-<p><img data-src="/images/loading.gif" data-original="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/crop%3D96%2C0%2C3557%2C2349%3Bc0%3Dbaike272%2C5%2C5%2C272%2C90/sign=d9b8ec2d0e087bf469a30da9cfea6100/fc1f4134970a304ee132739cddc8a786c9175c40.jpg" alt="“鲸落：世界上最慷慨，最温柔的死亡。”"></p>
-<p>来源：<span class="exturl" data-url="aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTklQjIlQjglRTglOTAlQkQvMTU4OTM2OTU/ZnI9YWxhZGRpbg==">百度百科<i class="fa fa-external-link-alt"></i></span></p>
-<div align="center"><iframe height="80" width="260" src="https://www.ximalaya.com/thirdparty/player/sound/player.html?id=49911093&type=red" frameborder="0" allowfullscreen></iframe></div>
-
-<p>&emsp;&emsp; 你知道吗？当一头鲸鱼死去的时候，庞大的尸体会慢慢地沉入海底。</p>
-<p>&emsp;&emsp; 然后在深海里，用自己的死亡，创造出一套完整的、可以维持上百种无脊椎动物生存长达几十年甚至上百年的生态系统。</p>
-<p>&emsp;&emsp; 成为孤独海洋里最温暖的绿洲。</p>
-<p>&emsp;&emsp; 生物学家赋予这个过程一个名字，叫作“鲸落”。、</p>
-<blockquote>
-<p>一念百草生，一念山河成。</p>
-</blockquote>
-<p>&emsp;&emsp; 一个朋友给我讲了一个故事。大凉山深处，有一所简陋的小学。有一天，山火蔓延，直接烧到了学校。</p>
-<p>&emsp;&emsp; 有三个小孩子吓坏了，号啕大哭，却一动不动。这时，年轻的老师冲进来抱起一个就往外跑，然后回来又抱起一个。</p>
-<p>&emsp;&emsp; 火势如狼，房屋倒塌。</p>
-<p>&emsp;&emsp; 我问朋友：“你就是这最后救出来的？”</p>
-<p>&emsp;&emsp; “嗯。”他点头。</p>
-<p>&emsp;&emsp; “没啥，老师也尽力了，最后一个没救出来，也是命。”我说道。</p>
-<p>&emsp;&emsp; “是个大恩。”他抬眼盯着我，眼中有血丝，不作声。</p>
-<p>&emsp;&emsp; 我有些尴尬，难道是我说错话了吗？</p>
-<p>&emsp;&emsp; 他沉默半晌，一字一句：</p>
-<p>&emsp;&emsp; “没救出来的，是我们老师自己的孩子。”</p>
-<p>&emsp;&emsp; “这就是你不离开的原因？”</p>
-<p>&emsp;&emsp; “嗯。他教了我什么，我就教给那座山。”</p>
-<p>&emsp;&emsp; 他抬起头看看月亮。</p>
-<p>&emsp;&emsp; 这是那次我听到的所有故事里印象最深的。</p>
-<blockquote>
-<p>以一己之力哺育一方生命，以菩萨之心慰世间魂灵。</p>
-</blockquote>
-<p>&emsp;&emsp; 鲸落如此，师德如此，皆如此。</p>
-<div align="center">转自简书</div>
-
-<div align="center">《鲸落，万物生》</div>
-
-
-<p>“爷爷，你说，海里有神嘛？”</p>
-<p>“有啊。”爷爷伸手指了指远处的海面：“生活在海里的那些小家伙，可都是海里的神哟。”</p>
-<p>“那爷爷，你一个人在这儿这么久了，就没想过离开么？不觉得很枯燥无味么？”</p>
-<p>“当你体会到，这片海的魅力的时候，你想离开，都舍不得咯。</p>
-<p>小舍，答应爷爷一件事…等爷爷不在了，小舍，你要替爷爷守护这片大海…你愿不愿意…”</p>
-<p>“怎么会不愿意？小舍要像爷爷一样，守着这片大海。”</p>
-<p>那时候，渔村的人还很多，我们一群小孩子，总是会追着作为渔村唯一一个教书先生的爷爷问大海的故事。</p>
-<p>那些故事或真，或假，但从爷爷脍炙人口的讲述中，我仿佛能够看见那些故事一幕幕的上映。</p>
-<p>那个时候，大海的故事，在渔村被津津乐道的口口相传，直到这里的人一点点搬空。。。</p>
-<p>我叫纳兰舍，纳兰，是一个很有诗情画意的姓氏，尽管人生于此无关紧要。</p>
-<p>爸妈带着我那个弟弟离开之后，我选择留下来陪着爷爷。</p>
-<p>爷爷这辈子，除了那艘渔船，这片大海，还有对奶奶的思念，就什么都没有了。</p>
-<p>相比于爸妈，爷爷更需要我。这片海也需要我，起码，我是这么想的。</p>
-<p>“爷爷，起风了，咱回屋吧。”</p>
-<p>“不…再等等…”爷爷叹了口气，望着夕阳余晖洒满海平面，他轻轻开口：</p>
-<p>“当年我跟你奶奶，就喜欢坐在这儿，年轻时来到这里，就没想过离开。”</p>
-<p>“热闹的那阵儿，偶然有渔船经过停泊靠岸，海鸟会停下觅食，有鲸鱼在附近嬉闹…再等等…再等等…”</p>
-<p>“等…它们…？”</p>
-<p>“嗯，等他们。”爷爷微不可闻的点了点头。</p>
-<p>白透的发丝，被海风吹起，他拿起胸口的哨子，轻轻吹响，随后远处一声呼啸回应，紧接着，一条条蓝背鲸鱼跃出海面。</p>
-<p>飞溅的水花，微起的海风，金色的晖芒，鲸哨的回鸣，那是我看一辈子也不会觉得厌的场景。</p>
-<p>“小舍，爷爷最后问你一次…你是否愿意…守护这片大海…？”</p>
-<p>“小舍愿意！”</p>
-<p>后来爷爷离开了，在那个奶奶常坐的礁石上，奶奶是海维协会志愿者，爷爷年轻时是海军。</p>
-<p>两个人留在这渔村，就是一辈子。</p>
-<p>我处理好爷爷的后事，接替了爷爷的工作。守着这个渔村、大海以及大海里的那些小家伙。</p>
-<p>今次早起，阳光明媚，远远观望，蔚蓝色的天空与大海相接，在这片一望无际的大海，时有人在这里沉没。</p>
-<p>海底下除了那些可见过可不见过的小家伙外，还有诸多消融，或年轻或年长的灵魂。</p>
-<p>明媚的阳光，洒下斑驳一片，今日怕是要有暴风雨。</p>
-<p>我解了船锚，打算先去海上巡一圈儿，清晨的薄雾笼罩，我着了一身蓑笠，船头挂一盏长明灯，熟稔地滑动船桨，漂泊在海面上。</p>
-<p>方才晴空万里，此刻便已是乌云密布，乌压压的压下一片黑暗，压抑顷刻笼罩。</p>
-<p>在这大海之间，我所乘的船只显得渺小得可怜。如果有什么能让你领略到辽阔壮观，大概就只有坐在船上，置身于大海时。</p>
-<p>天高地远，那种铺天盖地压下来的感觉才会尤为明显，就是这样的感觉，让我无数次认知到自己的渺小。。。</p>
-<p>“嗯？那是…”</p>
-<p>海面掀卷起浪花，我望见不远处海面上飘着什么东西，待划近些方见，那是一个人！！！</p>
-<p>出海的船有个不成文的规矩，见到遇难的必须要搭把手，我只当他是遇了海难，未曾多想过什么。</p>
-<p>时间刚好，幸得上天眷顾，船刚收好，暴风雨顷刻间扑落下来，我抱着那蓝衣少年一路小跑，回了自己家里。</p>
-<p>屋外风很大，吹的我耳边儿都是嘈杂的声音，我将那孩子放在床上，解下蓑笠长呼了口气。</p>
-<p>心里奇怪，这样的天气不会有船只出海，那这孩子从哪来的？</p>
-<p>他十七八的样子，面容清秀干净，一身深蓝色衣衫，身形有些瘦削。</p>
-<p>我帮他换下湿衣服，幸好老宅里还有我以前没扔掉的衣服，他穿着正合适。</p>
-<p>在这孩子锁骨上，纹有一条海蓝色跃出海面的蓝鲸纹身，栩栩如生。</p>
-<p>被屋里的灯光打过之后，色泽分明，好像活的一样。</p>
-<p>鲸鱼，是一种可温柔可凶猛的动物，其实在我看来都没差别，任何一样动物的凶猛，都无法比拟于人类内心的凶残。</p>
-<p>我听爷爷讲过很多鲸的故事，多的我记不清楚，关于鲸，有人类在鲸腹中生存的传说，最早可追溯到基督教的《圣经》。</p>
-<p>在《圣经-旧约》上记载，先知约拿在一次海难中被鲸鱼吞如腹中。</p>
-<p>这位有勇有谋的先知通过坚强的意志、上帝的保守，在鲸腹中呆了三天三夜，竟然安然无恙，成功脱险。</p>
-<p>自此之后，世界上一直流传着人在鲸腹中幸存的故事。</p>
-<p>后来，有些学者认为，先知约拿和鲸鱼的故事，其实是暗喻巴比伦的陷落和犹太人获救。</p>
-<blockquote>
-<p>因此，鲸鱼在这里，也意味着再生。</p>
-</blockquote>
-<p>当鲸鱼在海洋中死去，它的尸体会最终沉入海底。</p>
-<p>生物学家为这个过程赋予了一个诗情画意的名字-鲸落。</p>
-<p>在鲸尸下沉至海底过程中，盲鳗、鲨鱼、一些甲壳类生物等以鲸尸中的柔软组织为食。</p>
-<p>这一过程可以持续4至少24个月，当然，取决于鲸的个体大小，期间90%的鲸尸将被分解。</p>
-<p>那是鲸在死亡前给大海最后的温柔。</p>
-<p>鲸本身的含义是再生，但我看来，却是无私的温柔。</p>
-<p>暴风雨久久未平，那孩子却是醒了，一言不发的坐在床边，盯着烛火的光辉…</p>
-<p>蜂蜡是我们经常选用的燃烧材质，只要有氧气，就能燃烧很久。</p>
-<p>“你醒了？吃点东西吧，对了，你叫什么？”</p>
-<p>“……”</p>
-<p>他沉默半晌，突然笑了笑，那笑容意味不明却带着温柔，一双蓝色眸子在灯光下仿佛宝石一般。</p>
-<p>“鲸落，我叫鲸落。”</p>
-<p>他如此说道，小脸上全是自豪。</p>
-<p>“鲸落，这可真是个诗情画意的名字。”</p>
-<p>我如此赞扬，他只笑不语，就这样，我的小房间里，多了一个来客…</p>
-<p>他叫鲸落，万物生的鲸落。</p>
-<p>我不问他来自哪里，他叫什么，只知道他跟着我，一起守护着这片海域。</p>
-<p>“小落，你扣子又系错了。”</p>
-<p>我无奈的俯下身子，纤细修长的手指将他的扣子解开重新系好。</p>
-<p>他像一个孩子，咿呀学语，除了自己的名字和我的名字，他似乎什么也记不住。</p>
-<p>走路的姿势很怪，经常摔倒，我不免劳累，却也两头费着心思。</p>
-<p>一本本封皮日记写了又写，堆了一个小箱子，上面记述着我的一切。</p>
-<p>呐，小家伙，我总觉得你是不一样的呐，你记不住的一切，交给我吧，我来帮你记住。</p>
-<p>爷爷说，鱼的记忆只有七天，七天之后又是从新开始。</p>
-<p>鲸落像鱼，只有七天的记忆，可他从来没忘记过我。</p>
-<p>“小舍…”</p>
-<p>他这么喊我，一双蓝眼睛里写满了迷茫，目光锁定在我身上时跌跌撞撞跑过来抱住我的腰。</p>
-<p>我笑着回应着他，这么个温柔的孩子，真的惊艳了我的时光。</p>
-<p>“纳兰舍，你不觉得奇怪么？这么一个人，你还想留着他？他来之后…”</p>
-<p>“跟他有什么关系？我早就说过了，我不会让你们再错下去了。”</p>
-<p>随着故友的质问，以我摔门离开落幕，不知何时传来消息，一行船队已经到了村里，大肆的捕捞蓝鲸。</p>
-<p>我看见搁浅的他们闭上双眼，恍然看见他们眼中的泪一般。</p>
-<p>鲸落的双眸里满是哀戚，我再也无法忍受下去，拉开门走到海边。</p>
-<p>刚行至前，那蓝色衣衫的少年已经冲在了我前面，随着一声声鲸鸣起落，斜阳余晖之下跃起身影矫健。</p>
-<p>“那个人，肯定有问题，杀了他！”</p>
-<p>我再不会忘记那样的身影，穿梭在刀锋之间，手上莹蓝色若宝石一般闪烁耀眼。</p>
-<p>他是神么？他是这片海的神吧？</p>
-<p>不做思考，我选了一条路走到搁浅的蓝鲸身边，挥了腰间的刀子砍断绳索…</p>
-<p>似是默契相通，海边的蓝鲸寻到绳索，纷纷拽动着蓝鲸滑落水面。</p>
-<p>船起扬帆，船队想要离开，他们拿到了足够的利益。</p>
-<p>那身蓝衣呢？我扭头寻找那孩子的身影，终得见一片巨浪翻涌，他拉着我一步一步踏在海边。</p>
-<p>鲸鸣，风起，海啸。</p>
-<p>置身海底一步一步踏过，周围的海水起起落落，却不曾沾染我们两个分毫。</p>
-<p>梭标自船上射下，来不及反应已经伸手拽动那孩子的身子顶了上去…</p>
-<p>疼痛感蔓延过后，我便什么也记不清楚。</p>
-<p>只见到，那一望无际的蔚蓝。</p>
-<p>听闻那天，那船队整个沦陷在海域，无人生还。</p>
-<p>鲸落睡了很久很久，醒来仍是一脸茫然。</p>
-<p>那天，蓝鲸于海域游荡，将已经死亡的尸体运回深海。</p>
-<p>同伴最后完不成的温柔，由他们实现。</p>
-<p>“鲸落。”</p>
-<p>“？”</p>
-<p>“走，离开这儿。”</p>
-<p>我捂着伤口堵着门口，身后声音越发嘈杂，我却已经无暇顾及，只希望他赶快离开这里。</p>
-<p>“……”他不语，茫然不解。</p>
-<p>“滚！！！”低吼出声。</p>
-<p>他离开前的哀怨的一眼扎进我心脏难以平复。</p>
-<p>“嘭”，门已经被推开，我跌落在地，无声的笑了笑。</p>
-<p>……</p>
-<p>火焰，在眼前灼烫双目，鲸落是神，不是妖。</p>
-<p>可我却不想解释，也没有解释，对于这帮人而言，所有的解释，都是枉然的。</p>
-<p>风起，鲸鸣，海声依旧。</p>
-<p>巨浪掀起直逼苍穹一般，蓝色衣衫的少年踩着海浪一步一步踏过来。</p>
-<p>“纳兰…舍…”他轻轻开口，然后勾出一个单薄的笑容，纯粹干净。</p>
-<p>欲见蓝色蛟龙跃海而出，我的目光里，除了那腾升而起的龙便再无他物，鲸落盘旋在我身边良久，久到那些熟识的人俯拜叩首。</p>
-<p>鲸落…是龙吗？</p>
-<p>……</p>
-<p>时隔多年，鲸落再也没有出现，渔民也相继搬走。</p>
-<p>除了我，没有人再守着这片海域。</p>
-<p>而我已是病榻缠绵的年岁，膝下无儿无女，自然不会有人给我安排后事。</p>
-<p>我提着长明灯，走到海边爷爷常坐的礁石之上坐下。</p>
-<p>银丝随着海风飘动，混浊的双眼映射着这片蔚蓝苍穹与八千米海岸线相接，一如我年轻时那般蓝的耀眼。</p>
-<p>手指握住鲸哨，轻轻的吹动，一声又一声的蔓延开来。</p>
-<p>率先出现的蓝背鲸鱼眉心刻着龙纹印，眯了眯眼睛，似是叹息一般：”鲸落…”</p>
-<p>“是我。”那少年，不再是少年，他一如既往地清秀，挺拔，一如既往地蓝衫蓝眸，踩着海面，走到我身边。</p>
-<p>“你老了。”他无波无澜的声音，脱掉稚气，很是好听。</p>
-<p>我笑而不语，他说：”我到你身边，是为了报恩。感谢你们，把一生的时间，奉献给了大海。还有…对不起。”</p>
-<p>我伸手，揉了揉那孩子的头。</p>
-<p>温柔的笑着：”是啊，我老了。你们再搁浅，我可是没有力气再送你们回去了。”</p>
-<p>“我长大了。”他如此说道…</p>
-<p>“小舍可以歇歇了，鲸族也好，这片蔚蓝也好，小舍也好，交给我吧，交给我来守护。”</p>
-<p>我越笑越发乏了，他坐到我身边，带着海味儿的清凉和真实。</p>
-<p>“虽我不是鲸，但心向大海…”</p>
-<p>这一睡，便再也没有起来，鲸落望着海天一线，仅余那七厘米蔚蓝。</p>
-<p>“没有值不值得，只要我纳兰舍活着一天，就一定会带他们回大海。”</p>
-<p>“可惜我是人，终归会老能力有限，但我依旧能等到你长大，替我，守着这些…”</p>
-<p>鲸落将我手中的信纸展开，随后已是攥紧在手心。</p>
-<p>空旷的一片似是回到数年前，爷爷去世那般，鲸鸣悲哀，鲸哨呼应。</p>
-<p>只是我再没力气吹起的鲸哨，在鲸落的嘴边响起。</p>
-<p>“小舍，你看，我们来了…”</p>
-<p>“小舍，快醒醒，别睡了…”</p>
-<p>“…纳兰…纳兰…舍…纳兰舍…纳兰舍…”</p>
-<p>鲸落呢喃着三个字，却再也没有回应。</p>
-<p>澄澈的泪水低落，海面呼应的鸣叫，渐于夜色沉寂，再无声音…</p>
-<p><code>~~~转自简书 莫落血棠</code></p>
-<p>                      </p>
-]]></content>
-      <categories>
-        <category>摘录</category>
-      </categories>
-      <tags>
-        <tag>鲸落</tag>
       </tags>
   </entry>
   <entry>
