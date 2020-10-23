@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://a.biugle.cn/hexobuild/</loc>
+    <lastmod>2020-10-23</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/phpip/</loc>
+    <lastmod>2020-10-23</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/jsdomandbom/</loc>
+    <lastmod>2020-10-23</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/shortcutkey-netbeans/</loc>
+    <lastmod>2020-10-23</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/sql/</loc>
+    <lastmod>2020-10-23</lastmod>
+  </url>
+  <url>
     <loc>http://a.biugle.cn/hexomoreandnext/</loc>
     <lastmod>2020-10-22</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/mvcmvpmvvm/</loc>
-    <lastmod>2020-10-22</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/hexobuild/</loc>
     <lastmod>2020-10-22</lastmod>
   </url>
   <url>
@@ -81,15 +97,7 @@
     <lastmod>2020-10-20</lastmod>
   </url>
   <url>
-    <loc>http://a.biugle.cn/sql/</loc>
-    <lastmod>2020-10-20</lastmod>
-  </url>
-  <url>
     <loc>http://a.biugle.cn/shortcutkey-office/</loc>
-    <lastmod>2020-10-20</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/shortcutkey-netbeans/</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
   <url>
@@ -134,10 +142,6 @@
   </url>
   <url>
     <loc>http://a.biugle.cn/phpsql/</loc>
-    <lastmod>2020-10-20</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/phpip/</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
   <url>
@@ -186,10 +190,6 @@
   </url>
   <url>
     <loc>http://a.biugle.cn/jsnode/</loc>
-    <lastmod>2020-10-20</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/jsdomandbom/</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
   <url>
