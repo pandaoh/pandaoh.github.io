@@ -5565,7 +5565,7 @@
 
 <p>输入完成之后，屏幕会显示<strong>如下信息：</strong></p>
 <blockquote>
-<p>Your identification has been saved in /c/Users/you/.ssh/id_rsa.<br>Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.<br>The key fingerprint is:<br>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <span class="exturl" data-url="bWFpbHRvOiYjMTIxOyYjeDZmOyYjMTE3OyYjMTE0OyYjOTU7JiMxMDE7JiN4NmQ7JiM5NzsmI3g2OTsmI3g2YzsmIzY0OyYjMTAxOyYjMTIwOyYjOTc7JiN4NmQ7JiMxMTI7JiN4NmM7JiMxMDE7JiN4MmU7JiM5OTsmIzExMTsmIzEwOTs=">&#121;&#x6f;&#117;&#114;&#95;&#101;&#x6d;&#97;&#x69;&#x6c;&#64;&#101;&#120;&#97;&#x6d;&#112;&#x6c;&#101;&#x2e;&#99;&#111;&#109;<i class="fa fa-external-link-alt"></i></span></p>
+<p>Your identification has been saved in /c/Users/you/.ssh/id_rsa.<br>Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.<br>The key fingerprint is:<br>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <span class="exturl" data-url="bWFpbHRvOiYjMTIxOyYjeDZmOyYjMTE3OyYjMTE0OyYjeDVmOyYjeDY1OyYjMTA5OyYjeDYxOyYjeDY5OyYjMTA4OyYjNjQ7JiN4NjU7JiMxMjA7JiM5NzsmI3g2ZDsmI3g3MDsmI3g2YzsmIzEwMTsmIzQ2OyYjeDYzOyYjeDZmOyYjeDZkOw==">&#121;&#x6f;&#117;&#114;&#x5f;&#x65;&#109;&#x61;&#x69;&#108;&#64;&#x65;&#120;&#97;&#x6d;&#x70;&#x6c;&#101;&#46;&#x63;&#x6f;&#x6d;<i class="fa fa-external-link-alt"></i></span></p>
 </blockquote>
 <p>&emsp; <strong><em>第三步、在GitHub账户中添加你的公钥</em></strong></p>
 <p><strong>运行如下命令，将公钥的内容复制到系统粘贴板(clipboard)中（手动复制也是可以的，就是你邮箱账户前面的那一串）。</strong></p>
@@ -5583,7 +5583,7 @@
 <p>&emsp; <strong><em>第四步、测试</em></strong></p>
 <p>&emsp;&emsp; 可以输入下面的命令，看看设置是否成功：</p>
 <blockquote>
-<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjeDY3OyYjeDY5OyYjeDc0OyYjeDQwOyYjMTAzOyYjMTA1OyYjeDc0OyYjMTA0OyYjMTE3OyYjeDYyOyYjeDJlOyYjOTk7JiN4NmY7JiN4NmQ7">&#x67;&#x69;&#x74;&#x40;&#103;&#105;&#x74;&#104;&#117;&#x62;&#x2e;&#99;&#x6f;&#x6d;<i class="fa fa-external-link-alt"></i></span></strong></p>
+<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjeDY3OyYjeDY5OyYjMTE2OyYjeDQwOyYjeDY3OyYjeDY5OyYjeDc0OyYjeDY4OyYjeDc1OyYjOTg7JiM0NjsmI3g2MzsmIzExMTsmI3g2ZDs=">&#x67;&#x69;&#116;&#x40;&#x67;&#x69;&#x74;&#x68;&#x75;&#98;&#46;&#x63;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span></strong></p>
 </blockquote>
 <p>如果是下面的反馈：</p>
 <blockquote>
@@ -5594,7 +5594,7 @@
 <p>&emsp;&emsp; 现在你已经可以通过 SSH 链接到GitHub了，还有一些个人信息需要完善的。Git会根据用户的名字和邮箱来记录提交。GitHub也是用这些信息来做权限的处理。</p>
 <p>&emsp;&emsp; 输入下面的代码进行个人信息的设置，把名称和邮箱替换成你自己的，名字根据自己的喜好自己取，而不是GitHub的昵称。</p>
 <blockquote>
-<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjeDc3OyYjOTc7JiMxMTA7JiMxMDM7JiN4NjU7JiN4NzI7JiN4Njc7JiMxMTE7JiMxMTc7JiN4NDA7JiM0OTsmI3gzNjsmIzUxOyYjNDY7JiN4NjM7JiN4NmY7JiMxMDk7">&#x77;&#97;&#110;&#103;&#x65;&#x72;&#x67;&#111;&#117;&#x40;&#49;&#x36;&#51;&#46;&#x63;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
+<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjMTE5OyYjeDYxOyYjMTEwOyYjeDY3OyYjeDY1OyYjeDcyOyYjMTAzOyYjeDZmOyYjeDc1OyYjNjQ7JiN4MzE7JiN4MzY7JiM1MTsmI3gyZTsmIzk5OyYjeDZmOyYjeDZkOw==">&#119;&#x61;&#110;&#x67;&#x65;&#x72;&#103;&#x6f;&#x75;&#64;&#x31;&#x36;&#51;&#x2e;&#99;&#x6f;&#x6d;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
 </blockquote>
 <h4 id="到这里SSH-Key已经配置成功，本机已成功连接到github。"><a href="#到这里SSH-Key已经配置成功，本机已成功连接到github。" class="headerlink" title="到这里SSH Key已经配置成功，本机已成功连接到github。"></a><strong>到这里SSH Key已经配置成功，本机已成功连接到github。</strong></h4><hr>
 <h3 id="NO-6"><a href="#NO-6" class="headerlink" title="NO.6"></a>NO.6</h3><h4 id="将本地的Hexo文件更新到Github仓库："><a href="#将本地的Hexo文件更新到Github仓库：" class="headerlink" title="将本地的Hexo文件更新到Github仓库："></a>将本地的Hexo文件更新到Github仓库：</h4><ul>
@@ -5741,7 +5741,7 @@
 <p><img data-src="/images/loading.gif" data-original="https://www.baidu.com/img/bd_logo1.png" alt="图片Alt" title="图片Title">   </p>
 <p>其他媒体演示省略。   </p>
 <p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYmFpZHUuY29tLw==">超链接名<i class="fa fa-external-link-alt"></i></span>   </p>
-<p><span class="exturl" data-url="bWFpbHRvOiYjeDMxOyYjNDg7JiN4MzA7JiM1MzsmIzU1OyYjNTQ7JiN4MzA7JiM1NDsmIzU3OyYjNTI7JiM2NDsmI3g3MTsmI3g3MTsmIzQ2OyYjeDYzOyYjeDZmOyYjMTA5Ow==">&#x31;&#48;&#x30;&#53;&#55;&#54;&#x30;&#54;&#57;&#52;&#64;&#x71;&#x71;&#46;&#x63;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span>   </p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjeDMxOyYjeDMwOyYjeDMwOyYjeDM1OyYjNTU7JiN4MzY7JiM0ODsmIzU0OyYjeDM5OyYjeDM0OyYjeDQwOyYjeDcxOyYjMTEzOyYjeDJlOyYjOTk7JiMxMTE7JiN4NmQ7">&#x31;&#x30;&#x30;&#x35;&#55;&#x36;&#48;&#54;&#x39;&#x34;&#x40;&#x71;&#113;&#x2e;&#99;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span>   </p>
 <p><br><br><br></p>
 <h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><hr>
 <blockquote>
