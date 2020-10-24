@@ -747,7 +747,7 @@
 <tr>
 <td align="center"><strong>502</strong></td>
 <td align="center">Bad Gateway</td>
-<td>表示作为网関或代理的服务段在执行请求时，从上游服务器获得了无效的响应。</td>
+<td>表示作为网关或代理的服务段在执行请求时，从上游服务器获得了无效的响应。</td>
 </tr>
 <tr>
 <td align="center"><strong>503</strong></td>
@@ -757,7 +757,7 @@
 <tr>
 <td align="center"><strong>504</strong></td>
 <td align="center">Gatewy Timeout</td>
-<td>表示作为网関或代理的服务段在执行请求时，未能及时从上游服务器获得响应。</td>
+<td>表示作为网关或代理的服务段在执行请求时，未能及时从上游服务器获得响应。</td>
 </tr>
 <tr>
 <td align="center"><strong>505</strong></td>
@@ -2040,7 +2040,9 @@
 
 </blockquote>
 
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">mysqli_fetch_row($result);          <span class="comment">//只能返回一个一位数组，只能通过下标来显示，$row[0];</span></span><br><span class="line">mysqli_fetch_array($result);        <span class="comment">//不只可以返回一个一维数组，还可以返回键值对的方式，从而通过$array[&#x27;title&#x27;]方式来显示。</span></span><br><span class="line">mysqli_fetch_object($result);       <span class="comment">//从结果集中取得一行，并作为对象返回。</span></span><br><span class="line">mysql_num_rows($result);            <span class="comment">//返回mysql查询结果的数目</span></span><br><span class="line">mysqli_affected_rows($connect);     <span class="comment">//取得影响行数</span></span><br><span class="line">mysqli_insert_id($connect);         <span class="comment">//取得最后一笔自动新增的 id</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">mysqli_fetch_row($result);          <span class="comment">//只能返回一个一位数组，只能通过下标来显示，$row[0];</span></span><br><span class="line">mysqli_fetch_array($result);        <span class="comment">//不只可以返回一个一维数组，还可以返回键值对的方式，从而通过$array[&#x27;title&#x27;]方式来显示。</span></span><br><span class="line">mysqli_fetch_object($result);       <span class="comment">//从结果集中取得一行，并作为对象返回。</span></span><br><span class="line">mysql_num_rows($result);            <span class="comment">//返回mysql查询结果的数目</span></span><br><span class="line">mysqli_affected_rows($connect);     <span class="comment">//取得影响行数</span></span><br><span class="line">mysqli_insert_id($connect);         <span class="comment">//取得最后一笔自动新增的 id</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<table><tbody><tr><th width="30%">函数</th><th width="70%">描述</th></tr><tr><td>mysqli_affected_rows()</td><td>返回前一次 MySQL 操作所影响的记录行数。</td></tr><tr><td>mysqli_autocommit()</td><td>打开或关闭自动提交数据库修改。</td></tr><tr><td>mysqli_change_user()</td><td>更改指定数据库连接的用户。</td></tr><tr><td>mysqli_character_set_name()</td><td>返回数据库连接的默认字符集。</td></tr><tr><td>mysqli_close()</td><td>关闭先前打开的数据库连接。</td></tr><tr><td>mysqli_commit()</td><td>提交当前事务。</td></tr><tr><td>mysqli_connect_errno()</td><td>返回上一次连接错误的错误代码。</td></tr><tr><td>mysqli_connect_error()</td><td>返回上一次连接错误的错误描述。</td></tr><tr><td>mysqli_connect()</td><td>打开一个到 MySQL 服务器的新的连接。</td></tr><tr><td>mysqli_data_seek()</td><td>调整结果指针到结果集中的一个任意行。</td></tr><tr><td>mysqli_debug()</td><td>执行调试操作。</td></tr><tr><td>mysqli_dump_debug_info()</td><td>转储调试信息到日志中。</td></tr><tr><td>mysqli_errno()</td><td>返回最近调用函数的最后一个错误代码。</td></tr><tr><td>mysqli_error_list()</td><td>返回最近调用函数的错误列表。</td></tr><tr><td>mysqli_error()</td><td>返回最近调用函数的最后一个错误描述。</td></tr><tr><td>mysqli_fetch_all()</td><td>从结果集中取得所有行作为关联数组，或数字数组，或二者兼有。</td></tr><tr><td>mysqli_fetch_array()</td><td>从结果集中取得一行作为关联数组，或数字数组，或二者兼有。</td></tr><tr><td>mysqli_fetch_assoc()</td><td>从结果集中取得一行作为关联数组。</td></tr><tr><td>mysqli_fetch_field_direct()</td><td>从结果集中取得某个单一字段的 meta-data，并作为对象返回。</td></tr><tr><td>mysqli_fetch_field()</td><td>从结果集中取得下一字段，并作为对象返回。</td></tr><tr><td>mysqli_fetch_fields()</td><td>返回结果中代表字段的对象的数组。</td></tr><tr><td>mysqli_fetch_lengths()</td><td>返回结果集中当前行的每个列的长度。</td></tr><tr><td>mysqli_fetch_object()</td><td>从结果集中取得当前行，并作为对象返回。</td></tr><tr><td>mysqli_fetch_row()</td><td>从结果集中取得一行，并作为枚举数组返回。</td></tr><tr><td>mysqli_field_count()</td><td>返回最近查询的列数。</td></tr><tr><td>mysqli_field_seek()</td><td>把结果集中的指针设置为指定字段的偏移量。</td></tr><tr><td>mysqli_field_tell()</td><td>返回结果集中的指针的位置。</td></tr><tr><td>mysqli_free_result()</td><td>释放结果内存。</td></tr><tr><td>mysqli_get_charset()</td><td>返回字符集对象。</td></tr><tr><td>mysqli_get_client_info()</td><td>返回 MySQL 客户端库版本。</td></tr><tr><td>mysqli_get_client_stats()</td><td>返回有关客户端每个进程的统计。</td></tr><tr><td>mysqli_get_client_version()</td><td>将 MySQL 客户端库版本作为整数返回。</td></tr><tr><td>mysqli_get_connection_stats()</td><td>返回有关客户端连接的统计。</td></tr><tr><td>mysqli_get_host_info()</td><td>返回 MySQL 服务器主机名和连接类型。</td></tr><tr><td>mysqli_get_proto_info()</td><td>返回 MySQL 协议版本。</td></tr><tr><td>mysqli_get_server_info()</td><td>返回 MySQL 服务器版本。</td></tr><tr><td>mysqli_get_server_version()</td><td>将 MySQL 服务器版本作为整数返回。</td></tr><tr><td>mysqli_info()</td><td>返回有关最近执行查询的信息。</td></tr><tr><td>mysqli_init()</td><td>初始化 MySQLi 并返回 mysqli_real_connect() 使用的资源。</td></tr><tr><td>mysqli_insert_id()</td><td>返回最后一个查询中自动生成的 ID。</td></tr><tr><td>mysql_kill()</td><td>请求服务器杀死一个 MySQL 线程。</td></tr><tr><td>mysqli_more_results()</td><td>检查一个多查询是否有更多的结果。</td></tr><tr><td>mysqli_multi_query()</td><td>执行一个或多个针对数据库的查询。</td></tr><tr><td>mysqli_next_result()</td><td>为 mysqli_multi_query() 准备下一个结果集。</td></tr><tr><td>mysqli_num_fields()</td><td>返回结果集中字段的数量。</td></tr><tr><td>mysqli_num_rows()</td><td>返回结果集中行的数量。</td></tr><tr><td>mysqli_options()</td><td>设置额外的连接选项，用于影响连接行为。</td></tr><tr><td>mysqli_ping()</td><td>进行一个服务器连接，如果连接已断开则尝试重新连接。</td></tr><tr><td>mysqli_prepare()</td><td>准备执行一个 SQL 语句。</td></tr><tr><td>mysqli_query()</td><td>执行某个针对数据库的查询。</td></tr><tr><td>mysqli_real_connect()</td><td>打开一个到 MySQL 服务器的新的链接。</td></tr><tr><td>mysqli_real_escape_string()</td><td>转义在 SQL 语句中使用的字符串中的特殊字符。</td></tr><tr><td>mysqli_real_query()</td><td>执行 SQL 查询</td></tr><tr><td>mysqli_reap_async_query()</td><td>返回异步查询的结果。</td></tr><tr><td>mysqli_refresh()</td><td>刷新表或缓存，或者重置复制服务器信息。</td></tr><tr><td>mysqli_rollback()</td><td>回滚数据库中的当前事务。</td></tr><tr><td>mysqli_select_db()</td><td>更改连接的默认数据库。</td></tr><tr><td>mysqli_set_charset()</td><td>设置默认客户端字符集。</td></tr><tr><td>mysqli_set_local_infile_default()</td><td>撤销用于 load local infile 命令的用户自定义句柄。</td></tr><tr><td>mysqli_set_local_infile_handler()</td><td>设置用于 LOAD DATA LOCAL INFILE 命令的回滚函数。</td></tr><tr><td>mysqli_sqlstate()</td><td>返回最后一个 MySQL 操作的 SQLSTATE 错误代码。</td></tr><tr><td>mysqli_ssl_set()</td><td>用于创建 SSL 安全连接。</td></tr><tr><td>mysqli_stat()</td><td>返回当前系统状态。</td></tr><tr><td>mysqli_stmt_init()</td><td>初始化声明并返回 mysqli_stmt_prepare() 使用的对象。</td></tr><tr><td>mysqli_store_result()</td><td>传输最后一个查询的结果集。</td></tr><tr><td>mysqli_thread_id()</td><td>返回当前连接的线程 ID。</td></tr><tr><td>mysqli_thread_safe()</td><td>返回是否将客户端库编译成 thread-safe。</td></tr><tr><td>mysqli_use_result()</td><td>从上次使用 mysqli_real_query() 执行的查询中初始化结果集的检索。</td></tr><tr><td>mysqli_warning_count()</td><td>返回连接中的最后一个查询的警告数量。</td></tr></tbody></table>]]></content>
       <categories>
         <category>干垃圾</category>
       </categories>
@@ -5442,6 +5444,14 @@
 <td align="center">向下滚动网页内容，一次一个屏幕。</td>
 </tr>
 <tr>
+<td align="center"><strong>Shift+回车</strong></td>
+<td align="center">console换行</td>
+</tr>
+<tr>
+<td align="center"><strong>Shift+鼠标点击</strong></td>
+<td align="center">用新标签页打开此链接</td>
+</tr>
+<tr>
 <td align="center"><strong>Shift+空格</strong></td>
 <td align="center">向上滚动网页内容，一次一个屏幕。</td>
 </tr>
@@ -5555,7 +5565,7 @@
 
 <p>输入完成之后，屏幕会显示<strong>如下信息：</strong></p>
 <blockquote>
-<p>Your identification has been saved in /c/Users/you/.ssh/id_rsa.<br>Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.<br>The key fingerprint is:<br>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <span class="exturl" data-url="bWFpbHRvOiYjMTIxOyYjeDZmOyYjMTE3OyYjeDcyOyYjeDVmOyYjeDY1OyYjeDZkOyYjeDYxOyYjMTA1OyYjeDZjOyYjeDQwOyYjMTAxOyYjeDc4OyYjOTc7JiMxMDk7JiMxMTI7JiMxMDg7JiMxMDE7JiN4MmU7JiM5OTsmIzExMTsmIzEwOTs=">&#121;&#x6f;&#117;&#x72;&#x5f;&#x65;&#x6d;&#x61;&#105;&#x6c;&#x40;&#101;&#x78;&#97;&#109;&#112;&#108;&#101;&#x2e;&#99;&#111;&#109;<i class="fa fa-external-link-alt"></i></span></p>
+<p>Your identification has been saved in /c/Users/you/.ssh/id_rsa.<br>Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.<br>The key fingerprint is:<br>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <span class="exturl" data-url="bWFpbHRvOiYjMTIxOyYjeDZmOyYjMTE3OyYjMTE0OyYjOTU7JiMxMDE7JiN4NmQ7JiM5NzsmI3g2OTsmI3g2YzsmIzY0OyYjMTAxOyYjMTIwOyYjOTc7JiN4NmQ7JiMxMTI7JiN4NmM7JiMxMDE7JiN4MmU7JiM5OTsmIzExMTsmIzEwOTs=">&#121;&#x6f;&#117;&#114;&#95;&#101;&#x6d;&#97;&#x69;&#x6c;&#64;&#101;&#120;&#97;&#x6d;&#112;&#x6c;&#101;&#x2e;&#99;&#111;&#109;<i class="fa fa-external-link-alt"></i></span></p>
 </blockquote>
 <p>&emsp; <strong><em>第三步、在GitHub账户中添加你的公钥</em></strong></p>
 <p><strong>运行如下命令，将公钥的内容复制到系统粘贴板(clipboard)中（手动复制也是可以的，就是你邮箱账户前面的那一串）。</strong></p>
@@ -5573,7 +5583,7 @@
 <p>&emsp; <strong><em>第四步、测试</em></strong></p>
 <p>&emsp;&emsp; 可以输入下面的命令，看看设置是否成功：</p>
 <blockquote>
-<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjMTAzOyYjMTA1OyYjeDc0OyYjNjQ7JiMxMDM7JiN4Njk7JiN4NzQ7JiN4Njg7JiMxMTc7JiN4NjI7JiM0NjsmI3g2MzsmIzExMTsmIzEwOTs=">&#103;&#105;&#x74;&#64;&#103;&#x69;&#x74;&#x68;&#117;&#x62;&#46;&#x63;&#111;&#109;<i class="fa fa-external-link-alt"></i></span></strong></p>
+<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjeDY3OyYjeDY5OyYjeDc0OyYjeDQwOyYjMTAzOyYjMTA1OyYjeDc0OyYjMTA0OyYjMTE3OyYjeDYyOyYjeDJlOyYjOTk7JiN4NmY7JiN4NmQ7">&#x67;&#x69;&#x74;&#x40;&#103;&#105;&#x74;&#104;&#117;&#x62;&#x2e;&#99;&#x6f;&#x6d;<i class="fa fa-external-link-alt"></i></span></strong></p>
 </blockquote>
 <p>如果是下面的反馈：</p>
 <blockquote>
@@ -5584,7 +5594,7 @@
 <p>&emsp;&emsp; 现在你已经可以通过 SSH 链接到GitHub了，还有一些个人信息需要完善的。Git会根据用户的名字和邮箱来记录提交。GitHub也是用这些信息来做权限的处理。</p>
 <p>&emsp;&emsp; 输入下面的代码进行个人信息的设置，把名称和邮箱替换成你自己的，名字根据自己的喜好自己取，而不是GitHub的昵称。</p>
 <blockquote>
-<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjMTE5OyYjOTc7JiMxMTA7JiMxMDM7JiMxMDE7JiN4NzI7JiN4Njc7JiMxMTE7JiMxMTc7JiM2NDsmIzQ5OyYjeDM2OyYjeDMzOyYjeDJlOyYjOTk7JiMxMTE7JiN4NmQ7">&#119;&#97;&#110;&#103;&#101;&#x72;&#x67;&#111;&#117;&#64;&#49;&#x36;&#x33;&#x2e;&#99;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
+<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjeDc3OyYjOTc7JiMxMTA7JiMxMDM7JiN4NjU7JiN4NzI7JiN4Njc7JiMxMTE7JiMxMTc7JiN4NDA7JiM0OTsmI3gzNjsmIzUxOyYjNDY7JiN4NjM7JiN4NmY7JiMxMDk7">&#x77;&#97;&#110;&#103;&#x65;&#x72;&#x67;&#111;&#117;&#x40;&#49;&#x36;&#51;&#46;&#x63;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
 </blockquote>
 <h4 id="到这里SSH-Key已经配置成功，本机已成功连接到github。"><a href="#到这里SSH-Key已经配置成功，本机已成功连接到github。" class="headerlink" title="到这里SSH Key已经配置成功，本机已成功连接到github。"></a><strong>到这里SSH Key已经配置成功，本机已成功连接到github。</strong></h4><hr>
 <h3 id="NO-6"><a href="#NO-6" class="headerlink" title="NO.6"></a>NO.6</h3><h4 id="将本地的Hexo文件更新到Github仓库："><a href="#将本地的Hexo文件更新到Github仓库：" class="headerlink" title="将本地的Hexo文件更新到Github仓库："></a>将本地的Hexo文件更新到Github仓库：</h4><ul>
@@ -5731,7 +5741,7 @@
 <p><img data-src="/images/loading.gif" data-original="https://www.baidu.com/img/bd_logo1.png" alt="图片Alt" title="图片Title">   </p>
 <p>其他媒体演示省略。   </p>
 <p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYmFpZHUuY29tLw==">超链接名<i class="fa fa-external-link-alt"></i></span>   </p>
-<p><span class="exturl" data-url="bWFpbHRvOiYjeDMxOyYjeDMwOyYjeDMwOyYjNTM7JiN4Mzc7JiN4MzY7JiM0ODsmI3gzNjsmIzU3OyYjeDM0OyYjeDQwOyYjMTEzOyYjMTEzOyYjNDY7JiN4NjM7JiMxMTE7JiN4NmQ7">&#x31;&#x30;&#x30;&#53;&#x37;&#x36;&#48;&#x36;&#57;&#x34;&#x40;&#113;&#113;&#46;&#x63;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span>   </p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjeDMxOyYjNDg7JiN4MzA7JiM1MzsmIzU1OyYjNTQ7JiN4MzA7JiM1NDsmIzU3OyYjNTI7JiM2NDsmI3g3MTsmI3g3MTsmIzQ2OyYjeDYzOyYjeDZmOyYjMTA5Ow==">&#x31;&#48;&#x30;&#53;&#55;&#54;&#x30;&#54;&#57;&#52;&#64;&#x71;&#x71;&#46;&#x63;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span>   </p>
 <p><br><br><br></p>
 <h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><hr>
 <blockquote>

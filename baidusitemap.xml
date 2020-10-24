@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://a.biugle.cn/http-code/</loc>
+    <lastmod>2020-10-24</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/shortcutkey-chrome/</loc>
+    <lastmod>2020-10-24</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/phpsql/</loc>
+    <lastmod>2020-10-24</lastmod>
+  </url>
+  <url>
     <loc>http://a.biugle.cn/hexobuild/</loc>
     <lastmod>2020-10-23</lastmod>
   </url>
@@ -105,10 +117,6 @@
     <lastmod>2020-10-20</lastmod>
   </url>
   <url>
-    <loc>http://a.biugle.cn/shortcutkey-chrome/</loc>
-    <lastmod>2020-10-20</lastmod>
-  </url>
-  <url>
     <loc>http://a.biugle.cn/shortcut-codeman/</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
@@ -138,10 +146,6 @@
   </url>
   <url>
     <loc>http://a.biugle.cn/phpstudy/</loc>
-    <lastmod>2020-10-20</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/phpsql/</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
   <url>
@@ -210,10 +214,6 @@
   </url>
   <url>
     <loc>http://a.biugle.cn/ietest/</loc>
-    <lastmod>2020-10-20</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/http-code/</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
   <url>
