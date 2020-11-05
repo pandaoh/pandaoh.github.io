@@ -76,7 +76,8 @@
           Array.prototype.forEach.call(comments, (comment) => {
             var nick = isSelf(comment._serverData.nick);
             var content = comment._serverData.comment;
-            var newContent = content.replace(/<[^>]+>/g, "").substring(0, 150) + "......";
+            var tempContent = content.replace(/<[^>]+>/g, "");
+            var newContent = (tempContent.length > 150) ? tempContent.substring(0, 150) + "..." : tempContent;
             var url = comment._serverData.url;
             var mail = getAvater(comment._serverData.mail);
             var link = transUrl(comment._serverData.link);
