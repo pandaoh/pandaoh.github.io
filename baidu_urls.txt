@@ -1,6 +1,9 @@
 http://a.biugle.cn/logo/
 http://a.biugle.cn/biugle/
+http://a.biugle.cn/uuid/
+http://a.biugle.cn/websocket/
 http://a.biugle.cn/biuglejs/
+http://a.biugle.cn/cors/
 http://a.biugle.cn/jsstring/
 http://a.biugle.cn/gitlog/
 http://a.biugle.cn/keycode/
