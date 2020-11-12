@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://a.biugle.cn/websocket/</loc>
+    
+    <lastmod>2020-11-12</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://a.biugle.cn/cssmore/</loc>
     
     <lastmod>2020-11-12</lastmod>
@@ -17,13 +24,6 @@
   
   <url>
     <loc>http://a.biugle.cn/uuid/</loc>
-    
-    <lastmod>2020-11-12</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://a.biugle.cn/websocket/</loc>
     
     <lastmod>2020-11-12</lastmod>
     
@@ -648,14 +648,14 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/%E5%A4%8D%E5%88%B6%E4%BA%8B%E4%BB%B6/</loc>
+    <loc>http://a.biugle.cn/tags/CORS/</loc>
     <lastmod>2020-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/CORS/</loc>
+    <loc>http://a.biugle.cn/tags/%E5%A4%8D%E5%88%B6%E4%BA%8B%E4%BB%B6/</loc>
     <lastmod>2020-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -774,14 +774,14 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/jQuery-JavaScript/</loc>
+    <loc>http://a.biugle.cn/tags/%E8%B7%A8%E5%9F%9F/</loc>
     <lastmod>2020-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/%E8%B7%A8%E5%9F%9F/</loc>
+    <loc>http://a.biugle.cn/tags/jQuery-JavaScript/</loc>
     <lastmod>2020-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -823,14 +823,14 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/MarkDown/</loc>
+    <loc>http://a.biugle.cn/tags/%E7%BD%91%E7%AB%99%E5%9B%BE%E6%A0%87/</loc>
     <lastmod>2020-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/%E7%BD%91%E7%AB%99%E5%9B%BE%E6%A0%87/</loc>
+    <loc>http://a.biugle.cn/tags/MarkDown/</loc>
     <lastmod>2020-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -872,14 +872,14 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/%E5%8D%9A%E5%AE%A2%E6%8D%A2%E8%A1%A3%E6%9C%8D/</loc>
+    <loc>http://a.biugle.cn/tags/PHP/</loc>
     <lastmod>2020-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/PHP/</loc>
+    <loc>http://a.biugle.cn/tags/%E5%8D%9A%E5%AE%A2%E6%8D%A2%E8%A1%A3%E6%9C%8D/</loc>
     <lastmod>2020-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -935,14 +935,14 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/NetBeans%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
+    <loc>http://a.biugle.cn/tags/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
     <lastmod>2020-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
+    <loc>http://a.biugle.cn/tags/NetBeans%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
     <lastmod>2020-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
