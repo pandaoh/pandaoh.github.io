@@ -360,9 +360,21 @@
 <h3 id="后端建立服务"><a href="#后端建立服务" class="headerlink" title="后端建立服务"></a>后端建立服务</h3><ul>
 <li>原生php实践较为复杂，此处采用swoole插件简单介绍<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">//创建websocket 服务器</span></span><br><span class="line">$ws = <span class="keyword">new</span> swoole_websocket_server(域名, 端口);</span><br><span class="line"></span><br><span class="line"><span class="comment">//open 建立连接 $ws 服务器，$request：客户端信息</span></span><br><span class="line">$ws-&gt;on(<span class="string">&#x27;open&#x27;</span>, <span class="function"><span class="keyword">function</span>(<span class="params">$ws, $request</span>) </span>&#123;</span><br><span class="line">  var_dump($request);</span><br><span class="line">  <span class="comment">//do something</span></span><br><span class="line">  $ws-&gt;push($request-&gt;fd, <span class="string">&quot;welcome to mychatroom \n&quot;</span>);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">//message 接收信息</span></span><br><span class="line">$ws-&gt;on(<span class="string">&#x27;message&#x27;</span>, <span class="function"><span class="keyword">function</span>(<span class="params">$ws, $request</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">echo</span> <span class="string">&quot;message: <span class="subst">$request</span>-&gt;data&quot;</span>;</span><br><span class="line">  <span class="comment">//do something</span></span><br><span class="line">  $ws-&gt;push($request-&gt;fd, <span class="string">&quot;get it message \n&quot;</span>);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">//close 关闭连接</span></span><br><span class="line">$ws-&gt;on(<span class="string">&#x27;close&#x27;</span>, <span class="function"><span class="keyword">function</span>(<span class="params">$ws, $request</span>) </span>&#123;</span><br><span class="line">  <span class="comment">//do something</span></span><br><span class="line">  <span class="keyword">echo</span> <span class="string">&quot;close \n&quot;</span>;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">//启动服务</span></span><br><span class="line">$ws-&gt;start();</span><br></pre></td></tr></table></figure>
 
-
 </li>
 </ul>
+<h2 id="WebSocket-速查"><a href="#WebSocket-速查" class="headerlink" title="WebSocket 速查"></a>WebSocket 速查</h2><h3 id="WebSocket-对象"><a href="#WebSocket-对象" class="headerlink" title="WebSocket 对象"></a>WebSocket 对象</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> Socket = <span class="keyword">new</span> WebSocket(url, [protocol] );</span><br></pre></td></tr></table></figure>
+<p>以上代码中的第一个参数<code>url</code>, 指定连接的 URL。第二个参数<code>protocol</code>是可选的，指定了可接受的子协议。</p>
+<h3 id="WebSocket-属性"><a href="#WebSocket-属性" class="headerlink" title="WebSocket 属性"></a>WebSocket 属性</h3><p>以下是 WebSocket 对象的属性。</p>
+<table><tbody><tr><th>属性</th><th>描述</th></tr><tr><td>Socket.readyState</td><td><p>只读属性<b>readyState</b>表示连接状态，可以是以下值：</p><ul><li><p>0-表示连接尚未建立。</p></li><li><p>1-表示连接已建立，可以进行通信。</p></li><li><p>2-表示连接正在进行关闭。</p></li><li><p>3-表示连接已经关闭或者连接不能打开。</p></li></ul></td></tr><tr><td>Socket.bufferedAmount</td><td><p>只读属性<b>bufferedAmount</b>已被send()放入正在队列中等待传输，但是还没有发出的UTF-8文本字节数。</p></td></tr></tbody></table>
+
+<h3 id="WebSocket-事件"><a href="#WebSocket-事件" class="headerlink" title="WebSocket 事件"></a>WebSocket 事件</h3><p>以下是 WebSocket 对象的相关事件。</p>
+<table><tbody><tr><th>事件</th><th>事件处理程序</th><th>描述</th></tr><tr><td>open</td><td>Socket.onopen</td><td>连接建立时触发</td></tr><tr><td>message</td><td>Socket.onmessage</td><td>客户端接收服务端数据时触发</td></tr><tr><td>error</td><td>Socket.onerror</td><td>通信发生错误时触发</td></tr><tr><td>close</td><td>Socket.onclose</td><td>连接关闭时触发</td></tr></tbody></table>
+
+<h3 id="WebSocket-方法"><a href="#WebSocket-方法" class="headerlink" title="WebSocket 方法"></a>WebSocket 方法</h3><p>以下是 WebSocket 对象的相关方法。</p>
+<table><tbody><tr><th>方法</th><th>描述</th></tr><tr><td>Socket.send()</td><td><p>使用连接发送数据</p></td></tr><tr><td>Socket.close()</td><td><p>关闭连接</p></td></tr></tbody></table>
+
+
+
 ]]></content>
       <categories>
         <category>干垃圾</category>
@@ -5879,7 +5891,7 @@
 
 <p>输入完成之后，屏幕会显示<strong>如下信息：</strong></p>
 <blockquote>
-<p>Your identification has been saved in /c/Users/you/.ssh/id_rsa.<br>Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.<br>The key fingerprint is:<br>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <span class="exturl" data-url="bWFpbHRvOiYjMTIxOyYjMTExOyYjMTE3OyYjMTE0OyYjOTU7JiMxMDE7JiN4NmQ7JiN4NjE7JiN4Njk7JiMxMDg7JiN4NDA7JiMxMDE7JiN4Nzg7JiN4NjE7JiN4NmQ7JiN4NzA7JiN4NmM7JiN4NjU7JiM0NjsmIzk5OyYjMTExOyYjeDZkOw==">&#121;&#111;&#117;&#114;&#95;&#101;&#x6d;&#x61;&#x69;&#108;&#x40;&#101;&#x78;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#46;&#99;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span></p>
+<p>Your identification has been saved in /c/Users/you/.ssh/id_rsa.<br>Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.<br>The key fingerprint is:<br>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <span class="exturl" data-url="bWFpbHRvOiYjeDc5OyYjMTExOyYjMTE3OyYjeDcyOyYjOTU7JiMxMDE7JiMxMDk7JiM5NzsmIzEwNTsmIzEwODsmIzY0OyYjeDY1OyYjMTIwOyYjeDYxOyYjeDZkOyYjeDcwOyYjMTA4OyYjMTAxOyYjNDY7JiN4NjM7JiMxMTE7JiMxMDk7">&#x79;&#111;&#117;&#x72;&#95;&#101;&#109;&#97;&#105;&#108;&#64;&#x65;&#120;&#x61;&#x6d;&#x70;&#108;&#101;&#46;&#x63;&#111;&#109;<i class="fa fa-external-link-alt"></i></span></p>
 </blockquote>
 <p>&emsp; <strong><em>第三步、在GitHub账户中添加你的公钥</em></strong></p>
 <p><strong>运行如下命令，将公钥的内容复制到系统粘贴板(clipboard)中（手动复制也是可以的，就是你邮箱账户前面的那一串）。</strong></p>
@@ -5897,7 +5909,7 @@
 <p>&emsp; <strong><em>第四步、测试</em></strong></p>
 <p>&emsp;&emsp; 可以输入下面的命令，看看设置是否成功：</p>
 <blockquote>
-<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjMTAzOyYjMTA1OyYjeDc0OyYjeDQwOyYjMTAzOyYjMTA1OyYjeDc0OyYjMTA0OyYjMTE3OyYjOTg7JiM0NjsmIzk5OyYjeDZmOyYjMTA5Ow==">&#103;&#105;&#x74;&#x40;&#103;&#105;&#x74;&#104;&#117;&#98;&#46;&#99;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span></strong></p>
+<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjMTAzOyYjMTA1OyYjMTE2OyYjeDQwOyYjMTAzOyYjMTA1OyYjeDc0OyYjMTA0OyYjMTE3OyYjOTg7JiM0NjsmIzk5OyYjMTExOyYjeDZkOw==">&#103;&#105;&#116;&#x40;&#103;&#105;&#x74;&#104;&#117;&#98;&#46;&#99;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span></strong></p>
 </blockquote>
 <p>如果是下面的反馈：</p>
 <blockquote>
@@ -5908,7 +5920,7 @@
 <p>&emsp;&emsp; 现在你已经可以通过 SSH 链接到GitHub了，还有一些个人信息需要完善的。Git会根据用户的名字和邮箱来记录提交。GitHub也是用这些信息来做权限的处理。</p>
 <p>&emsp;&emsp; 输入下面的代码进行个人信息的设置，把名称和邮箱替换成你自己的，名字根据自己的喜好自己取，而不是GitHub的昵称。</p>
 <blockquote>
-<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjeDc3OyYjeDYxOyYjeDZlOyYjMTAzOyYjMTAxOyYjMTE0OyYjeDY3OyYjMTExOyYjeDc1OyYjeDQwOyYjNDk7JiM1NDsmI3gzMzsmIzQ2OyYjOTk7JiN4NmY7JiMxMDk7">&#x77;&#x61;&#x6e;&#103;&#101;&#114;&#x67;&#111;&#x75;&#x40;&#49;&#54;&#x33;&#46;&#99;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
+<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjeDc3OyYjeDYxOyYjMTEwOyYjMTAzOyYjeDY1OyYjeDcyOyYjMTAzOyYjMTExOyYjeDc1OyYjNjQ7JiN4MzE7JiM1NDsmIzUxOyYjNDY7JiM5OTsmI3g2ZjsmI3g2ZDs=">&#x77;&#x61;&#110;&#103;&#x65;&#x72;&#103;&#111;&#x75;&#64;&#x31;&#54;&#51;&#46;&#99;&#x6f;&#x6d;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
 </blockquote>
 <h4 id="到这里SSH-Key已经配置成功，本机已成功连接到github。"><a href="#到这里SSH-Key已经配置成功，本机已成功连接到github。" class="headerlink" title="到这里SSH Key已经配置成功，本机已成功连接到github。"></a><strong>到这里SSH Key已经配置成功，本机已成功连接到github。</strong></h4><hr>
 <h3 id="NO-6"><a href="#NO-6" class="headerlink" title="NO.6"></a>NO.6</h3><h4 id="将本地的Hexo文件更新到Github仓库："><a href="#将本地的Hexo文件更新到Github仓库：" class="headerlink" title="将本地的Hexo文件更新到Github仓库："></a>将本地的Hexo文件更新到Github仓库：</h4><ul>
@@ -6055,7 +6067,7 @@
 <p><img data-src="/images/loading.gif" data-original="https://www.baidu.com/img/bd_logo1.png" alt="图片Alt" title="图片Title">   </p>
 <p>其他媒体演示省略。   </p>
 <p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYmFpZHUuY29tLw==">超链接名<i class="fa fa-external-link-alt"></i></span>   </p>
-<p><span class="exturl" data-url="bWFpbHRvOiYjeDMxOyYjeDMwOyYjNDg7JiM1MzsmIzU1OyYjNTQ7JiN4MzA7JiN4MzY7JiM1NzsmIzUyOyYjeDQwOyYjeDcxOyYjeDcxOyYjeDJlOyYjOTk7JiMxMTE7JiN4NmQ7">&#x31;&#x30;&#48;&#53;&#55;&#54;&#x30;&#x36;&#57;&#52;&#x40;&#x71;&#x71;&#x2e;&#99;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span>   </p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjNDk7JiM0ODsmI3gzMDsmI3gzNTsmI3gzNzsmI3gzNjsmIzQ4OyYjeDM2OyYjNTc7JiN4MzQ7JiN4NDA7JiMxMTM7JiN4NzE7JiM0NjsmIzk5OyYjeDZmOyYjeDZkOw==">&#49;&#48;&#x30;&#x35;&#x37;&#x36;&#48;&#x36;&#57;&#x34;&#x40;&#113;&#x71;&#46;&#99;&#x6f;&#x6d;<i class="fa fa-external-link-alt"></i></span>   </p>
 <p><br><br><br></p>
 <h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><hr>
 <blockquote>
