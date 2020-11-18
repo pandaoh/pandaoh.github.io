@@ -1,71 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Biugle主页---更纯粹的网址导航</title>
-    <url>/biugle/</url>
-    <content><![CDATA[<div class="note danger no-icon"><p>Biugle主页～别开生面，纯粹自由。(2020/4/25)</p>
-</div>
-<a id="more"></a>
-
-<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>&emsp;&emsp;本导航是博主的毕业设计，目前网站的基本功能已经实现，网站备案以及公安备案已经OK，百度与谷歌的SEO也已经提交进行中，现在进入测试阶段。网站采用前后端分离开发，是使用Laravel+Vue实现的SPA应用，相较于传统网站，本网址导航全局操作都不会刷新页面。前端路由使用Vue-router进行管理，用户状态与数据的保持管理使用的是Vuex，前后端交互使用的则是Axios，用户的登录与操作权限认证采用OAuth2.0，使用的是Laravel Passport插件。本网站支持切换搜索源，添加站点、分类，自定义页面等功能，支持邮箱验证以及发送邮件重置密码功能。目前PC端的界面还是很不错的，移动端自适应也已经完成（部分页面还不是很完美），希望喜欢的大佬们帮忙测试一下网站的功能，目前服务器配置较低，加上静态资源未缓存，网站的访问速度有点慢，还请谅解，后续会进行优化。有问题可以联系我或者扫描底部二维码添加QQ群，非常感谢。</p>
-<p>&emsp;&emsp;PS：注册的时候请使用正确的邮箱，否则不会收到邮箱验证信息，完成测试后，用户数据不会清空，我会同步到正式网站，如果有喜欢的朋友欢迎一直使用本网站，谢谢！</p>
-<p><strong>【<span class="exturl" data-url="aHR0cDovL2JpdWdsZS5jbi8=">点击进入导航（biugle.cn）<i class="fa fa-external-link-alt"></i></span>】</strong></p>
-<p><strong>【<span class="exturl" data-url="aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMW1lNDExczd0OC8=">点击观看视频介绍<i class="fa fa-external-link-alt"></i></span>】</strong></p>
-<h3 id="功能介绍"><a href="#功能介绍" class="headerlink" title="功能介绍"></a>功能介绍</h3><h4 id="游客使用"><a href="#游客使用" class="headerlink" title="游客使用"></a>游客使用</h4><p>&emsp;&emsp;如果您只是单纯的想使用网站的搜索功能的话，可以不进行注册，本站的搜索功能是可以直接使用的，并且支持多种搜索源切换。</p>
-<p>&emsp;&emsp;预览</p>
-<p><img data-src="/images/loading.gif" data-original="/biugle/1.jpg"></p>
-<h4 id="注册使用"><a href="#注册使用" class="headerlink" title="注册使用"></a>注册使用</h4><p>&emsp;&emsp;如果您想添加自己喜欢的网站、分类以及使用网站的自定义界面功能，欢迎注册本站，本站只需要邮箱即可注册，注册成功后就可以开启这些功能，这样的话，在任何地方，不管你使用哪台电脑，都可以用上自己专属的网址导航啦~</p>
-<p>&emsp;&emsp;预览</p>
-<ul>
-<li>注册</li>
-</ul>
-<p>&emsp;&emsp;注册成功后记得去邮箱验证。</p>
-<p><img data-src="/images/loading.gif" data-original="/biugle/2.jpg"></p>
-<ul>
-<li>登录</li>
-</ul>
-<p>&emsp;&emsp;只有验证后的账号才可以登录。<br><img data-src="/images/loading.gif" data-original="/biugle/3.jpg"></p>
-<ul>
-<li>搜索界面</li>
-</ul>
-<p><img data-src="/images/loading.gif" data-original="/biugle/4.jpg"></p>
-<ul>
-<li>站点管理</li>
-</ul>
-<p>&emsp;&emsp;可以添加、修改、删除自己的站点。<br><img data-src="/images/loading.gif" data-original="/biugle/5.jpg"></p>
-<ul>
-<li>分类管理</li>
-</ul>
-<p>&emsp;&emsp;可以添加、修改、删除分类。<br><img data-src="/images/loading.gif" data-original="/biugle/6.jpg"></p>
-<ul>
-<li>自定义主题</li>
-</ul>
-<p>&emsp;&emsp;可以选择默认主题，也可以选择主题后自定义背景，只需填写背景图的URL，还可以设置标题栏颜色，只需填写对于的颜色值即可，填写格式参考<span class="exturl" data-url="aHR0cHM6Ly93d3cudzNzY2hvb2wuY29tLmNuL2Nzc3JlZi9wcl90ZXh0X2NvbG9yLmFzcA==">css color<i class="fa fa-external-link-alt"></i></span>属性。<br><img data-src="/images/loading.gif" data-original="/biugle/7.jpg"></p>
-<ul>
-<li>修改资料</li>
-</ul>
-<p>&emsp;&emsp;可以修改用户名和昵称<br><img data-src="/images/loading.gif" data-original="/biugle/8.jpg"></p>
-<p>&emsp;&emsp;修改后可以查看自己的用户资料<br><img data-src="/images/loading.gif" data-original="/biugle/9.jpg"></p>
-<ul>
-<li>修改密码</li>
-</ul>
-<p><img data-src="/images/loading.gif" data-original="/biugle/10.jpg"></p>
-<ul>
-<li>留言反馈</li>
-</ul>
-<p><img data-src="/images/loading.gif" data-original="/biugle/11.jpg"></p>
-<h3 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h3><p>&emsp;&emsp;邮箱验证，在注册时看到以下提示后，请前往邮箱查看邮件并点击验证邮箱链接。<br><img data-src="/images/loading.gif" data-original="/biugle/12.jpg"></p>
-<p>&emsp;&emsp;忘记密码，如果你忘记了密码，可以通过邮箱重置密码。<br><img data-src="/images/loading.gif" data-original="/biugle/13.jpg"></p>
-<p>&emsp;&emsp;【<span class="exturl" data-url="aHR0cHM6Ly9zdXBwb3J0LnFxLmNvbS9wcm9kdWN0cy8xMzc0Njc=">点击了解更多<i class="fa fa-external-link-alt"></i></span>】</p>
-]]></content>
-      <categories>
-        <category>Biugle主页</category>
-      </categories>
-      <tags>
-        <tag>网址导航</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>备忘录</title>
     <url>/morethinks/</url>
     <content><![CDATA[<div class="note no-icon"><p>专属备忘录</p>
@@ -128,6 +63,71 @@
       </categories>
       <tags>
         <tag>备忘录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Biugle主页---更纯粹的网址导航</title>
+    <url>/biugle/</url>
+    <content><![CDATA[<div class="note danger no-icon"><p>Biugle主页～别开生面，纯粹自由。(2020/4/25)</p>
+</div>
+<a id="more"></a>
+
+<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>&emsp;&emsp;本导航是博主的毕业设计，目前网站的基本功能已经实现，网站备案以及公安备案已经OK，百度与谷歌的SEO也已经提交进行中，现在进入测试阶段。网站采用前后端分离开发，是使用Laravel+Vue实现的SPA应用，相较于传统网站，本网址导航全局操作都不会刷新页面。前端路由使用Vue-router进行管理，用户状态与数据的保持管理使用的是Vuex，前后端交互使用的则是Axios，用户的登录与操作权限认证采用OAuth2.0，使用的是Laravel Passport插件。本网站支持切换搜索源，添加站点、分类，自定义页面等功能，支持邮箱验证以及发送邮件重置密码功能。目前PC端的界面还是很不错的，移动端自适应也已经完成（部分页面还不是很完美），希望喜欢的大佬们帮忙测试一下网站的功能，目前服务器配置较低，加上静态资源未缓存，网站的访问速度有点慢，还请谅解，后续会进行优化。有问题可以联系我或者扫描底部二维码添加QQ群，非常感谢。</p>
+<p>&emsp;&emsp;PS：注册的时候请使用正确的邮箱，否则不会收到邮箱验证信息，完成测试后，用户数据不会清空，我会同步到正式网站，如果有喜欢的朋友欢迎一直使用本网站，谢谢！</p>
+<p><strong>【<span class="exturl" data-url="aHR0cDovL2JpdWdsZS5jbi8=">点击进入导航（biugle.cn）<i class="fa fa-external-link-alt"></i></span>】</strong></p>
+<p><strong>【<span class="exturl" data-url="aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMW1lNDExczd0OC8=">点击观看视频介绍<i class="fa fa-external-link-alt"></i></span>】</strong></p>
+<h3 id="功能介绍"><a href="#功能介绍" class="headerlink" title="功能介绍"></a>功能介绍</h3><h4 id="游客使用"><a href="#游客使用" class="headerlink" title="游客使用"></a>游客使用</h4><p>&emsp;&emsp;如果您只是单纯的想使用网站的搜索功能的话，可以不进行注册，本站的搜索功能是可以直接使用的，并且支持多种搜索源切换。</p>
+<p>&emsp;&emsp;预览</p>
+<p><img data-src="/images/loading.gif" data-original="/biugle/1.jpg"></p>
+<h4 id="注册使用"><a href="#注册使用" class="headerlink" title="注册使用"></a>注册使用</h4><p>&emsp;&emsp;如果您想添加自己喜欢的网站、分类以及使用网站的自定义界面功能，欢迎注册本站，本站只需要邮箱即可注册，注册成功后就可以开启这些功能，这样的话，在任何地方，不管你使用哪台电脑，都可以用上自己专属的网址导航啦~</p>
+<p>&emsp;&emsp;预览</p>
+<ul>
+<li>注册</li>
+</ul>
+<p>&emsp;&emsp;注册成功后记得去邮箱验证。</p>
+<p><img data-src="/images/loading.gif" data-original="/biugle/2.jpg"></p>
+<ul>
+<li>登录</li>
+</ul>
+<p>&emsp;&emsp;只有验证后的账号才可以登录。<br><img data-src="/images/loading.gif" data-original="/biugle/3.jpg"></p>
+<ul>
+<li>搜索界面</li>
+</ul>
+<p><img data-src="/images/loading.gif" data-original="/biugle/4.jpg"></p>
+<ul>
+<li>站点管理</li>
+</ul>
+<p>&emsp;&emsp;可以添加、修改、删除自己的站点。<br><img data-src="/images/loading.gif" data-original="/biugle/5.jpg"></p>
+<ul>
+<li>分类管理</li>
+</ul>
+<p>&emsp;&emsp;可以添加、修改、删除分类。<br><img data-src="/images/loading.gif" data-original="/biugle/6.jpg"></p>
+<ul>
+<li>自定义主题</li>
+</ul>
+<p>&emsp;&emsp;可以选择默认主题，也可以选择主题后自定义背景，只需填写背景图的URL，还可以设置标题栏颜色，只需填写对于的颜色值即可，填写格式参考<span class="exturl" data-url="aHR0cHM6Ly93d3cudzNzY2hvb2wuY29tLmNuL2Nzc3JlZi9wcl90ZXh0X2NvbG9yLmFzcA==">css color<i class="fa fa-external-link-alt"></i></span>属性。<br><img data-src="/images/loading.gif" data-original="/biugle/7.jpg"></p>
+<ul>
+<li>修改资料</li>
+</ul>
+<p>&emsp;&emsp;可以修改用户名和昵称<br><img data-src="/images/loading.gif" data-original="/biugle/8.jpg"></p>
+<p>&emsp;&emsp;修改后可以查看自己的用户资料<br><img data-src="/images/loading.gif" data-original="/biugle/9.jpg"></p>
+<ul>
+<li>修改密码</li>
+</ul>
+<p><img data-src="/images/loading.gif" data-original="/biugle/10.jpg"></p>
+<ul>
+<li>留言反馈</li>
+</ul>
+<p><img data-src="/images/loading.gif" data-original="/biugle/11.jpg"></p>
+<h3 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h3><p>&emsp;&emsp;邮箱验证，在注册时看到以下提示后，请前往邮箱查看邮件并点击验证邮箱链接。<br><img data-src="/images/loading.gif" data-original="/biugle/12.jpg"></p>
+<p>&emsp;&emsp;忘记密码，如果你忘记了密码，可以通过邮箱重置密码。<br><img data-src="/images/loading.gif" data-original="/biugle/13.jpg"></p>
+<p>&emsp;&emsp;【<span class="exturl" data-url="aHR0cHM6Ly9zdXBwb3J0LnFxLmNvbS9wcm9kdWN0cy8xMzc0Njc=">点击了解更多<i class="fa fa-external-link-alt"></i></span>】</p>
+]]></content>
+      <categories>
+        <category>Biugle主页</category>
+      </categories>
+      <tags>
+        <tag>网址导航</tag>
       </tags>
   </entry>
   <entry>
@@ -5908,7 +5908,7 @@
 
 <p>输入完成之后，屏幕会显示<strong>如下信息：</strong></p>
 <blockquote>
-<p>Your identification has been saved in /c/Users/you/.ssh/id_rsa.<br>Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.<br>The key fingerprint is:<br>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <span class="exturl" data-url="bWFpbHRvOiYjeDc5OyYjeDZmOyYjeDc1OyYjeDcyOyYjeDVmOyYjMTAxOyYjeDZkOyYjeDYxOyYjMTA1OyYjMTA4OyYjeDQwOyYjMTAxOyYjeDc4OyYjeDYxOyYjeDZkOyYjMTEyOyYjMTA4OyYjeDY1OyYjNDY7JiN4NjM7JiMxMTE7JiN4NmQ7">&#x79;&#x6f;&#x75;&#x72;&#x5f;&#101;&#x6d;&#x61;&#105;&#108;&#x40;&#101;&#x78;&#x61;&#x6d;&#112;&#108;&#x65;&#46;&#x63;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span></p>
+<p>Your identification has been saved in /c/Users/you/.ssh/id_rsa.<br>Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.<br>The key fingerprint is:<br>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <span class="exturl" data-url="bWFpbHRvOiYjMTIxOyYjMTExOyYjMTE3OyYjeDcyOyYjOTU7JiMxMDE7JiN4NmQ7JiN4NjE7JiN4Njk7JiMxMDg7JiM2NDsmI3g2NTsmI3g3ODsmIzk3OyYjeDZkOyYjMTEyOyYjeDZjOyYjeDY1OyYjeDJlOyYjOTk7JiMxMTE7JiN4NmQ7">&#121;&#111;&#117;&#x72;&#95;&#101;&#x6d;&#x61;&#x69;&#108;&#64;&#x65;&#x78;&#97;&#x6d;&#112;&#x6c;&#x65;&#x2e;&#99;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span></p>
 </blockquote>
 <p>&emsp; <strong><em>第三步、在GitHub账户中添加你的公钥</em></strong></p>
 <p><strong>运行如下命令，将公钥的内容复制到系统粘贴板(clipboard)中（手动复制也是可以的，就是你邮箱账户前面的那一串）。</strong></p>
@@ -5926,7 +5926,7 @@
 <p>&emsp; <strong><em>第四步、测试</em></strong></p>
 <p>&emsp;&emsp; 可以输入下面的命令，看看设置是否成功：</p>
 <blockquote>
-<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjMTAzOyYjMTA1OyYjeDc0OyYjeDQwOyYjMTAzOyYjeDY5OyYjeDc0OyYjMTA0OyYjMTE3OyYjOTg7JiM0NjsmIzk5OyYjMTExOyYjMTA5Ow==">&#103;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#104;&#117;&#98;&#46;&#99;&#111;&#109;<i class="fa fa-external-link-alt"></i></span></strong></p>
+<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjeDY3OyYjeDY5OyYjeDc0OyYjeDQwOyYjMTAzOyYjMTA1OyYjMTE2OyYjMTA0OyYjeDc1OyYjOTg7JiN4MmU7JiN4NjM7JiN4NmY7JiN4NmQ7">&#x67;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#104;&#x75;&#98;&#x2e;&#x63;&#x6f;&#x6d;<i class="fa fa-external-link-alt"></i></span></strong></p>
 </blockquote>
 <p>如果是下面的反馈：</p>
 <blockquote>
@@ -5937,7 +5937,7 @@
 <p>&emsp;&emsp; 现在你已经可以通过 SSH 链接到GitHub了，还有一些个人信息需要完善的。Git会根据用户的名字和邮箱来记录提交。GitHub也是用这些信息来做权限的处理。</p>
 <p>&emsp;&emsp; 输入下面的代码进行个人信息的设置，把名称和邮箱替换成你自己的，名字根据自己的喜好自己取，而不是GitHub的昵称。</p>
 <blockquote>
-<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjMTE5OyYjOTc7JiMxMTA7JiMxMDM7JiMxMDE7JiN4NzI7JiN4Njc7JiN4NmY7JiMxMTc7JiN4NDA7JiM0OTsmI3gzNjsmI3gzMzsmIzQ2OyYjOTk7JiMxMTE7JiN4NmQ7">&#119;&#97;&#110;&#103;&#101;&#x72;&#x67;&#x6f;&#117;&#x40;&#49;&#x36;&#x33;&#46;&#99;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
+<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjeDc3OyYjOTc7JiN4NmU7JiMxMDM7JiN4NjU7JiN4NzI7JiN4Njc7JiN4NmY7JiMxMTc7JiM2NDsmIzQ5OyYjNTQ7JiN4MzM7JiN4MmU7JiM5OTsmI3g2ZjsmIzEwOTs=">&#x77;&#97;&#x6e;&#103;&#x65;&#x72;&#x67;&#x6f;&#117;&#64;&#49;&#54;&#x33;&#x2e;&#99;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
 </blockquote>
 <h4 id="到这里SSH-Key已经配置成功，本机已成功连接到github。"><a href="#到这里SSH-Key已经配置成功，本机已成功连接到github。" class="headerlink" title="到这里SSH Key已经配置成功，本机已成功连接到github。"></a><strong>到这里SSH Key已经配置成功，本机已成功连接到github。</strong></h4><hr>
 <h3 id="NO-6"><a href="#NO-6" class="headerlink" title="NO.6"></a>NO.6</h3><h4 id="将本地的Hexo文件更新到Github仓库："><a href="#将本地的Hexo文件更新到Github仓库：" class="headerlink" title="将本地的Hexo文件更新到Github仓库："></a>将本地的Hexo文件更新到Github仓库：</h4><ul>
@@ -6084,7 +6084,7 @@
 <p><img data-src="/images/loading.gif" data-original="https://www.baidu.com/img/bd_logo1.png" alt="图片Alt" title="图片Title">   </p>
 <p>其他媒体演示省略。   </p>
 <p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYmFpZHUuY29tLw==">超链接名<i class="fa fa-external-link-alt"></i></span>   </p>
-<p><span class="exturl" data-url="bWFpbHRvOiYjeDMxOyYjNDg7JiN4MzA7JiM1MzsmI3gzNzsmIzU0OyYjNDg7JiM1NDsmIzU3OyYjNTI7JiM2NDsmI3g3MTsmIzExMzsmIzQ2OyYjeDYzOyYjMTExOyYjeDZkOw==">&#x31;&#48;&#x30;&#53;&#x37;&#54;&#48;&#54;&#57;&#52;&#64;&#x71;&#113;&#46;&#x63;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span>   </p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjNDk7JiM0ODsmI3gzMDsmIzUzOyYjeDM3OyYjeDM2OyYjNDg7JiN4MzY7JiN4Mzk7JiM1MjsmI3g0MDsmIzExMzsmIzExMzsmI3gyZTsmIzk5OyYjeDZmOyYjeDZkOw==">&#49;&#48;&#x30;&#53;&#x37;&#x36;&#48;&#x36;&#x39;&#52;&#x40;&#113;&#113;&#x2e;&#99;&#x6f;&#x6d;<i class="fa fa-external-link-alt"></i></span>   </p>
 <p><br><br><br></p>
 <h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><hr>
 <blockquote>
