@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://a.biugle.cn/poem/</loc>
+    <lastmod>2020-11-20</lastmod>
+  </url>
+  <url>
     <loc>http://a.biugle.cn/morethinks/</loc>
     <lastmod>2020-11-18</lastmod>
   </url>
@@ -166,10 +170,6 @@
   </url>
   <url>
     <loc>http://a.biugle.cn/product0t1/</loc>
-    <lastmod>2020-10-20</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/poem/</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
   <url>
