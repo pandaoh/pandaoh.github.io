@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://a.biugle.cn/cssstudy/</loc>
+    <lastmod>2020-11-23</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/cssstudy/cssstudy/</loc>
+    <lastmod>2020-11-23</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/biuglejs/</loc>
+    <lastmod>2020-11-23</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/cssstudy/biuglejs/</loc>
+    <lastmod>2020-11-23</lastmod>
+  </url>
+  <url>
     <loc>http://a.biugle.cn/poem/</loc>
     <lastmod>2020-11-20</lastmod>
   </url>
@@ -46,10 +62,6 @@
   </url>
   <url>
     <loc>http://a.biugle.cn/cssmore/</loc>
-    <lastmod>2020-11-12</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/cssstudy/</loc>
     <lastmod>2020-11-12</lastmod>
   </url>
   <url>
@@ -111,10 +123,6 @@
   <url>
     <loc>http://a.biugle.cn/fancyboxandlazyload/</loc>
     <lastmod>2020-10-22</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/biuglejs/</loc>
-    <lastmod>2020-10-21</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/shortcutkey-win/</loc>

@@ -3,6 +3,7 @@ http://a.biugle.cn/biugle/
 http://a.biugle.cn/uuid/
 http://a.biugle.cn/websocket/
 http://a.biugle.cn/biuglejs/
+http://a.biugle.cn/cssstudy/biuglejs/
 http://a.biugle.cn/cors/
 http://a.biugle.cn/jsstring/
 http://a.biugle.cn/gitlog/
@@ -44,6 +45,7 @@ http://a.biugle.cn/flex-calc/
 http://a.biugle.cn/cssflex/
 http://a.biugle.cn/cssmore/
 http://a.biugle.cn/cssstudy/
+http://a.biugle.cn/cssstudy/cssstudy/
 http://a.biugle.cn/htmlform/
 http://a.biugle.cn/webstorage/
 http://a.biugle.cn/htmlstudy/
