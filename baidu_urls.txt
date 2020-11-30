@@ -1,3 +1,4 @@
+http://a.biugle.cn/phptype/
 http://a.biugle.cn/logo/
 http://a.biugle.cn/biugle/
 http://a.biugle.cn/uuid/
