@@ -1,4 +1,5 @@
-http://a.biugle.cn/phptype/
+http://a.biugle.cn/php8/
+http://a.biugle.cn/sourcetreessh/
 http://a.biugle.cn/logo/
 http://a.biugle.cn/biugle/
 http://a.biugle.cn/uuid/
