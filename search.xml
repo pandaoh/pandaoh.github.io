@@ -1336,7 +1336,7 @@
 
 <p>输入完成之后，屏幕会显示<strong>如下信息：</strong></p>
 <blockquote>
-<p>Your identification has been saved in /c/Users/you/.ssh/id_rsa.<br>Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.<br>The key fingerprint is:<br>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <span class="exturl" data-url="bWFpbHRvOiYjeDc5OyYjeDZmOyYjeDc1OyYjeDcyOyYjOTU7JiN4NjU7JiMxMDk7JiN4NjE7JiMxMDU7JiN4NmM7JiM2NDsmI3g2NTsmIzEyMDsmI3g2MTsmI3g2ZDsmI3g3MDsmIzEwODsmI3g2NTsmI3gyZTsmIzk5OyYjeDZmOyYjMTA5Ow==">&#x79;&#x6f;&#x75;&#x72;&#95;&#x65;&#109;&#x61;&#105;&#x6c;&#64;&#x65;&#120;&#x61;&#x6d;&#x70;&#108;&#x65;&#x2e;&#99;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span></p>
+<p>Your identification has been saved in /c/Users/you/.ssh/id_rsa.<br>Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.<br>The key fingerprint is:<br>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <span class="exturl" data-url="bWFpbHRvOiYjeDc5OyYjeDZmOyYjeDc1OyYjeDcyOyYjeDVmOyYjeDY1OyYjeDZkOyYjOTc7JiN4Njk7JiN4NmM7JiM2NDsmIzEwMTsmIzEyMDsmIzk3OyYjMTA5OyYjeDcwOyYjeDZjOyYjMTAxOyYjNDY7JiM5OTsmIzExMTsmIzEwOTs=">&#x79;&#x6f;&#x75;&#x72;&#x5f;&#x65;&#x6d;&#97;&#x69;&#x6c;&#64;&#101;&#120;&#97;&#109;&#x70;&#x6c;&#101;&#46;&#99;&#111;&#109;<i class="fa fa-external-link-alt"></i></span></p>
 </blockquote>
 <p>&emsp; <strong><em>第三步、在GitHub账户中添加你的公钥</em></strong></p>
 <p><strong>运行如下命令，将公钥的内容复制到系统粘贴板(clipboard)中（手动复制也是可以的，就是你邮箱账户前面的那一串）。</strong></p>
@@ -1354,7 +1354,7 @@
 <p>&emsp; <strong><em>第四步、测试</em></strong></p>
 <p>&emsp;&emsp; 可以输入下面的命令，看看设置是否成功：</p>
 <blockquote>
-<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjMTAzOyYjMTA1OyYjMTE2OyYjNjQ7JiN4Njc7JiMxMDU7JiN4NzQ7JiMxMDQ7JiMxMTc7JiM5ODsmI3gyZTsmI3g2MzsmI3g2ZjsmIzEwOTs=">&#103;&#105;&#116;&#64;&#x67;&#105;&#x74;&#104;&#117;&#98;&#x2e;&#x63;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span></strong></p>
+<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjeDY3OyYjeDY5OyYjeDc0OyYjNjQ7JiMxMDM7JiMxMDU7JiMxMTY7JiN4Njg7JiMxMTc7JiN4NjI7JiM0NjsmI3g2MzsmI3g2ZjsmIzEwOTs=">&#x67;&#x69;&#x74;&#64;&#103;&#105;&#116;&#x68;&#117;&#x62;&#46;&#x63;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span></strong></p>
 </blockquote>
 <p>如果是下面的反馈：</p>
 <blockquote>
@@ -1365,7 +1365,7 @@
 <p>&emsp;&emsp; 现在你已经可以通过 SSH 链接到GitHub了，还有一些个人信息需要完善的。Git会根据用户的名字和邮箱来记录提交。GitHub也是用这些信息来做权限的处理。</p>
 <p>&emsp;&emsp; 输入下面的代码进行个人信息的设置，把名称和邮箱替换成你自己的，名字根据自己的喜好自己取，而不是GitHub的昵称。</p>
 <blockquote>
-<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjMTE5OyYjeDYxOyYjeDZlOyYjeDY3OyYjMTAxOyYjMTE0OyYjeDY3OyYjMTExOyYjMTE3OyYjNjQ7JiM0OTsmI3gzNjsmI3gzMzsmI3gyZTsmIzk5OyYjMTExOyYjeDZkOw==">&#119;&#x61;&#x6e;&#x67;&#101;&#114;&#x67;&#111;&#117;&#64;&#49;&#x36;&#x33;&#x2e;&#99;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
+<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjeDc3OyYjeDYxOyYjeDZlOyYjMTAzOyYjeDY1OyYjeDcyOyYjeDY3OyYjeDZmOyYjMTE3OyYjNjQ7JiM0OTsmIzU0OyYjeDMzOyYjNDY7JiN4NjM7JiMxMTE7JiMxMDk7">&#x77;&#x61;&#x6e;&#103;&#x65;&#x72;&#x67;&#x6f;&#117;&#64;&#49;&#54;&#x33;&#46;&#x63;&#111;&#109;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
 </blockquote>
 <h4 id="到这里SSH-Key已经配置成功，本机已成功连接到github。"><a href="#到这里SSH-Key已经配置成功，本机已成功连接到github。" class="headerlink" title="到这里SSH Key已经配置成功，本机已成功连接到github。"></a><strong>到这里SSH Key已经配置成功，本机已成功连接到github。</strong></h4><hr>
 <h3 id="NO-6"><a href="#NO-6" class="headerlink" title="NO.6"></a>NO.6</h3><h4 id="将本地的Hexo文件更新到Github仓库："><a href="#将本地的Hexo文件更新到Github仓库：" class="headerlink" title="将本地的Hexo文件更新到Github仓库："></a>将本地的Hexo文件更新到Github仓库：</h4><ul>
@@ -1603,6 +1603,158 @@
 </li>
 </ul>
 ]]></content>
+      <categories>
+        <category>干垃圾</category>
+      </categories>
+      <tags>
+        <tag>html</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HTML学习记录</title>
+    <url>/htmlstudy/</url>
+    <content><![CDATA[<div class="note success no-icon"><p>HTML的一些基础知识。  </p>
+</div>
+<a id="more"></a> 
+
+<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>&emsp;&emsp;html全称为：超文本标记语言 (Hyper Text Markup Language, HTML)，是用于建立网页的标准标记语言，由成双成对的标签组合而成。</p>
+<p><img data-src="/images/loading.gif" data-original="/htmlstudy/html_progress.png"></p>
+<h2 id="html-基本结构"><a href="#html-基本结构" class="headerlink" title="html 基本结构"></a>html 基本结构</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span> <span class="attr">lang</span>=<span class="string">&quot;语言&quot;</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span><span class="comment">&lt;!-- 设置编码 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span><span class="comment">&lt;!-- 设置设备缩放比例 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;shortcut icon&quot;</span> <span class="attr">href</span>=<span class="string">&quot;url...&quot;</span> &gt;</span><span class="comment">&lt;!-- 网页图标（logo） --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>网页标题<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  ...Content...</span><br><span class="line">  HTML5新增语义元素</span><br><span class="line">  <span class="tag">&lt;<span class="name">header</span>&gt;</span>...<span class="tag">&lt;/<span class="name">header</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">nav</span>&gt;</span>...<span class="tag">&lt;/<span class="name">nav</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">section</span>&gt;</span>...<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">article</span>&gt;</span>...<span class="tag">&lt;/<span class="name">article</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">aside</span>&gt;</span>...<span class="tag">&lt;/<span class="name">aside</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">footer</span>&gt;</span>...<span class="tag">&lt;/<span class="name">footer</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="常用代码与标签"><a href="#常用代码与标签" class="headerlink" title="常用代码与标签"></a>常用代码与标签</h2><h3 id="常用标签"><a href="#常用标签" class="headerlink" title="常用标签"></a>常用标签</h3><p>&emsp;&emsp;自己找吧懒得写了<del>嘻嘻</del></p>
+<h3 id="粗体和斜体"><a href="#粗体和斜体" class="headerlink" title="粗体和斜体"></a>粗体和斜体</h3><p>&emsp;&emsp;一般我们粗体和斜体使用的都是<code>&lt;b&gt;</code>和<code>&lt;i&gt;</code>，但是如果是强调作用的话，我们一般推荐使用<code>&lt;strong&gt;</code>和<code>&lt;em&gt;</code>，他们更有利于SEO。</p>
+<h3 id="实体符号"><a href="#实体符号" class="headerlink" title="实体符号"></a>实体符号</h3><p><img data-src="/images/loading.gif" data-original="/htmlstudy/shiti_char.png"></p>
+<h2 id="HTML语义元素-amp-媒体元素"><a href="#HTML语义元素-amp-媒体元素" class="headerlink" title="HTML语义元素 &amp; 媒体元素"></a>HTML语义元素 &amp; 媒体元素</h2><table>
+<thead>
+<tr>
+<th align="center"><strong>语义元素</strong></th>
+<th align="left"><strong>描述</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><code>&lt;header&gt;</code></td>
+<td align="left">定义文档或节的页眉</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;nav&gt;</code></td>
+<td align="left">定义文档内的导航连结</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;article&gt;</code></td>
+<td align="left">定义文档内的文章</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;section&gt;</code></td>
+<td align="left">定义文档中的节</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;aside&gt;</code></td>
+<td align="left">定义页面内容之外的内容</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;footer&gt;</code></td>
+<td align="left">定义文档或节的页脚</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;main&gt;</code></td>
+<td align="left">定义文档的主内容</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;mark&gt;</code></td>
+<td align="left">定义重要或强调的内容</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;bdi&gt;</code></td>
+<td align="left">定义与其他文本不同的文本方向</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;details&gt;</code></td>
+<td align="left">定义用户可查看或隐藏的额外细节</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;summary&gt;</code></td>
+<td align="left">定义 <code>&lt;details&gt;</code> 元素的可见标题</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;dialog&gt;</code></td>
+<td align="left">定义对话方块或窗口</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;figure&gt;</code></td>
+<td align="left">定义自包含内容，如图示、图表、照片、代码清单等</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;figcaption&gt;</code></td>
+<td align="left">定义 <code>&lt;figure&gt;</code> 元素的标题</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;menuitem&gt;</code></td>
+<td align="left">定义使用者能够从弹出功能表的命令/功能表项目</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;meter&gt;</code></td>
+<td align="left">定义已知范围（尺度）内的标量测量</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;progress&gt;</code></td>
+<td align="left">定义任务进度</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;rp&gt;</code></td>
+<td align="left">定义在不支持 ruby 注释的浏览器中显示什么</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;rt&gt;</code></td>
+<td align="left">定义关于字符的解释/发音（用于东亚字体）</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;ruby&gt;</code></td>
+<td align="left">定义 ruby 注释（用于东亚字体）</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;time&gt;</code></td>
+<td align="left">定义日期/时间</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;wbr&gt;</code></td>
+<td align="left">定义可能的折行（line-break）</td>
+</tr>
+<tr>
+<td align="center"><strong>媒体元素</strong></td>
+<td align="left"><strong>描述</strong></td>
+</tr>
+<tr>
+<td align="center"><code>&lt;audio&gt;</code></td>
+<td align="left">定义声音或音乐内容</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;embed&gt;</code></td>
+<td align="left">定义外部应用程序的容器（比如外挂程序、SVG等），单标签。ps：使用SVG图片时，可能会失焦，若要设置点击事件可设置css[pointer-events: none;]，然后给其父元素设置click。</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;source&gt;</code></td>
+<td align="left">定义 <code>&lt;video&gt;</code> 和 <code>&lt;audio&gt;</code> 的来源</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;track&gt;</code></td>
+<td align="left">定义 <code>&lt;video&gt;</code> 和 <code>&lt;audio&gt;</code> 的轨道</td>
+</tr>
+<tr>
+<td align="center"><code>&lt;video&gt;</code></td>
+<td align="left">定义视频或影片内容</td>
+</tr>
+</tbody></table>
+<h2 id="HTML5-newAPI"><a href="#HTML5-newAPI" class="headerlink" title="HTML5 newAPI"></a>HTML5 newAPI</h2><ul>
+<li>Canvas</li>
+<li>Drop &amp; Drag Event</li>
+<li>Touch Event</li>
+<li>Geolocation</li>
+<li>Web Socket</li>
+<li>Video &amp; Audio</li>
+<li>Local Storage &amp; Session Storage</li>
+<li>Cache</li>
+<li>Notification</li>
+</ul>
+<h3 id="补充：html使用SVG的另一种方式Object"><a href="#补充：html使用SVG的另一种方式Object" class="headerlink" title="补充：html使用SVG的另一种方式Object"></a>补充：html使用SVG的另一种方式Object</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">type</span>=<span class="string">&quot;image/svg xml&quot;</span> <span class="attr">data</span>=<span class="string">&quot;./test.svg&quot;</span> <span class="attr">style</span>=<span class="string">&quot;...&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">param</span> <span class="attr">name</span>=<span class="string">&quot;src&quot;</span> <span class="attr">value</span>=<span class="string">&quot;./test.svg&quot;</span> &gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">object</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>干垃圾</category>
       </categories>
@@ -2038,158 +2190,6 @@
       </tags>
   </entry>
   <entry>
-    <title>HTML学习记录</title>
-    <url>/htmlstudy/</url>
-    <content><![CDATA[<div class="note success no-icon"><p>HTML的一些基础知识。  </p>
-</div>
-<a id="more"></a> 
-
-<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>&emsp;&emsp;html全称为：超文本标记语言 (Hyper Text Markup Language, HTML)，是用于建立网页的标准标记语言，由成双成对的标签组合而成。</p>
-<p><img data-src="/images/loading.gif" data-original="/htmlstudy/html_progress.png"></p>
-<h2 id="html-基本结构"><a href="#html-基本结构" class="headerlink" title="html 基本结构"></a>html 基本结构</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span> <span class="attr">lang</span>=<span class="string">&quot;语言&quot;</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span><span class="comment">&lt;!-- 设置编码 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span><span class="comment">&lt;!-- 设置设备缩放比例 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;shortcut icon&quot;</span> <span class="attr">href</span>=<span class="string">&quot;url...&quot;</span> &gt;</span><span class="comment">&lt;!-- 网页图标（logo） --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>网页标题<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  ...Content...</span><br><span class="line">  HTML5新增语义元素</span><br><span class="line">  <span class="tag">&lt;<span class="name">header</span>&gt;</span>...<span class="tag">&lt;/<span class="name">header</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">nav</span>&gt;</span>...<span class="tag">&lt;/<span class="name">nav</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">section</span>&gt;</span>...<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">article</span>&gt;</span>...<span class="tag">&lt;/<span class="name">article</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">aside</span>&gt;</span>...<span class="tag">&lt;/<span class="name">aside</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">footer</span>&gt;</span>...<span class="tag">&lt;/<span class="name">footer</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="常用代码与标签"><a href="#常用代码与标签" class="headerlink" title="常用代码与标签"></a>常用代码与标签</h2><h3 id="常用标签"><a href="#常用标签" class="headerlink" title="常用标签"></a>常用标签</h3><p>&emsp;&emsp;自己找吧懒得写了<del>嘻嘻</del></p>
-<h3 id="粗体和斜体"><a href="#粗体和斜体" class="headerlink" title="粗体和斜体"></a>粗体和斜体</h3><p>&emsp;&emsp;一般我们粗体和斜体使用的都是<code>&lt;b&gt;</code>和<code>&lt;i&gt;</code>，但是如果是强调作用的话，我们一般推荐使用<code>&lt;strong&gt;</code>和<code>&lt;em&gt;</code>，他们更有利于SEO。</p>
-<h3 id="实体符号"><a href="#实体符号" class="headerlink" title="实体符号"></a>实体符号</h3><p><img data-src="/images/loading.gif" data-original="/htmlstudy/shiti_char.png"></p>
-<h2 id="HTML语义元素-amp-媒体元素"><a href="#HTML语义元素-amp-媒体元素" class="headerlink" title="HTML语义元素 &amp; 媒体元素"></a>HTML语义元素 &amp; 媒体元素</h2><table>
-<thead>
-<tr>
-<th align="center"><strong>语义元素</strong></th>
-<th align="left"><strong>描述</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><code>&lt;header&gt;</code></td>
-<td align="left">定义文档或节的页眉</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;nav&gt;</code></td>
-<td align="left">定义文档内的导航连结</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;article&gt;</code></td>
-<td align="left">定义文档内的文章</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;section&gt;</code></td>
-<td align="left">定义文档中的节</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;aside&gt;</code></td>
-<td align="left">定义页面内容之外的内容</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;footer&gt;</code></td>
-<td align="left">定义文档或节的页脚</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;main&gt;</code></td>
-<td align="left">定义文档的主内容</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;mark&gt;</code></td>
-<td align="left">定义重要或强调的内容</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;bdi&gt;</code></td>
-<td align="left">定义与其他文本不同的文本方向</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;details&gt;</code></td>
-<td align="left">定义用户可查看或隐藏的额外细节</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;summary&gt;</code></td>
-<td align="left">定义 <code>&lt;details&gt;</code> 元素的可见标题</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;dialog&gt;</code></td>
-<td align="left">定义对话方块或窗口</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;figure&gt;</code></td>
-<td align="left">定义自包含内容，如图示、图表、照片、代码清单等</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;figcaption&gt;</code></td>
-<td align="left">定义 <code>&lt;figure&gt;</code> 元素的标题</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;menuitem&gt;</code></td>
-<td align="left">定义使用者能够从弹出功能表的命令/功能表项目</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;meter&gt;</code></td>
-<td align="left">定义已知范围（尺度）内的标量测量</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;progress&gt;</code></td>
-<td align="left">定义任务进度</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;rp&gt;</code></td>
-<td align="left">定义在不支持 ruby 注释的浏览器中显示什么</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;rt&gt;</code></td>
-<td align="left">定义关于字符的解释/发音（用于东亚字体）</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;ruby&gt;</code></td>
-<td align="left">定义 ruby 注释（用于东亚字体）</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;time&gt;</code></td>
-<td align="left">定义日期/时间</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;wbr&gt;</code></td>
-<td align="left">定义可能的折行（line-break）</td>
-</tr>
-<tr>
-<td align="center"><strong>媒体元素</strong></td>
-<td align="left"><strong>描述</strong></td>
-</tr>
-<tr>
-<td align="center"><code>&lt;audio&gt;</code></td>
-<td align="left">定义声音或音乐内容</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;embed&gt;</code></td>
-<td align="left">定义外部应用程序的容器（比如外挂程序、SVG等），单标签。ps：使用SVG图片时，可能会失焦，若要设置点击事件可设置css[pointer-events: none;]，然后给其父元素设置click。</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;source&gt;</code></td>
-<td align="left">定义 <code>&lt;video&gt;</code> 和 <code>&lt;audio&gt;</code> 的来源</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;track&gt;</code></td>
-<td align="left">定义 <code>&lt;video&gt;</code> 和 <code>&lt;audio&gt;</code> 的轨道</td>
-</tr>
-<tr>
-<td align="center"><code>&lt;video&gt;</code></td>
-<td align="left">定义视频或影片内容</td>
-</tr>
-</tbody></table>
-<h2 id="HTML5-newAPI"><a href="#HTML5-newAPI" class="headerlink" title="HTML5 newAPI"></a>HTML5 newAPI</h2><ul>
-<li>Canvas</li>
-<li>Drop &amp; Drag Event</li>
-<li>Touch Event</li>
-<li>Geolocation</li>
-<li>Web Socket</li>
-<li>Video &amp; Audio</li>
-<li>Local Storage &amp; Session Storage</li>
-<li>Cache</li>
-<li>Notification</li>
-</ul>
-<h3 id="补充：html使用SVG的另一种方式Object"><a href="#补充：html使用SVG的另一种方式Object" class="headerlink" title="补充：html使用SVG的另一种方式Object"></a>补充：html使用SVG的另一种方式Object</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">type</span>=<span class="string">&quot;image/svg xml&quot;</span> <span class="attr">data</span>=<span class="string">&quot;./test.svg&quot;</span> <span class="attr">style</span>=<span class="string">&quot;...&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">param</span> <span class="attr">name</span>=<span class="string">&quot;src&quot;</span> <span class="attr">value</span>=<span class="string">&quot;./test.svg&quot;</span> &gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">object</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>干垃圾</category>
-      </categories>
-      <tags>
-        <tag>html</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>条件判断IE版本</title>
     <url>/ietest/</url>
     <content><![CDATA[<div class="note default no-icon"><p>条件注释判断浏览器版本&lt;!–[if lt IE 9]&gt;</p>
@@ -2543,6 +2543,28 @@
       </tags>
   </entry>
   <entry>
+    <title>JSON的encode与decode</title>
+    <url>/jsondemo/</url>
+    <content><![CDATA[<div class="note success no-icon"><p>JSON的encode与decode（php与json为例）</p>
+</div>
+<a id="more"></a> 
+
+<h2 id="Encode"><a href="#Encode" class="headerlink" title="Encode"></a>Encode</h2><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 数据库查询结果转为json</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> object $result 数据库查询结果</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">encode_json</span>(<span class="params">$result</span>) </span>&#123;</span><br><span class="line">  $result_array = [];</span><br><span class="line">  <span class="keyword">while</span> ($row = mysqli_fetch_object($result)) &#123;</span><br><span class="line">    $result_array[] = $row;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">echo</span> json_encode($result_array);<span class="comment">//decode方法为json_decode($json)</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Decode"><a href="#Decode" class="headerlink" title="Decode"></a>Decode</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 解析后台传回的json文档</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;json&#125;</span> </span>后台传回的json文档</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">jsonDecode</span>(<span class="params">result</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">let</span> obj = [];</span><br><span class="line">  <span class="keyword">let</span> obj = result;</span><br><span class="line">  <span class="keyword">if</span> (result.length === <span class="number">0</span>) &#123;</span><br><span class="line">    alert(<span class="string">&quot;无数据！&quot;</span>);</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; result.length; i++) &#123;</span><br><span class="line">     <span class="built_in">console</span>.log(obj[i].index-name-A+obj[i].index-name-B+obj[i].index-name-C+...);</span><br><span class="line">     <span class="comment">//do something</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h2><blockquote>
+<p>注意：JSON在js中的encode与decode有自带的方法可以实现（<code>JSON.stringify()</code>与<code>JSON.parse()</code>），但是由于在js中，万物皆可对象，所以没有decode也可以直接使用。/滑稽～</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>干垃圾</category>
+      </categories>
+      <tags>
+        <tag>JSON</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JavaScript判断字符串是否包含某个片段的几种方式</title>
     <url>/jsstring/</url>
     <content><![CDATA[<div class="note success no-icon"><p>除了indexOf外，还有那些方式呢？</p>
@@ -2566,28 +2588,6 @@
       </categories>
       <tags>
         <tag>JavaScript</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>JSON的encode与decode</title>
-    <url>/jsondemo/</url>
-    <content><![CDATA[<div class="note success no-icon"><p>JSON的encode与decode（php与json为例）</p>
-</div>
-<a id="more"></a> 
-
-<h2 id="Encode"><a href="#Encode" class="headerlink" title="Encode"></a>Encode</h2><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 数据库查询结果转为json</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> object $result 数据库查询结果</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">encode_json</span>(<span class="params">$result</span>) </span>&#123;</span><br><span class="line">  $result_array = [];</span><br><span class="line">  <span class="keyword">while</span> ($row = mysqli_fetch_object($result)) &#123;</span><br><span class="line">    $result_array[] = $row;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">echo</span> json_encode($result_array);<span class="comment">//decode方法为json_decode($json)</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="Decode"><a href="#Decode" class="headerlink" title="Decode"></a>Decode</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 解析后台传回的json文档</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;json&#125;</span> </span>后台传回的json文档</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">jsonDecode</span>(<span class="params">result</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">let</span> obj = [];</span><br><span class="line">  <span class="keyword">let</span> obj = result;</span><br><span class="line">  <span class="keyword">if</span> (result.length === <span class="number">0</span>) &#123;</span><br><span class="line">    alert(<span class="string">&quot;无数据！&quot;</span>);</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; result.length; i++) &#123;</span><br><span class="line">     <span class="built_in">console</span>.log(obj[i].index-name-A+obj[i].index-name-B+obj[i].index-name-C+...);</span><br><span class="line">     <span class="comment">//do something</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h2><blockquote>
-<p>注意：JSON在js中的encode与decode有自带的方法可以实现（<code>JSON.stringify()</code>与<code>JSON.parse()</code>），但是由于在js中，万物皆可对象，所以没有decode也可以直接使用。/滑稽～</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>干垃圾</category>
-      </categories>
-      <tags>
-        <tag>JSON</tag>
       </tags>
   </entry>
   <entry>
@@ -2777,7 +2777,7 @@
 <p><img data-src="/images/loading.gif" data-original="https://www.baidu.com/img/bd_logo1.png" alt="图片Alt" title="图片Title">   </p>
 <p>其他媒体演示省略。   </p>
 <p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYmFpZHUuY29tLw==">超链接名<i class="fa fa-external-link-alt"></i></span>   </p>
-<p><span class="exturl" data-url="bWFpbHRvOiYjNDk7JiN4MzA7JiN4MzA7JiN4MzU7JiM1NTsmIzU0OyYjeDMwOyYjNTQ7JiM1NzsmI3gzNDsmI3g0MDsmI3g3MTsmIzExMzsmI3gyZTsmI3g2MzsmIzExMTsmI3g2ZDs=">&#49;&#x30;&#x30;&#x35;&#55;&#54;&#x30;&#54;&#57;&#x34;&#x40;&#x71;&#113;&#x2e;&#x63;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span>   </p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjNDk7JiN4MzA7JiN4MzA7JiM1MzsmIzU1OyYjeDM2OyYjNDg7JiN4MzY7JiM1NzsmIzUyOyYjNjQ7JiMxMTM7JiMxMTM7JiN4MmU7JiN4NjM7JiN4NmY7JiN4NmQ7">&#49;&#x30;&#x30;&#53;&#55;&#x36;&#48;&#x36;&#57;&#52;&#64;&#113;&#113;&#x2e;&#x63;&#x6f;&#x6d;<i class="fa fa-external-link-alt"></i></span>   </p>
 <p><br><br><br></p>
 <h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><hr>
 <blockquote>
@@ -2829,6 +2829,25 @@
       </categories>
       <tags>
         <tag>MarkDown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>函数与方法的区别</title>
+    <url>/methodandfunction/</url>
+    <content><![CDATA[<div class="note success no-icon"><p>函数与方法的区别</p>
+</div>
+<a id="more"></a> 
+
+<p>&emsp;&emsp;其实吧，<strong>函数就是方法。</strong>函数（方法）并不是依附与类才能存在。函数并不只是在类中定义。这种直接在模块中而不是类中定义的函数（方法），叫做函数。<br>而方法（method），是依附于类的，他们定义在类中，是属于类的，但是他们本质上，还是一个函数。</p>
+<blockquote>
+<p>总而言之，我们暂且把一个函数（方法）定义为<code>苹果</code>。<code>苹果</code>在一个模块中，没有在类里面，那么他是函数。<code>苹果</code>在类中，且没有特殊的定义，那么他是一个普通方法，或者说类方法。<code>苹果</code>在类中，但是他是静态方法，那么他是函数。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>收藏</category>
+      </categories>
+      <tags>
+        <tag>函数与方法</tag>
       </tags>
   </entry>
   <entry>
@@ -2893,25 +2912,6 @@
       </categories>
       <tags>
         <tag>备忘录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>函数与方法的区别</title>
-    <url>/methodandfunction/</url>
-    <content><![CDATA[<div class="note success no-icon"><p>函数与方法的区别</p>
-</div>
-<a id="more"></a> 
-
-<p>&emsp;&emsp;其实吧，<strong>函数就是方法。</strong>函数（方法）并不是依附与类才能存在。函数并不只是在类中定义。这种直接在模块中而不是类中定义的函数（方法），叫做函数。<br>而方法（method），是依附于类的，他们定义在类中，是属于类的，但是他们本质上，还是一个函数。</p>
-<blockquote>
-<p>总而言之，我们暂且把一个函数（方法）定义为<code>苹果</code>。<code>苹果</code>在一个模块中，没有在类里面，那么他是函数。<code>苹果</code>在类中，且没有特殊的定义，那么他是一个普通方法，或者说类方法。<code>苹果</code>在类中，但是他是静态方法，那么他是函数。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>收藏</category>
-      </categories>
-      <tags>
-        <tag>函数与方法</tag>
       </tags>
   </entry>
   <entry>
@@ -3261,17 +3261,52 @@
       </tags>
   </entry>
   <entry>
-    <title>浅谈PHP8的类型定义以及几个新特性</title>
+    <title>PHP学习记录</title>
+    <url>/phpstudy/</url>
+    <content><![CDATA[<div class="note success no-icon"><p>PHP的一些基础知识</p>
+</div>
+<a id="more"></a> 
+
+<h2 id="网页架构"><a href="#网页架构" class="headerlink" title="网页架构"></a>网页架构</h2><p><img data-src="/images/loading.gif" data-original="/phpstudy/3ceng.png"></p>
+<h2 id="PHP"><a href="#PHP" class="headerlink" title="PHP"></a>PHP</h2><ul>
+<li>高阶程序语言</li>
+<li>直译式程序语言 (脚本式程序语言)</li>
+<li>动态型别程序语言 (Dynamic typed language)</li>
+<li>动态网页程序语言</li>
+</ul>
+<h2 id="网页类型"><a href="#网页类型" class="headerlink" title="网页类型"></a>网页类型</h2><h3 id="静态网页"><a href="#静态网页" class="headerlink" title="静态网页"></a>静态网页</h3><p>从服务器下载后在 Client 执行</p>
+<p>HTML、CSS、JavaScript</p>
+<h3 id="动态网页"><a href="#动态网页" class="headerlink" title="动态网页"></a>动态网页</h3><p>先在服务器执行后才下载到 Client 执行</p>
+<p>PHP、ASP.NET、JSP</p>
+<h2 id="Date-amp-Time"><a href="#Date-amp-Time" class="headerlink" title="Date &amp; Time"></a>Date &amp; Time</h2><p><img data-src="/images/loading.gif" data-original="/phpstudy/phptime.png"></p>
+<h3 id="格式化时间"><a href="#格式化时间" class="headerlink" title="格式化时间"></a>格式化时间</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">timestamp                   时间标记</span><br><span class="line">代表的是该时间点与 Unix 纪元 (1970年1月1日00:00:00) 的时间差</span><br><span class="line">单位为秒</span><br><span class="line"></span><br><span class="line">相关函数</span><br><span class="line">time()                      取得目前 timestamp</span><br><span class="line">strtotime($str)             字符串转 timestamp</span><br><span class="line">date($format, $timestamp)   格式化时间(例date(&#39;Y-m-d h:i:s&#39;))</span><br></pre></td></tr></table></figure>
+
+<h3 id="时间计算"><a href="#时间计算" class="headerlink" title="时间计算"></a>时间计算</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">时间计算</span><br><span class="line">strtotime(&#39;+ 数量 单位&#39;)</span><br><span class="line"></span><br><span class="line">例如：</span><br><span class="line">strtotime(&#39;+ 7 day&#39;)</span><br><span class="line">strtotime(&#39;2017-03-02 22:00:00 + 1 week&#39;)</span><br></pre></td></tr></table></figure>
+
+<p><img data-src="/images/loading.gif" data-original="/phpstudy/phptime-calc.png"></p>
+<h2 id="引用其他档案"><a href="#引用其他档案" class="headerlink" title="引用其他档案"></a>引用其他档案</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">include($filepath)</span><br><span class="line">include_once($filepath)</span><br><span class="line">require($filepath)</span><br><span class="line">require_once($filepath)</span><br><span class="line"></span><br><span class="line">include 和 require 的差别</span><br><span class="line">include</span><br><span class="line">发生错误时仅显示警告，程序会继续执行。</span><br><span class="line">require</span><br><span class="line">发生错误时会中断程序</span><br><span class="line">once 的差别</span><br><span class="line">档案只会被引入一次，不会被重复引入。</span><br></pre></td></tr></table></figure>
+
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>下课了，没时间写，我就放脑子里吧……</p>
+]]></content>
+      <categories>
+        <category>干垃圾</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>浅谈PHP8中的类型定义以及几个新特性</title>
     <url>/phptype/</url>
-    <content><![CDATA[<div class="note primary no-icon"><p>随着PHP8的发布，作为动态型别语言的PHP也有了更大的进步。<br>此处浅谈一下PHP8的类型定义以及几个新特性<br>此页面仅介绍重点，详细内容可以参考 <span class="exturl" data-url="aHR0cHM6Ly93d3cucGhwLm5ldC8=">PHP 官方<i class="fa fa-external-link-alt"></i></span>。</p>
+    <content><![CDATA[<div class="note primary no-icon"><p>随着PHP8的发布，作为动态类型语言的PHP也有了更大的进步。<br>此处浅谈一下PHP8中的类型定义以及几个新特性<br>本文仅介绍重点，详细内容可以参考 <span class="exturl" data-url="aHR0cHM6Ly93d3cucGhwLm5ldC8=">PHP 官方<i class="fa fa-external-link-alt"></i></span>。</p>
 </div>
 <a id="more"></a>
 
-<h2 id="数据型态-Data-Type"><a href="#数据型态-Data-Type" class="headerlink" title="数据型态 (Data Type)"></a>数据型态 (Data Type)</h2><p>数据型态 (Data Type) 用来表示储存的数据类型，也称为型别。</p>
+<h2 id="数据类型-Data-Type"><a href="#数据类型-Data-Type" class="headerlink" title="数据类型 (Data Type)"></a>数据类型 (Data Type)</h2><p>数据类型 (Data Type) 用来表示储存的数据类型，也称为型别。</p>
 <table>
 <thead>
 <tr>
-<th align="center"><strong>数据型态</strong></th>
+<th align="center"><strong>数据类型</strong></th>
 <th align="center"><strong>说明</strong></th>
 <th align="center"><strong>数据范例</strong></th>
 </tr>
@@ -3320,10 +3355,10 @@
 <h2 id="Function"><a href="#Function" class="headerlink" title="Function"></a>Function</h2><h3 id="语法：-PHP7-0以上"><a href="#语法：-PHP7-0以上" class="headerlink" title="语法：(PHP7.0以上)"></a>语法：(PHP7.0以上)</h3><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">FUNCTION_NAME</span>(<span class="params">VAR_TYPE $VAR_NAME = VAR_DEFAULT_VALUE, ...</span>): <span class="title">RETURN_TYPE</span></span>&#123;</span><br><span class="line">  <span class="comment">//do somethings</span></span><br><span class="line">  <span class="keyword">return</span> $VAR;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <ul>
 <li>FUNCTION_NAME：函数名</li>
-<li>VAR_TYPE：自变量[[#数据型态|数据型态]]</li>
-<li>VAR_NAME：自变量名称</li>
-<li>VAR_DEFAULT_VALUE：自变量默认值，此自变量可以不被传入，不传入时自动采用默认值</li>
-<li>RETURN_TYPE: 回传值[[#数据型态|数据型态]]<ul>
+<li>VAR_TYPE： 自变量</li>
+<li>VAR_NAME： 自变量名称</li>
+<li>VAR_DEFAULT_VALUE： 自变量默认值，此自变量可以不被传入，不传入时自动采用默认值</li>
+<li>RETURN_TYPE： 返回值<ul>
 <li>Nullsafe operator：加上 ? 表示可能会传 null</li>
 <li>另外，可以使用 |null 或者现有的 ? 表示法来表示包含 nullable 的联合体。<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">myStrValue</span>(<span class="params"><span class="keyword">string</span>|<span class="literal">null</span> $a = <span class="string">&#x27;hello&#x27;</span></span>): ?<span class="title">string</span> </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> $a;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">echo</span> myStrValue();<span class="comment">//hello</span></span><br><span class="line"><span class="keyword">echo</span> myStrValue(<span class="literal">null</span>);<span class="comment">//</span></span><br><span class="line"><span class="keyword">echo</span> myStrValue(<span class="string">&#x27;你好&#x27;</span>);<span class="comment">//你好</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">myStrConcat</span>(<span class="params">?<span class="keyword">string</span> $a = <span class="string">&#x27;hello&#x27;</span>, <span class="keyword">string</span> $b = <span class="literal">null</span></span>): <span class="title">string</span> </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> $a . $b;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">echo</span> myStrConcat(); <span class="comment">//hello</span></span><br><span class="line"><span class="keyword">echo</span> myStrConcat(<span class="literal">null</span>); <span class="comment">//</span></span><br><span class="line"><span class="keyword">echo</span> myStrConcat(<span class="literal">null</span>, <span class="string">&#x27;world&#x27;</span>); <span class="comment">//world</span></span><br><span class="line"><span class="keyword">echo</span> myStrConcat(<span class="string">&#x27;你好&#x27;</span>, <span class="string">&#x27;世界&#x27;</span>); <span class="comment">//你好世界</span></span><br></pre></td></tr></table></figure>
 
@@ -3332,27 +3367,27 @@
 </li>
 </ul>
 <h3 id="补充说明："><a href="#补充说明：" class="headerlink" title="补充说明："></a>补充说明：</h3><ul>
-<li>PHP 属于动态型别程序语言，允许所有变量可以不用带入数据型态，改由系统自动判别。但动态型别程序语言最令人诟病的地方就是过度方便新手开发人员 (可以不理会型态)，而苦了 Web Server (需要判别型别)，也容易造成开发人员因为型态问题产生的语意BUG。</li>
-<li>开发人员预先定义好数据型态，可以有效增加程序运行效率。PHP 7.0 起，允许在 function 内约束自变量型态、回传值型态。PHP 8.0 起，允许在 function 内约束复合型态。</li>
+<li>PHP 属于动态类型程序语言，允许所有变量可以不用带入数据类型，改由系统自动判别。但动态类型程序语言最令人诟病的地方就是过度方便新手开发人员 (可以不理会类型)，而苦了 Web Server (需要判别类型)，也容易造成开发人员因为类型问题产生的语意BUG。</li>
+<li>开发人员预先定义好数据类型，可以有效增加程序运行效率。PHP 7.0 起，允许在 function 内约束自变量类型、返回值类型。PHP8起，允许在 function 内约束复合类型。</li>
 </ul>
 <h2 id="范例"><a href="#范例" class="headerlink" title="范例"></a>范例</h2><ul>
 <li><p>范例：没有任何自变量也不回传任何东西</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * myFirstFunc</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@return</span> void</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">myFirstFunc</span>(<span class="params"></span>): <span class="title">void</span></span>&#123;</span><br><span class="line">  <span class="keyword">echo</span> <span class="string">&#x27;hellowrold&#x27;</span>;</span><br><span class="line">  <span class="keyword">return</span>;  <span class="comment">//回传 void 时，写 return 的话，后面不可以带回传值。也可以不写 return </span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">myFirstFunc();  <span class="comment">// helloworld</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * myFirstFunc</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@return</span> void</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">myFirstFunc</span>(<span class="params"></span>): <span class="title">void</span></span>&#123;</span><br><span class="line">  <span class="keyword">echo</span> <span class="string">&#x27;hellowrold&#x27;</span>;</span><br><span class="line">  <span class="keyword">return</span>;  <span class="comment">//回传 void 时，写 return 的话，后面不可以带返回值。也可以不写 return </span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">myFirstFunc();  <span class="comment">// helloworld</span></span><br></pre></td></tr></table></figure>
 </li>
-<li><p>范例：两字符串相加，回传字符串型态，第二个自变量预设 null，表示可以不传入</p>
+<li><p>范例：两字符串相加，回传字符串类型，第二个自变量预设 null，表示可以不传入。</p>
 <figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * my string concat</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> string $a string A</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> string $b string B</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@return</span> string</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">myStrConcat</span>(<span class="params"><span class="keyword">string</span> $a, <span class="keyword">string</span> $b = <span class="literal">null</span></span>): <span class="title">string</span></span>&#123;</span><br><span class="line">  <span class="keyword">return</span> $a . $b;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">echo</span> myStrConcat(<span class="string">&#x27;hello&#x27;</span>, <span class="string">&#x27;world&#x27;</span>);  <span class="comment">// helloworld</span></span><br><span class="line"><span class="keyword">echo</span> myStrConcat(<span class="string">&#x27;helloworld&#x27;</span>);      <span class="comment">// helloworld</span></span><br></pre></td></tr></table></figure>
 </li>
-<li><p>范例：透过DB，可能会拿到 null，故回传值需检查 null</p>
+<li><p>范例：通过数据库，可能会拿到 null，故返回值需检查 null。</p>
 <figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * get user</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> int $userId user ID</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@return</span> object|null</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">getUser</span>(<span class="params"><span class="keyword">int</span> $userId</span>): ?<span class="title">object</span></span>&#123;</span><br><span class="line">  <span class="comment">//do something</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>范例：复合型态，PHP 8.0 后允许自变量、回传值有复合型态</p>
+<li><p>范例：复合类型，PHP8后允许自变量、返回值有复合类型。</p>
 <figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * getUsers</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> int|array $userIds user IDs</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@return</span> array|null</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">getUsers</span>(<span class="params"><span class="keyword">int</span>|<span class="keyword">array</span> $userIds</span>): ?<span class="title">array</span></span>&#123;</span><br><span class="line">  <span class="comment">//do something</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
 </li>
 </ul>
 <ul>
-<li>范例：mixed，PHP 8.0 中的 mixed = array|bool|callable|int|float|null|object|resource|string （不写型态默认为 mixed，例如：<code>function getUsers($userId)&#123;&#125;</code>）<ul>
+<li>范例：<code>mixed = array|bool|callable|int|float|null|object|resource|string</code> （PHP中不写类型默认为mixed，例如：<code>function getUsers($userId)&#123;&#125;</code>。）<ul>
 <li>请注意，mixed也可以用作参数或属性类型，而不仅仅是作为返回类型。</li>
 <li>另请注意，由于mixed已包含null，因此不允许使其为空（nullable）。以下代码将触发错误：<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Fatal error: Mixed types cannot be nullable, null is already part of the mixed type.</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">getUsers</span>(<span class="params">mixed $userId</span>): ?<span class="title">mixed</span> </span>&#123;</span><br><span class="line">  <span class="comment">//do something</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
@@ -3363,15 +3398,17 @@
 <h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><blockquote>
 <p>顺带提一下php8中比较喜欢的几个更新</p>
 </blockquote>
-<h3 id="Match表达式"><a href="#Match表达式" class="headerlink" title="Match表达式"></a>Match表达式</h3><p>你可以称它为switch表达式的大哥，match可以返回值，不需要break语句，可以组合条件，使用严格的类型比较，并且不执行任何类型的强制。新的 match 类似于 switch，并具有以下功能：</p>
+<h3 id="Match表达式"><a href="#Match表达式" class="headerlink" title="Match表达式"></a>Match表达式</h3><p>你可以称它为switch表达式的大哥，match可以返回值，不需要break语句，可以组合条件，并且不执行任何类型的强制。<br>新的 match 类似于 switch，并具有以下功能：</p>
 <ol>
 <li>Match 是一个表达式，它可以储存到变量中亦可以直接返回。</li>
 <li>Match 分支仅支持单行，它不需要一个 break; 语句。</li>
 <li>Match 使用严格比较。<br>如下所示：<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">$result = match($input) &#123;</span><br><span class="line">    <span class="number">0</span> =&gt; <span class="string">&quot;hello&quot;</span>,</span><br><span class="line">    <span class="string">&#x27;1&#x27;</span>, <span class="string">&#x27;2&#x27;</span>, <span class="string">&#x27;3&#x27;</span> =&gt; <span class="string">&quot;world&quot;</span>,</span><br><span class="line">&#125;;</span><br><span class="line">$message = match ($statusCode) &#123;</span><br><span class="line">	<span class="number">200</span>, <span class="number">300</span> =&gt; <span class="literal">null</span>,</span><br><span class="line">	<span class="number">404</span> =&gt; <span class="string">&#x27;not found&#x27;</span>,</span><br><span class="line">	<span class="number">500</span> =&gt; <span class="string">&#x27;server error&#x27;</span>,</span><br><span class="line">	<span class="keyword">default</span> =&gt; <span class="string">&#x27;unknow status code&#x27;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="Throw表达式"><a href="#Throw表达式" class="headerlink" title="Throw表达式"></a>Throw表达式</h3>throw 从语句更改为表达式，从而有可能在许多新位置引发异常：<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">$callable = <span class="function"><span class="keyword">fn</span>(<span class="params"></span>) =&gt; <span class="title">throw</span> <span class="title">new</span> <span class="title">Exception</span>(<span class="params"></span>)</span>;</span><br><span class="line">$triggerError = <span class="function"><span class="keyword">fn</span> (<span class="params"></span>) =&gt; <span class="title">throw</span> <span class="title">new</span> <span class="title">MyError</span>(<span class="params"></span>)</span>;</span><br><span class="line">$foo = $bar[<span class="string">&#x27;offset&#x27;</span>] ?? <span class="keyword">throw</span> <span class="keyword">new</span> OffsetDoesNotExist(<span class="string">&#x27;offset&#x27;</span>)</span><br><span class="line">$condition || <span class="keyword">throw</span> <span class="keyword">new</span> <span class="built_in">Exception</span>(<span class="string">&#x27;$condition must be truthy&#x27;</span>)</span><br><span class="line">  &amp;&amp; $condition2 || <span class="keyword">throw</span> <span class="keyword">new</span> <span class="built_in">Exception</span>(<span class="string">&#x27;$condition2 must be truthy&#x27;</span>);</span><br></pre></td></tr></table></figure>
 
 </li>
 </ol>
+<h3 id="Throw表达式"><a href="#Throw表达式" class="headerlink" title="Throw表达式"></a>Throw表达式</h3><p>throw 从语句更改为表达式，从而有可能在许多新位置引发异常：</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">$callable = <span class="function"><span class="keyword">fn</span>(<span class="params"></span>) =&gt; <span class="title">throw</span> <span class="title">new</span> <span class="title">Exception</span>(<span class="params"></span>)</span>;</span><br><span class="line">$triggerError = <span class="function"><span class="keyword">fn</span> (<span class="params"></span>) =&gt; <span class="title">throw</span> <span class="title">new</span> <span class="title">MyError</span>(<span class="params"></span>)</span>;</span><br><span class="line">$foo = $bar[<span class="string">&#x27;offset&#x27;</span>] ?? <span class="keyword">throw</span> <span class="keyword">new</span> OffsetDoesNotExist(<span class="string">&#x27;offset&#x27;</span>)</span><br><span class="line">$condition || <span class="keyword">throw</span> <span class="keyword">new</span> <span class="built_in">Exception</span>(<span class="string">&#x27;$condition must be truthy&#x27;</span>)</span><br><span class="line">  &amp;&amp; $condition2 || <span class="keyword">throw</span> <span class="keyword">new</span> <span class="built_in">Exception</span>(<span class="string">&#x27;$condition2 must be truthy&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
 <h3 id="用参数名传递参数而不是参数的顺序"><a href="#用参数名传递参数而不是参数的顺序" class="headerlink" title="用参数名传递参数而不是参数的顺序"></a>用参数名传递参数而不是参数的顺序</h3><figure class="highlight php"><table><tr><td class="code"><pre><span class="line">setcookie(</span><br><span class="line">	name: <span class="string">&#x27;test&#x27;</span>,</span><br><span class="line">	expires: time() + <span class="number">60</span> * <span class="number">60</span> * <span class="number">2</span></span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">$data = [</span><br><span class="line">	<span class="string">&#x27;name&#x27;</span> =&gt; <span class="string">&#x27;test&#x27;</span>,</span><br><span class="line">	<span class="string">&#x27;expires&#x27;</span> =&gt; time() + <span class="number">60</span> * <span class="number">60</span> * <span class="number">2</span></span><br><span class="line">];</span><br><span class="line">setcookie(...$data);</span><br></pre></td></tr></table></figure>
 
 <h3 id="构造器属性提升"><a href="#构造器属性提升" class="headerlink" title="构造器属性提升"></a>构造器属性提升</h3><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment"> * PHP7</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Point</span> </span>&#123;</span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">float</span> $x;</span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">float</span> $y;</span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">float</span> $z;</span><br><span class="line">  <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">float</span> $x = <span class="number">0.0</span>,</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">float</span> $y = <span class="number">0.0</span>,</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">float</span> $z = <span class="number">0.0</span>,</span></span></span><br><span class="line"><span class="function"><span class="params">  </span>) </span>&#123;</span><br><span class="line">    <span class="keyword">$this</span>-&gt;x = $x;</span><br><span class="line">    <span class="keyword">$this</span>-&gt;y = $y;</span><br><span class="line">    <span class="keyword">$this</span>-&gt;z = $z;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment"> * PHP8</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Point</span> </span>&#123;</span><br><span class="line">  <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">public</span> <span class="keyword">float</span> $x = <span class="number">0.0</span>,</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">public</span> <span class="keyword">float</span> $y = <span class="number">0.0</span>,</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">public</span> <span class="keyword">float</span> $z = <span class="number">0.0</span>,</span></span></span><br><span class="line"><span class="function"><span class="params">  </span>) </span>&#123;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -3388,41 +3425,6 @@
       </categories>
       <tags>
         <tag>php8</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PHP学习记录</title>
-    <url>/phpstudy/</url>
-    <content><![CDATA[<div class="note success no-icon"><p>PHP的一些基础知识</p>
-</div>
-<a id="more"></a> 
-
-<h2 id="网页架构"><a href="#网页架构" class="headerlink" title="网页架构"></a>网页架构</h2><p><img data-src="/images/loading.gif" data-original="/phpstudy/3ceng.png"></p>
-<h2 id="PHP"><a href="#PHP" class="headerlink" title="PHP"></a>PHP</h2><ul>
-<li>高阶程序语言</li>
-<li>直译式程序语言 (脚本式程序语言)</li>
-<li>动态型别程序语言 (Dynamic typed language)</li>
-<li>动态网页程序语言</li>
-</ul>
-<h2 id="网页类型"><a href="#网页类型" class="headerlink" title="网页类型"></a>网页类型</h2><h3 id="静态网页"><a href="#静态网页" class="headerlink" title="静态网页"></a>静态网页</h3><p>从服务器下载后在 Client 执行</p>
-<p>HTML、CSS、JavaScript</p>
-<h3 id="动态网页"><a href="#动态网页" class="headerlink" title="动态网页"></a>动态网页</h3><p>先在服务器执行后才下载到 Client 执行</p>
-<p>PHP、ASP.NET、JSP</p>
-<h2 id="Date-amp-Time"><a href="#Date-amp-Time" class="headerlink" title="Date &amp; Time"></a>Date &amp; Time</h2><p><img data-src="/images/loading.gif" data-original="/phpstudy/phptime.png"></p>
-<h3 id="格式化时间"><a href="#格式化时间" class="headerlink" title="格式化时间"></a>格式化时间</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">timestamp                   时间标记</span><br><span class="line">代表的是该时间点与 Unix 纪元 (1970年1月1日00:00:00) 的时间差</span><br><span class="line">单位为秒</span><br><span class="line"></span><br><span class="line">相关函数</span><br><span class="line">time()                      取得目前 timestamp</span><br><span class="line">strtotime($str)             字符串转 timestamp</span><br><span class="line">date($format, $timestamp)   格式化时间(例date(&#39;Y-m-d h:i:s&#39;))</span><br></pre></td></tr></table></figure>
-
-<h3 id="时间计算"><a href="#时间计算" class="headerlink" title="时间计算"></a>时间计算</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">时间计算</span><br><span class="line">strtotime(&#39;+ 数量 单位&#39;)</span><br><span class="line"></span><br><span class="line">例如：</span><br><span class="line">strtotime(&#39;+ 7 day&#39;)</span><br><span class="line">strtotime(&#39;2017-03-02 22:00:00 + 1 week&#39;)</span><br></pre></td></tr></table></figure>
-
-<p><img data-src="/images/loading.gif" data-original="/phpstudy/phptime-calc.png"></p>
-<h2 id="引用其他档案"><a href="#引用其他档案" class="headerlink" title="引用其他档案"></a>引用其他档案</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">include($filepath)</span><br><span class="line">include_once($filepath)</span><br><span class="line">require($filepath)</span><br><span class="line">require_once($filepath)</span><br><span class="line"></span><br><span class="line">include 和 require 的差别</span><br><span class="line">include</span><br><span class="line">发生错误时仅显示警告，程序会继续执行。</span><br><span class="line">require</span><br><span class="line">发生错误时会中断程序</span><br><span class="line">once 的差别</span><br><span class="line">档案只会被引入一次，不会被重复引入。</span><br></pre></td></tr></table></figure>
-
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>下课了，没时间写，我就放脑子里吧……</p>
-]]></content>
-      <categories>
-        <category>干垃圾</category>
-      </categories>
-      <tags>
-        <tag>PHP</tag>
       </tags>
   </entry>
   <entry>
@@ -4621,405 +4623,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Office常用快捷键</title>
-    <url>/shortcutkey-office/</url>
-    <content><![CDATA[ <div class="note default no-icon"><p>Office常用快捷键 </p>
-</div>
-<a id="more"></a>
-
-<h1 id="Office常用快捷键"><a href="#Office常用快捷键" class="headerlink" title="Office常用快捷键"></a>Office常用快捷键</h1><h2 id="Word"><a href="#Word" class="headerlink" title="Word"></a>Word</h2><table>
-<thead>
-<tr>
-<th align="center"><strong>键位</strong></th>
-<th align="center"><strong>功能</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><strong>Alt+鼠标</strong></td>
-<td align="center">竖排选定内容</td>
-</tr>
-<tr>
-<td align="center"><strong>Alt+Shift+D</strong></td>
-<td align="center">快速插入日期</td>
-</tr>
-<tr>
-<td align="center"><strong>Alt+Shift+T</strong></td>
-<td align="center">快速插入时间</td>
-</tr>
-<tr>
-<td align="center"><strong>Alt+Ctrl+C</strong></td>
-<td align="center">版权符号</td>
-</tr>
-<tr>
-<td align="center"><strong>Alt+Ctrl+R</strong></td>
-<td align="center">注册商标符号</td>
-</tr>
-<tr>
-<td align="center"><strong>Alt+Ctrl+T</strong></td>
-<td align="center">商标符号</td>
-</tr>
-<tr>
-<td align="center"><strong>Alt+Ctrl+.</strong></td>
-<td align="center">省略号</td>
-</tr>
-<tr>
-<td align="center"><strong>Alt+Ctrl+.M</strong></td>
-<td align="center">插入批注</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+A</strong></td>
-<td align="center">全选</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+G</strong></td>
-<td align="center">查找文字、格式和特殊项</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+B</strong></td>
-<td align="center">使字符变为粗体</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+I</strong></td>
-<td align="center">使字符变为斜体</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+U</strong></td>
-<td align="center">为字符添加下划线</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+F</strong></td>
-<td align="center">搜索</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+H</strong></td>
-<td align="center">替换</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+K</strong></td>
-<td align="center">加入超链接</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+P</strong></td>
-<td align="center">打印</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+C</strong></td>
-<td align="center">复制</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+V</strong></td>
-<td align="center">粘贴</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+X</strong></td>
-<td align="center">剪切</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Z</strong></td>
-<td align="center">撤销</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Y</strong></td>
-<td align="center">重复，反撤销。</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+1</strong></td>
-<td align="center">单倍行距</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+2</strong></td>
-<td align="center">双倍行距</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+5</strong></td>
-<td align="center">1.5倍行距</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+E</strong></td>
-<td align="center">居中</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+L</strong></td>
-<td align="center">居左</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+R</strong></td>
-<td align="center">居右</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+[</strong></td>
-<td align="center">减小字号</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+]</strong></td>
-<td align="center">增加字号</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Enter</strong></td>
-<td align="center">换页符</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+鼠标</strong></td>
-<td align="center">多选或者拖动复制</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Shift+D</strong></td>
-<td align="center">分散对齐</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Shift+M</strong></td>
-<td align="center">取消左侧段落缩进</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Shift+F9</strong></td>
-<td align="center">删除超链接</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Shift+N</strong></td>
-<td align="center">清除格式</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Shift+C</strong></td>
-<td align="center">格式刷复制</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Shift+V</strong></td>
-<td align="center">格式刷粘贴</td>
-</tr>
-<tr>
-<td align="center"><strong>F12</strong></td>
-<td align="center">另存为</td>
-</tr>
-<tr>
-<td align="center"><strong>Shift+F3</strong></td>
-<td align="center">切换大小写</td>
-</tr>
-<tr>
-<td align="center"><strong>Shift+Enter</strong></td>
-<td align="center">换行符</td>
-</tr>
-<tr>
-<td align="center"><strong>Shift+方向键</strong></td>
-<td align="center">选中文字</td>
-</tr>
-</tbody></table>
-<h2 id="Excel"><a href="#Excel" class="headerlink" title="Excel"></a>Excel</h2><table>
-<thead>
-<tr>
-<th align="center"><strong>键位</strong></th>
-<th align="center"><strong>功能</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><strong>Alt+；</strong></td>
-<td align="center">只选取显示的行，隐藏行不选取。</td>
-</tr>
-<tr>
-<td align="center"><strong>Alt+`</strong></td>
-<td align="center">显示“样式”对话框</td>
-</tr>
-<tr>
-<td align="center"><strong>Alt+O+R+A</strong></td>
-<td align="center">自动调整行高</td>
-</tr>
-<tr>
-<td align="center"><strong>Alt+O+C+A</strong></td>
-<td align="center">自动调整列宽</td>
-</tr>
-<tr>
-<td align="center"><strong>Alt+Enter</strong></td>
-<td align="center">单元格内强制换行</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+PageDown</strong></td>
-<td align="center">下一张工作表</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+PageUp</strong></td>
-<td align="center">上一张工作表</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+空格</strong></td>
-<td align="center">选中整列</td>
-</tr>
-<tr>
-<td align="center"><strong>Shift+空格</strong></td>
-<td align="center">选中整行</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+F1</strong></td>
-<td align="center">显示隐藏功能区</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+5</strong></td>
-<td align="center">应用或取消删除线</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+1</strong></td>
-<td align="center">显示“单元格格式”对话框</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+(</strong></td>
-<td align="center">快速隐藏行</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+)</strong></td>
-<td align="center">快速隐藏列</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+；</strong></td>
-<td align="center">快速插入日期</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Shift+；</strong></td>
-<td align="center">快速插入时间</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Shift+&amp;</strong></td>
-<td align="center">为选定的单元格区域加上边框线</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Shift++</strong></td>
-<td align="center">插入空白单元格</td>
-</tr>
-<tr>
-<td align="center"><strong>ctrl+shift+~</strong></td>
-<td align="center">应用“常规”数字格式</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Shift+#</strong></td>
-<td align="center">应用含年，月，日的“日期”格式</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Shift+$</strong></td>
-<td align="center">应用带两个小数位的“货币”格式<br>（负数在括号内）</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Shift+%</strong></td>
-<td align="center">应用不带小数位的“百分比”格式</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Shift+^</strong></td>
-<td align="center">应用带两位小数位的“科学记数”数字格式</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Shift+!</strong></td>
-<td align="center">应用带两位小数位，使用千位分隔符且<br>负数用负号（-）表示的“数字”格式。</td>
-</tr>
-<tr>
-<td align="center"><strong>F11</strong></td>
-<td align="center">快速插入图表</td>
-</tr>
-<tr>
-<td align="center"><strong>shift+F3</strong></td>
-<td align="center">在公式中，显示“插入函数”对话框。</td>
-</tr>
-<tr>
-<td align="center"><strong>Shift+Ctrl+↓</strong></td>
-<td align="center">选中需要求和的区域</td>
-</tr>
-<tr>
-<td align="center"><strong>Alt+=</strong></td>
-<td align="center">求和</td>
-</tr>
-<tr>
-<td align="center"><strong>Shift+F5</strong></td>
-<td align="center">显示“查找”对话框。</td>
-</tr>
-<tr>
-<td align="center"><strong>Shift+F11</strong></td>
-<td align="center">新建工作表</td>
-</tr>
-</tbody></table>
-<h2 id="PPT"><a href="#PPT" class="headerlink" title="PPT"></a>PPT</h2><table>
-<thead>
-<tr>
-<th align="center"><strong>键位</strong></th>
-<th align="center"><strong>功能</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><strong>Ctrl+J</strong></td>
-<td align="center">段落两端对齐(放映时)</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+A</strong></td>
-<td align="center">显示鼠标指针(放映时)</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+H</strong></td>
-<td align="center">隐藏鼠标指针(放映时)</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+G</strong></td>
-<td align="center">打开网格参考线对话框</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+W</strong></td>
-<td align="center">关闭当前文件</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+P</strong></td>
-<td align="center">将指针改为注释笔(放映时)</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+鼠标左键(放映时)</strong></td>
-<td align="center">鼠标变亮点</td>
-</tr>
-<tr>
-<td align="center"><strong>E(放映时)</strong></td>
-<td align="center">擦除注释</td>
-</tr>
-<tr>
-<td align="center"><strong>W(放映时)</strong></td>
-<td align="center">白屏</td>
-</tr>
-<tr>
-<td align="center"><strong>B(放映时)</strong></td>
-<td align="center">黑屏</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+等号</strong></td>
-<td align="center">应用下标格式(自动调整间距)</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Shift+加号</strong></td>
-<td align="center">应用上标格式(自动调整间距)</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Shift+G</strong></td>
-<td align="center">组合对象</td>
-</tr>
-<tr>
-<td align="center"><strong>Ctrl+Shift+H</strong></td>
-<td align="center">解除组合</td>
-</tr>
-<tr>
-<td align="center"><strong>Esc</strong></td>
-<td align="center">退出放映</td>
-</tr>
-<tr>
-<td align="center"><strong>按住鼠标左右键2秒</strong></td>
-<td align="center">回到第一张</td>
-</tr>
-<tr>
-<td align="center"><strong>F5</strong></td>
-<td align="center">从头放映</td>
-</tr>
-<tr>
-<td align="center"><strong>Shift+F5</strong></td>
-<td align="center">从当前开始放映</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>可回收物</category>
-      </categories>
-      <tags>
-        <tag>Office快捷键</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Windows常用快捷键</title>
     <url>/shortcutkey-win/</url>
     <content><![CDATA[ <div class="note success no-icon"><p>Windows常用快捷键 </p>
@@ -5505,6 +5108,405 @@
       </categories>
       <tags>
         <tag>SQL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Office常用快捷键</title>
+    <url>/shortcutkey-office/</url>
+    <content><![CDATA[ <div class="note default no-icon"><p>Office常用快捷键 </p>
+</div>
+<a id="more"></a>
+
+<h1 id="Office常用快捷键"><a href="#Office常用快捷键" class="headerlink" title="Office常用快捷键"></a>Office常用快捷键</h1><h2 id="Word"><a href="#Word" class="headerlink" title="Word"></a>Word</h2><table>
+<thead>
+<tr>
+<th align="center"><strong>键位</strong></th>
+<th align="center"><strong>功能</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>Alt+鼠标</strong></td>
+<td align="center">竖排选定内容</td>
+</tr>
+<tr>
+<td align="center"><strong>Alt+Shift+D</strong></td>
+<td align="center">快速插入日期</td>
+</tr>
+<tr>
+<td align="center"><strong>Alt+Shift+T</strong></td>
+<td align="center">快速插入时间</td>
+</tr>
+<tr>
+<td align="center"><strong>Alt+Ctrl+C</strong></td>
+<td align="center">版权符号</td>
+</tr>
+<tr>
+<td align="center"><strong>Alt+Ctrl+R</strong></td>
+<td align="center">注册商标符号</td>
+</tr>
+<tr>
+<td align="center"><strong>Alt+Ctrl+T</strong></td>
+<td align="center">商标符号</td>
+</tr>
+<tr>
+<td align="center"><strong>Alt+Ctrl+.</strong></td>
+<td align="center">省略号</td>
+</tr>
+<tr>
+<td align="center"><strong>Alt+Ctrl+.M</strong></td>
+<td align="center">插入批注</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+A</strong></td>
+<td align="center">全选</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+G</strong></td>
+<td align="center">查找文字、格式和特殊项</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+B</strong></td>
+<td align="center">使字符变为粗体</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+I</strong></td>
+<td align="center">使字符变为斜体</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+U</strong></td>
+<td align="center">为字符添加下划线</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+F</strong></td>
+<td align="center">搜索</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+H</strong></td>
+<td align="center">替换</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+K</strong></td>
+<td align="center">加入超链接</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+P</strong></td>
+<td align="center">打印</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+C</strong></td>
+<td align="center">复制</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+V</strong></td>
+<td align="center">粘贴</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+X</strong></td>
+<td align="center">剪切</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Z</strong></td>
+<td align="center">撤销</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Y</strong></td>
+<td align="center">重复，反撤销。</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+1</strong></td>
+<td align="center">单倍行距</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+2</strong></td>
+<td align="center">双倍行距</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+5</strong></td>
+<td align="center">1.5倍行距</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+E</strong></td>
+<td align="center">居中</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+L</strong></td>
+<td align="center">居左</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+R</strong></td>
+<td align="center">居右</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+[</strong></td>
+<td align="center">减小字号</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+]</strong></td>
+<td align="center">增加字号</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Enter</strong></td>
+<td align="center">换页符</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+鼠标</strong></td>
+<td align="center">多选或者拖动复制</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Shift+D</strong></td>
+<td align="center">分散对齐</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Shift+M</strong></td>
+<td align="center">取消左侧段落缩进</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Shift+F9</strong></td>
+<td align="center">删除超链接</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Shift+N</strong></td>
+<td align="center">清除格式</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Shift+C</strong></td>
+<td align="center">格式刷复制</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Shift+V</strong></td>
+<td align="center">格式刷粘贴</td>
+</tr>
+<tr>
+<td align="center"><strong>F12</strong></td>
+<td align="center">另存为</td>
+</tr>
+<tr>
+<td align="center"><strong>Shift+F3</strong></td>
+<td align="center">切换大小写</td>
+</tr>
+<tr>
+<td align="center"><strong>Shift+Enter</strong></td>
+<td align="center">换行符</td>
+</tr>
+<tr>
+<td align="center"><strong>Shift+方向键</strong></td>
+<td align="center">选中文字</td>
+</tr>
+</tbody></table>
+<h2 id="Excel"><a href="#Excel" class="headerlink" title="Excel"></a>Excel</h2><table>
+<thead>
+<tr>
+<th align="center"><strong>键位</strong></th>
+<th align="center"><strong>功能</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>Alt+；</strong></td>
+<td align="center">只选取显示的行，隐藏行不选取。</td>
+</tr>
+<tr>
+<td align="center"><strong>Alt+`</strong></td>
+<td align="center">显示“样式”对话框</td>
+</tr>
+<tr>
+<td align="center"><strong>Alt+O+R+A</strong></td>
+<td align="center">自动调整行高</td>
+</tr>
+<tr>
+<td align="center"><strong>Alt+O+C+A</strong></td>
+<td align="center">自动调整列宽</td>
+</tr>
+<tr>
+<td align="center"><strong>Alt+Enter</strong></td>
+<td align="center">单元格内强制换行</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+PageDown</strong></td>
+<td align="center">下一张工作表</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+PageUp</strong></td>
+<td align="center">上一张工作表</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+空格</strong></td>
+<td align="center">选中整列</td>
+</tr>
+<tr>
+<td align="center"><strong>Shift+空格</strong></td>
+<td align="center">选中整行</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+F1</strong></td>
+<td align="center">显示隐藏功能区</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+5</strong></td>
+<td align="center">应用或取消删除线</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+1</strong></td>
+<td align="center">显示“单元格格式”对话框</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+(</strong></td>
+<td align="center">快速隐藏行</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+)</strong></td>
+<td align="center">快速隐藏列</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+；</strong></td>
+<td align="center">快速插入日期</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Shift+；</strong></td>
+<td align="center">快速插入时间</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Shift+&amp;</strong></td>
+<td align="center">为选定的单元格区域加上边框线</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Shift++</strong></td>
+<td align="center">插入空白单元格</td>
+</tr>
+<tr>
+<td align="center"><strong>ctrl+shift+~</strong></td>
+<td align="center">应用“常规”数字格式</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Shift+#</strong></td>
+<td align="center">应用含年，月，日的“日期”格式</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Shift+$</strong></td>
+<td align="center">应用带两个小数位的“货币”格式<br>（负数在括号内）</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Shift+%</strong></td>
+<td align="center">应用不带小数位的“百分比”格式</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Shift+^</strong></td>
+<td align="center">应用带两位小数位的“科学记数”数字格式</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Shift+!</strong></td>
+<td align="center">应用带两位小数位，使用千位分隔符且<br>负数用负号（-）表示的“数字”格式。</td>
+</tr>
+<tr>
+<td align="center"><strong>F11</strong></td>
+<td align="center">快速插入图表</td>
+</tr>
+<tr>
+<td align="center"><strong>shift+F3</strong></td>
+<td align="center">在公式中，显示“插入函数”对话框。</td>
+</tr>
+<tr>
+<td align="center"><strong>Shift+Ctrl+↓</strong></td>
+<td align="center">选中需要求和的区域</td>
+</tr>
+<tr>
+<td align="center"><strong>Alt+=</strong></td>
+<td align="center">求和</td>
+</tr>
+<tr>
+<td align="center"><strong>Shift+F5</strong></td>
+<td align="center">显示“查找”对话框。</td>
+</tr>
+<tr>
+<td align="center"><strong>Shift+F11</strong></td>
+<td align="center">新建工作表</td>
+</tr>
+</tbody></table>
+<h2 id="PPT"><a href="#PPT" class="headerlink" title="PPT"></a>PPT</h2><table>
+<thead>
+<tr>
+<th align="center"><strong>键位</strong></th>
+<th align="center"><strong>功能</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>Ctrl+J</strong></td>
+<td align="center">段落两端对齐(放映时)</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+A</strong></td>
+<td align="center">显示鼠标指针(放映时)</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+H</strong></td>
+<td align="center">隐藏鼠标指针(放映时)</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+G</strong></td>
+<td align="center">打开网格参考线对话框</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+W</strong></td>
+<td align="center">关闭当前文件</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+P</strong></td>
+<td align="center">将指针改为注释笔(放映时)</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+鼠标左键(放映时)</strong></td>
+<td align="center">鼠标变亮点</td>
+</tr>
+<tr>
+<td align="center"><strong>E(放映时)</strong></td>
+<td align="center">擦除注释</td>
+</tr>
+<tr>
+<td align="center"><strong>W(放映时)</strong></td>
+<td align="center">白屏</td>
+</tr>
+<tr>
+<td align="center"><strong>B(放映时)</strong></td>
+<td align="center">黑屏</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+等号</strong></td>
+<td align="center">应用下标格式(自动调整间距)</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Shift+加号</strong></td>
+<td align="center">应用上标格式(自动调整间距)</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Shift+G</strong></td>
+<td align="center">组合对象</td>
+</tr>
+<tr>
+<td align="center"><strong>Ctrl+Shift+H</strong></td>
+<td align="center">解除组合</td>
+</tr>
+<tr>
+<td align="center"><strong>Esc</strong></td>
+<td align="center">退出放映</td>
+</tr>
+<tr>
+<td align="center"><strong>按住鼠标左右键2秒</strong></td>
+<td align="center">回到第一张</td>
+</tr>
+<tr>
+<td align="center"><strong>F5</strong></td>
+<td align="center">从头放映</td>
+</tr>
+<tr>
+<td align="center"><strong>Shift+F5</strong></td>
+<td align="center">从当前开始放映</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>可回收物</category>
+      </categories>
+      <tags>
+        <tag>Office快捷键</tag>
       </tags>
   </entry>
   <entry>
