@@ -2,6 +2,7 @@ http://a.biugle.cn/php8/
 http://a.biugle.cn/sourcetreessh/
 http://a.biugle.cn/logo/
 http://a.biugle.cn/biugle/
+http://a.biugle.cn/datafree/
 http://a.biugle.cn/uuid/
 http://a.biugle.cn/websocket/
 http://a.biugle.cn/biuglejs/
