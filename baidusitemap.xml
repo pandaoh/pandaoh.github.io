@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://a.biugle.cn/datafree/</loc>
-    <lastmod>2020-12-02</lastmod>
+    <loc>http://a.biugle.cn/http-code/</loc>
+    <lastmod>2020-12-04</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/git/</loc>
+    <lastmod>2020-12-04</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/shortcutkey-netbeans/</loc>
+    <lastmod>2020-12-04</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/sourcetreessh/</loc>
-    <lastmod>2020-12-01</lastmod>
+    <lastmod>2020-12-04</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/glossary/</loc>
+    <lastmod>2020-12-04</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/git-more/</loc>
+    <lastmod>2020-12-04</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/webstorage/</loc>
+    <lastmod>2020-12-04</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/datafree/</loc>
+    <lastmod>2020-12-02</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/php8/</loc>
@@ -18,10 +42,6 @@
   </url>
   <url>
     <loc>http://a.biugle.cn/cssdemo/</loc>
-    <lastmod>2020-11-29</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/git-more/</loc>
     <lastmod>2020-11-29</lastmod>
   </url>
   <url>
@@ -81,20 +101,12 @@
     <lastmod>2020-11-12</lastmod>
   </url>
   <url>
-    <loc>http://a.biugle.cn/webstorage/</loc>
-    <lastmod>2020-11-12</lastmod>
-  </url>
-  <url>
     <loc>http://a.biugle.cn/deferandasync/</loc>
     <lastmod>2020-11-07</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/jquerynode/</loc>
     <lastmod>2020-11-05</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/http-code/</loc>
-    <lastmod>2020-10-24</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/shortcutkey-chrome/</loc>
@@ -117,10 +129,6 @@
     <lastmod>2020-10-23</lastmod>
   </url>
   <url>
-    <loc>http://a.biugle.cn/shortcutkey-netbeans/</loc>
-    <lastmod>2020-10-23</lastmod>
-  </url>
-  <url>
     <loc>http://a.biugle.cn/htmlstudy/</loc>
     <lastmod>2020-10-22</lastmod>
   </url>
@@ -139,10 +147,6 @@
   <url>
     <loc>http://a.biugle.cn/shortcutkey-win/</loc>
     <lastmod>2020-10-21</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/git/</loc>
-    <lastmod>2020-10-20</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/xuanxiangka/</loc>
@@ -258,10 +262,6 @@
   </url>
   <url>
     <loc>http://a.biugle.cn/hello-world/</loc>
-    <lastmod>2020-10-20</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/glossary/</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
   <url>
