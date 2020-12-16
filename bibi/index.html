@@ -37,16 +37,16 @@
         function urlToLink(str) {
           //增加发图片功能
           var re = /\bhttps?:\/\/(?!\S+(?:jpe?g|png|bmp|gif|webp|gif))\S+/g;
-          var re_forpic = /\bhttps?:\/\/.*?(\.gif|\.jpeg|\.png|\.jpg|\.bmp|\.webp)/g;
+          var re_forpic = /\bhttps?:\/\/.*?(\.gif|\.jpeg|\.png|\.jpg|\.bmp|\.webp|hxbnb)/g;
           var strMap = {
             ">": "&gt;",
             "<": "&lt;",
           };
           str = str.replace(/(\<|\>)/g,(item)=>{ return strMap[item]}).replace(re, function (website) {
-            return  `<a href="${website}" rel="noopener external nofollow noreferrer" target="_blank" class="exturl" title="点击访问${website}">${website}<i class="fa fa-external-link-alt"></i></a>`;
+            return  `<a href="${website}" rel="noopener external nofollow noreferrer" hxb="欢迎光临本站，笔芯~" target="_blank" class="exturl" title="点击访问${website}">${website}<i class="fa fa-external-link-alt"></i></a>`;
           });
           str = str.replace(re_forpic, function (imgurl) {
-            return `<img data-original="${imgurl}" src="${imgurl}"/>`;
+            return `<img data-original="${imgurl}" src="${imgurl}" width="500"/>`;
           });
           return str;
         }

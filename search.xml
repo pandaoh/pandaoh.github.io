@@ -194,7 +194,7 @@
 <li>VAR_DEFAULT_VALUE： 自变量默认值，此自变量可以不被传入，不传入时自动采用默认值</li>
 <li>RETURN_TYPE： 返回值<ul>
 <li>Nullsafe operator：加上 ? 表示可能会传 null</li>
-<li>另外，可以使用 |null 或者现有的 ? 表示法来表示包含 nullable 的联合体。<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">myStrValue</span>(<span class="params"><span class="keyword">string</span>|<span class="literal">null</span> $a = <span class="string">&#x27;hello&#x27;</span></span>): ?<span class="title">string</span> </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> $a;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">echo</span> myStrValue();<span class="comment">//hello</span></span><br><span class="line"><span class="keyword">echo</span> myStrValue(<span class="literal">null</span>);<span class="comment">//</span></span><br><span class="line"><span class="keyword">echo</span> myStrValue(<span class="string">&#x27;你好&#x27;</span>);<span class="comment">//你好</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">myStrConcat</span>(<span class="params">?<span class="keyword">string</span> $a = <span class="string">&#x27;hello&#x27;</span>, <span class="keyword">string</span> $b = <span class="literal">null</span></span>): <span class="title">string</span> </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> $a . $b;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">echo</span> myStrConcat(); <span class="comment">//hello</span></span><br><span class="line"><span class="keyword">echo</span> myStrConcat(<span class="literal">null</span>); <span class="comment">//</span></span><br><span class="line"><span class="keyword">echo</span> myStrConcat(<span class="literal">null</span>, <span class="string">&#x27;world&#x27;</span>); <span class="comment">//world</span></span><br><span class="line"><span class="keyword">echo</span> myStrConcat(<span class="string">&#x27;你好&#x27;</span>, <span class="string">&#x27;世界&#x27;</span>); <span class="comment">//你好世界</span></span><br></pre></td></tr></table></figure>
+<li>另外，可以使用 |null 或者现有的 ? 表示法来表示包含 nullable 的联合体。<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">myStrValue</span>(<span class="params"><span class="keyword">string</span>|<span class="literal">null</span> $a = <span class="string">&#x27;hello&#x27;</span></span>): ?<span class="title">string</span> </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> $a;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">echo</span> myStrValue();<span class="comment">//hello</span></span><br><span class="line"><span class="keyword">echo</span> myStrValue(<span class="literal">null</span>);<span class="comment">//</span></span><br><span class="line"><span class="keyword">echo</span> myStrValue(<span class="string">&#x27;你好&#x27;</span>);<span class="comment">//你好</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">myStrConcat</span>(<span class="params">?<span class="keyword">string</span> $a = <span class="string">&#x27;hello&#x27;</span>, <span class="keyword">string</span> $b = <span class="literal">null</span></span>): <span class="title">string</span> </span>&#123;<span class="comment">//默认值为null亦可传null</span></span><br><span class="line">  <span class="keyword">return</span> $a . $b;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">echo</span> myStrConcat(); <span class="comment">//hello</span></span><br><span class="line"><span class="keyword">echo</span> myStrConcat(<span class="literal">null</span>); <span class="comment">//</span></span><br><span class="line"><span class="keyword">echo</span> myStrConcat(<span class="literal">null</span>, <span class="string">&#x27;world&#x27;</span>); <span class="comment">//world</span></span><br><span class="line"><span class="keyword">echo</span> myStrConcat(<span class="string">&#x27;你好&#x27;</span>, <span class="string">&#x27;世界&#x27;</span>); <span class="comment">//你好世界</span></span><br></pre></td></tr></table></figure>
 
 </li>
 </ul>
@@ -264,7 +264,7 @@
   <entry>
     <title>GIT标签同步与使用SourceTree配置SSH</title>
     <url>/sourcetreessh/</url>
-    <content><![CDATA[<div class="note info no-icon"><p>本文主要介绍GIT标签同步脚本设置与使用SourceTree更方便的配置SSH<br>基本配置可以参考之前的<a href="http://a.biugle.cn/hexobuild">Hexo搭建文章</a>。</p>
+    <content><![CDATA[<div class="note info no-icon"><p>本文主要介绍GIT标签同步脚本设置与使用SourceTree更方便的配置SSH<br>基本配置可以参考之前的<a href="http://a.biugle.cn/hexobuild#NO-5">Hexo搭建第5节</a>。</p>
 </div>
 <a id="more"></a>
 
@@ -339,6 +339,36 @@
 <li>此时会弹出是否要接受的提示框，选 YES。</li>
 <li>连接成功后，点击最下面的 Clone 按钮把文件下载下来，就开始使用啦！</li>
 </ul>
+<h2 id="使用OpenSSL"><a href="#使用OpenSSL" class="headerlink" title="使用OpenSSL"></a>使用OpenSSL</h2><p>此方法可以解决 SourceTree Terminal 无法使用 SSH 的问题</p>
+<p>亦可参考之前的<a href="http://a.biugle.cn/hexobuild#NO-5">Hexo搭建第5节</a></p>
+<h3 id="建立一对密钥"><a href="#建立一对密钥" class="headerlink" title="建立一对密钥"></a>建立一对密钥</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C [这边可以打mail或者空着也行，这里将按照你提供的邮箱地址，创建一对密钥。]</span><br><span class="line">Enter file <span class="keyword">in</span> <span class="built_in">which</span> to save the key (~/.ssh/id_rsa):</span><br><span class="line">Enter passphrase (empty <span class="keyword">for</span> no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br></pre></td></tr></table></figure>
+<h3 id="检查用户目录是否已经产生公钥与私钥"><a href="#检查用户目录是否已经产生公钥与私钥" class="headerlink" title="检查用户目录是否已经产生公钥与私钥"></a>检查用户目录是否已经产生公钥与私钥</h3><blockquote>
+<p>进入.ssh目录查看是否有密钥文件即可</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">~\.ssh</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>配置</p>
+</blockquote>
+<ol>
+<li>打开 .pub 公钥文件 ，将内容汇入 Gitee/Github</li>
+<li>在用户目录建立 config 文件</li>
+<li>放入.ssh目录</li>
+</ol>
+<blockquote>
+<p>config内容</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Host github/gitee ip</span><br><span class="line">HostName github domain</span><br><span class="line">IdentityFile ~/.ssh/id_rsa</span><br><span class="line">User pandaoh</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>确认是否可连接成功,可以输入下面的命令<code>ssh -T git@github.com</code>看看设置是否成功</p>
+</blockquote>
+<p>如果是下面的反馈：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">The authenticity of host ‘github.com (207.97.227.239)’ can’t be established.</span><br><span class="line">RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.</span><br><span class="line">Are you sure you want to <span class="built_in">continue</span> connecting (yes/no)?</span><br></pre></td></tr></table></figure>
+<p>不要紧张，输入yes就好，然后会显示成功(successful)。</p>
+<h3 id="将-Source-Tree-改用-OpenSSL-验证"><a href="#将-Source-Tree-改用-OpenSSL-验证" class="headerlink" title="将 Source Tree 改用 OpenSSL 验证"></a>将 Source Tree 改用 OpenSSL 验证</h3><ol>
+<li>Tools→Options→SSH Client Configuration</li>
+<li>将 SSH Client 改用 OpenSSL 其他不需调整</li>
+</ol>
 ]]></content>
       <categories>
         <category>可回收物</category>
@@ -3100,6 +3130,9 @@
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>&emsp;&emsp;虽然上面的公式看起来很复杂，其实计算过程还是比较简单的：如果所有元素的 flex-grow/shrink 之和大于等于 1，则所有子元素的尺寸一定会被调整到适应父元素的尺寸（在不考虑 max/min-width/height 的前提下），而如果 flex-grow/shrink 之和小于 1，则只会 grow 或 shrink 所有元素 flex-grow/shrink 之和相对于 1 的比例。grow 时的每个元素的权重即为元素的 flex-grow 的值；shrink 时每个元素的权重则为元素 flex-shrink 乘以 width 后的值。</p>
 <blockquote>
 <p>转改自<span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8yNDM3MjI3OQ==">知乎<i class="fa fa-external-link-alt"></i></span></p>
+</blockquote>
+<blockquote>
+<p>详细属性介绍<span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMxMzI0ODc5L2FydGljbGUvZGV0YWlscy8xMDI1Mjg3OTc=">CSDN-FlexAttribute<i class="fa fa-external-link-alt"></i></span></p>
 </blockquote>
 ]]></content>
       <categories>
@@ -6108,14 +6141,13 @@
 </blockquote>
 <p>&emsp;&emsp; <strong>直接回车</strong>，将密钥按默认文件进行存储。此时也可以输入特定的文件名，比如:</p>
 <p>&emsp;&emsp; /C/Users/you/.ssh/github_rsa(随便你啦)。</p>
-<p>&emsp;&emsp; 接着，根据提示，你需要输入密码和确认密码。说到这里，如果你很放心，其实可以不用密码。这样到输密码的时候，都直接回车，所以每次push就只管回车就行了，以后提交什么的多方便啊。所谓的最安全的密码，就是没有密码哈哈哈<del>~</del></p>
+<p>&emsp;&emsp; 接着，根据提示，你需要输入密码和确认密码。说到这里，如果你很放心，其实可以不用密码。这样到输密码的时候，都直接回车，所以每次push就只管回车就行了，以后提交什么的多方便啊。所谓的最安全的密码，就是没有密码哈哈哈～</p>
 <p>&emsp;&emsp; <strong>相关提示如下：</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Enter passphrase (empty for no passphrase): [Type a passphrase]</span><br><span class="line">Enter same passphrase again: [Type passphrase again]</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Enter passphrase (empty <span class="keyword">for</span> no passphrase): [Type a passphrase]</span><br><span class="line">Enter same passphrase again: [Type passphrase again]</span><br></pre></td></tr></table></figure>
 
 <p>输入完成之后，屏幕会显示<strong>如下信息：</strong></p>
-<blockquote>
-<p>Your identification has been saved in /c/Users/you/.ssh/id_rsa.<br>Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.<br>The key fingerprint is:<br>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <span class="exturl" data-url="bWFpbHRvOiYjMTIxOyYjMTExOyYjeDc1OyYjMTE0OyYjeDVmOyYjeDY1OyYjMTA5OyYjeDYxOyYjMTA1OyYjMTA4OyYjNjQ7JiMxMDE7JiMxMjA7JiM5NzsmIzEwOTsmIzExMjsmIzEwODsmI3g2NTsmIzQ2OyYjOTk7JiN4NmY7JiMxMDk7">&#121;&#111;&#x75;&#114;&#x5f;&#x65;&#109;&#x61;&#105;&#108;&#64;&#101;&#120;&#97;&#109;&#112;&#108;&#x65;&#46;&#99;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span></p>
-</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Your identification has been saved <span class="keyword">in</span> /c/Users/you/.ssh/id_rsa.</span><br><span class="line">Your public key has been saved <span class="keyword">in</span> /c/Users/you/.ssh/id_rsa.pub.</span><br><span class="line">The key fingerprint is:</span><br><span class="line">01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db your_email@example.com</span><br></pre></td></tr></table></figure>
+
 <p>&emsp; <strong><em>第三步、在GitHub账户中添加你的公钥</em></strong></p>
 <p><strong>运行如下命令，将公钥的内容复制到系统粘贴板(clipboard)中（手动复制也是可以的，就是你邮箱账户前面的那一串）。</strong></p>
 <blockquote>
@@ -6132,18 +6164,17 @@
 <p>&emsp; <strong><em>第四步、测试</em></strong></p>
 <p>&emsp;&emsp; 可以输入下面的命令，看看设置是否成功：</p>
 <blockquote>
-<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjMTAzOyYjeDY5OyYjMTE2OyYjeDQwOyYjeDY3OyYjMTA1OyYjMTE2OyYjMTA0OyYjeDc1OyYjeDYyOyYjNDY7JiN4NjM7JiN4NmY7JiN4NmQ7">&#103;&#x69;&#116;&#x40;&#x67;&#105;&#116;&#104;&#x75;&#x62;&#46;&#x63;&#x6f;&#x6d;<i class="fa fa-external-link-alt"></i></span></strong></p>
+<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjeDY3OyYjeDY5OyYjMTE2OyYjeDQwOyYjeDY3OyYjMTA1OyYjMTE2OyYjeDY4OyYjeDc1OyYjOTg7JiN4MmU7JiN4NjM7JiMxMTE7JiN4NmQ7">&#x67;&#x69;&#116;&#x40;&#x67;&#105;&#116;&#x68;&#x75;&#98;&#x2e;&#x63;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span></strong></p>
 </blockquote>
 <p>如果是下面的反馈：</p>
-<blockquote>
-<p>The authenticity of host ‘github.com (207.97.227.239)’ can’t be established.<br>RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.<br>Are you sure you want to continue connecting (yes/no)?</p>
-</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">The authenticity of host <span class="string">&#x27;github.com (207.97.227.239)&#x27;</span> can<span class="string">&#x27;t be established.</span></span><br><span class="line"><span class="string">RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.</span></span><br><span class="line"><span class="string">Are you sure you want to continue connecting (yes/no)?</span></span><br></pre></td></tr></table></figure>
+
 <p>&emsp;&emsp; <strong>不要紧张，输入yes就好，然后会显示成功(successful)。</strong></p>
 <p>&emsp; <strong><em>第五步、设置用户信息</em></strong></p>
 <p>&emsp;&emsp; 现在你已经可以通过 SSH 链接到GitHub了，还有一些个人信息需要完善的。Git会根据用户的名字和邮箱来记录提交。GitHub也是用这些信息来做权限的处理。</p>
 <p>&emsp;&emsp; 输入下面的代码进行个人信息的设置，把名称和邮箱替换成你自己的，名字根据自己的喜好自己取，而不是GitHub的昵称。</p>
 <blockquote>
-<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjeDc3OyYjOTc7JiMxMTA7JiN4Njc7JiMxMDE7JiN4NzI7JiMxMDM7JiMxMTE7JiN4NzU7JiN4NDA7JiN4MzE7JiM1NDsmI3gzMzsmIzQ2OyYjOTk7JiN4NmY7JiMxMDk7">&#x77;&#97;&#110;&#x67;&#101;&#x72;&#103;&#111;&#x75;&#x40;&#x31;&#54;&#x33;&#46;&#99;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
+<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjeDc3OyYjOTc7JiN4NmU7JiMxMDM7JiMxMDE7JiMxMTQ7JiMxMDM7JiN4NmY7JiMxMTc7JiM2NDsmI3gzMTsmIzU0OyYjNTE7JiN4MmU7JiN4NjM7JiN4NmY7JiN4NmQ7">&#x77;&#97;&#x6e;&#103;&#101;&#114;&#103;&#x6f;&#117;&#64;&#x31;&#54;&#51;&#x2e;&#x63;&#x6f;&#x6d;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
 </blockquote>
 <h4 id="到这里SSH-Key已经配置成功，本机已成功连接到github。"><a href="#到这里SSH-Key已经配置成功，本机已成功连接到github。" class="headerlink" title="到这里SSH Key已经配置成功，本机已成功连接到github。"></a><strong>到这里SSH Key已经配置成功，本机已成功连接到github。</strong></h4><hr>
 <h3 id="NO-6"><a href="#NO-6" class="headerlink" title="NO.6"></a>NO.6</h3><h4 id="将本地的Hexo文件更新到Github仓库："><a href="#将本地的Hexo文件更新到Github仓库：" class="headerlink" title="将本地的Hexo文件更新到Github仓库："></a>将本地的Hexo文件更新到Github仓库：</h4><ul>
@@ -6409,7 +6440,7 @@
 <p><img data-src="/images/loading.gif" data-original="https://www.baidu.com/img/bd_logo1.png" alt="图片Alt" title="图片Title">   </p>
 <p>其他媒体演示省略。   </p>
 <p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYmFpZHUuY29tLw==">超链接名<i class="fa fa-external-link-alt"></i></span>   </p>
-<p><span class="exturl" data-url="bWFpbHRvOiYjeDMxOyYjeDMwOyYjNDg7JiN4MzU7JiM1NTsmIzU0OyYjeDMwOyYjeDM2OyYjeDM5OyYjeDM0OyYjeDQwOyYjMTEzOyYjeDcxOyYjNDY7JiN4NjM7JiN4NmY7JiMxMDk7">&#x31;&#x30;&#48;&#x35;&#55;&#54;&#x30;&#x36;&#x39;&#x34;&#x40;&#113;&#x71;&#46;&#x63;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span>   </p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjeDMxOyYjNDg7JiM0ODsmI3gzNTsmI3gzNzsmI3gzNjsmI3gzMDsmIzU0OyYjNTc7JiM1MjsmI3g0MDsmI3g3MTsmI3g3MTsmI3gyZTsmIzk5OyYjMTExOyYjeDZkOw==">&#x31;&#48;&#48;&#x35;&#x37;&#x36;&#x30;&#54;&#57;&#52;&#x40;&#x71;&#x71;&#x2e;&#99;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span>   </p>
 <p><br><br><br></p>
 <h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><hr>
 <blockquote>

@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://a.biugle.cn/sourcetreessh/</loc>
+    <lastmod>2020-12-16</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/hexobuild/</loc>
+    <lastmod>2020-12-16</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/php8/</loc>
+    <lastmod>2020-12-16</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/flex-calc/</loc>
+    <lastmod>2020-12-16</lastmod>
+  </url>
+  <url>
     <loc>http://a.biugle.cn/biuglejs/</loc>
     <lastmod>2020-12-12</lastmod>
   </url>
@@ -14,10 +30,6 @@
   </url>
   <url>
     <loc>http://a.biugle.cn/shortcutkey-netbeans/</loc>
-    <lastmod>2020-12-04</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/sourcetreessh/</loc>
     <lastmod>2020-12-04</lastmod>
   </url>
   <url>
@@ -35,10 +47,6 @@
   <url>
     <loc>http://a.biugle.cn/datafree/</loc>
     <lastmod>2020-12-02</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/php8/</loc>
-    <lastmod>2020-12-01</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/websocket/</loc>
@@ -115,10 +123,6 @@
   <url>
     <loc>http://a.biugle.cn/phpsql/</loc>
     <lastmod>2020-10-24</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/hexobuild/</loc>
-    <lastmod>2020-10-23</lastmod>
   </url>
   <url>
     <loc>http://a.biugle.cn/phpip/</loc>
@@ -266,10 +270,6 @@
   </url>
   <url>
     <loc>http://a.biugle.cn/gitlog/</loc>
-    <lastmod>2020-10-20</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/flex-calc/</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
   <url>
