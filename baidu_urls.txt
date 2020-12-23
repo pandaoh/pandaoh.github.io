@@ -6,6 +6,7 @@ http://a.biugle.cn/datafree/
 http://a.biugle.cn/uuid/
 http://a.biugle.cn/websocket/
 http://a.biugle.cn/biuglejs/
+http://a.biugle.cn/tencentcos/
 http://a.biugle.cn/cors/
 http://a.biugle.cn/jsstring/
 http://a.biugle.cn/gitlog/
@@ -16,6 +17,7 @@ http://a.biugle.cn/glossary/
 http://a.biugle.cn/set-console/
 http://a.biugle.cn/jsondemo/
 http://a.biugle.cn/git-more/
+http://a.biugle.cn/restful/
 http://a.biugle.cn/git/
 http://a.biugle.cn/dev-rules/
 http://a.biugle.cn/http-code/

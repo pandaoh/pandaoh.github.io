@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://a.biugle.cn/dev-rules/</loc>
+    <lastmod>2020-12-23</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/restful/</loc>
+    <lastmod>2020-12-23</lastmod>
+  </url>
+  <url>
+    <loc>http://a.biugle.cn/tencentcos/</loc>
+    <lastmod>2020-12-23</lastmod>
+  </url>
+  <url>
     <loc>http://a.biugle.cn/sourcetreessh/</loc>
     <lastmod>2020-12-16</lastmod>
   </url>
@@ -82,10 +94,6 @@
   </url>
   <url>
     <loc>http://a.biugle.cn/hexomoreandnext/</loc>
-    <lastmod>2020-11-17</lastmod>
-  </url>
-  <url>
-    <loc>http://a.biugle.cn/dev-rules/</loc>
     <lastmod>2020-11-17</lastmod>
   </url>
   <url>
