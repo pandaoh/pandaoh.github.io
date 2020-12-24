@@ -12,6 +12,7 @@ http://a.biugle.cn/jsstring/
 http://a.biugle.cn/gitlog/
 http://a.biugle.cn/keycode/
 http://a.biugle.cn/xml/
+http://a.biugle.cn/jquery/
 http://a.biugle.cn/ajaxnormal/
 http://a.biugle.cn/glossary/
 http://a.biugle.cn/set-console/
