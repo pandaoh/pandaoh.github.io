@@ -6475,7 +6475,7 @@
 <p>&emsp; <strong><em>第四步、测试</em></strong></p>
 <p>&emsp;&emsp; 可以输入下面的命令，看看设置是否成功：</p>
 <blockquote>
-<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjeDY3OyYjeDY5OyYjeDc0OyYjeDQwOyYjMTAzOyYjMTA1OyYjeDc0OyYjMTA0OyYjeDc1OyYjOTg7JiN4MmU7JiN4NjM7JiN4NmY7JiMxMDk7">&#x67;&#x69;&#x74;&#x40;&#103;&#105;&#x74;&#104;&#x75;&#98;&#x2e;&#x63;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span></strong></p>
+<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjMTAzOyYjMTA1OyYjMTE2OyYjeDQwOyYjeDY3OyYjMTA1OyYjeDc0OyYjeDY4OyYjeDc1OyYjeDYyOyYjNDY7JiM5OTsmIzExMTsmI3g2ZDs=">&#103;&#105;&#116;&#x40;&#x67;&#105;&#x74;&#x68;&#x75;&#x62;&#46;&#99;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span></strong></p>
 </blockquote>
 <p>如果是下面的反馈：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">The authenticity of host <span class="string">&#x27;github.com (207.97.227.239)&#x27;</span> can<span class="string">&#x27;t be established.</span></span><br><span class="line"><span class="string">RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.</span></span><br><span class="line"><span class="string">Are you sure you want to continue connecting (yes/no)?</span></span><br></pre></td></tr></table></figure>
@@ -6485,7 +6485,7 @@
 <p>&emsp;&emsp; 现在你已经可以通过 SSH 链接到GitHub了，还有一些个人信息需要完善的。Git会根据用户的名字和邮箱来记录提交。GitHub也是用这些信息来做权限的处理。</p>
 <p>&emsp;&emsp; 输入下面的代码进行个人信息的设置，把名称和邮箱替换成你自己的，名字根据自己的喜好自己取，而不是GitHub的昵称。</p>
 <blockquote>
-<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjeDc3OyYjOTc7JiMxMTA7JiN4Njc7JiN4NjU7JiMxMTQ7JiN4Njc7JiMxMTE7JiN4NzU7JiN4NDA7JiM0OTsmI3gzNjsmI3gzMzsmIzQ2OyYjeDYzOyYjMTExOyYjeDZkOw==">&#x77;&#97;&#110;&#x67;&#x65;&#114;&#x67;&#111;&#x75;&#x40;&#49;&#x36;&#x33;&#46;&#x63;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
+<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjMTE5OyYjeDYxOyYjeDZlOyYjMTAzOyYjeDY1OyYjeDcyOyYjMTAzOyYjeDZmOyYjMTE3OyYjNjQ7JiM0OTsmI3gzNjsmIzUxOyYjNDY7JiN4NjM7JiN4NmY7JiN4NmQ7">&#119;&#x61;&#x6e;&#103;&#x65;&#x72;&#103;&#x6f;&#117;&#64;&#49;&#x36;&#51;&#46;&#x63;&#x6f;&#x6d;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
 </blockquote>
 <h4 id="到这里SSH-Key已经配置成功，本机已成功连接到github。"><a href="#到这里SSH-Key已经配置成功，本机已成功连接到github。" class="headerlink" title="到这里SSH Key已经配置成功，本机已成功连接到github。"></a><strong>到这里SSH Key已经配置成功，本机已成功连接到github。</strong></h4><hr>
 <h3 id="NO-6"><a href="#NO-6" class="headerlink" title="NO.6"></a>NO.6</h3><h4 id="将本地的Hexo文件更新到Github仓库："><a href="#将本地的Hexo文件更新到Github仓库：" class="headerlink" title="将本地的Hexo文件更新到Github仓库："></a>将本地的Hexo文件更新到Github仓库：</h4><ul>
@@ -6751,7 +6751,7 @@
 <p><img data-src="/images/loading.gif" data-original="https://www.baidu.com/img/bd_logo1.png" alt="图片Alt" title="图片Title">   </p>
 <p>其他媒体演示省略。   </p>
 <p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYmFpZHUuY29tLw==">超链接名<i class="fa fa-external-link-alt"></i></span>   </p>
-<p><span class="exturl" data-url="bWFpbHRvOiYjeDMxOyYjNDg7JiN4MzA7JiM1MzsmI3gzNzsmI3gzNjsmIzQ4OyYjeDM2OyYjeDM5OyYjNTI7JiM2NDsmI3g3MTsmI3g3MTsmIzQ2OyYjeDYzOyYjMTExOyYjMTA5Ow==">&#x31;&#48;&#x30;&#53;&#x37;&#x36;&#48;&#x36;&#x39;&#52;&#64;&#x71;&#x71;&#46;&#x63;&#111;&#109;<i class="fa fa-external-link-alt"></i></span>   </p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjeDMxOyYjeDMwOyYjNDg7JiM1MzsmIzU1OyYjNTQ7JiM0ODsmIzU0OyYjeDM5OyYjeDM0OyYjNjQ7JiMxMTM7JiN4NzE7JiN4MmU7JiM5OTsmI3g2ZjsmIzEwOTs=">&#x31;&#x30;&#48;&#53;&#55;&#54;&#48;&#54;&#x39;&#x34;&#64;&#113;&#x71;&#x2e;&#99;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span>   </p>
 <p><br><br><br></p>
 <h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><hr>
 <blockquote>
