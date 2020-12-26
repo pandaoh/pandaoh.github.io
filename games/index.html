@@ -2,14 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=no">
-    <title>wow big menu</title>
-    <!--响应式框架-->
-    <link rel='stylesheet' href='./bootstrap.min.css'>
-    <!--图标库-->
+    <meta content="width=device-width, initial-scale=0.9" name="viewport">
+    <meta content="DoubleAm的博客,贺雄彪的博客,贺雄彪,鲸落oh,江湖小栈" name="description">
+    <meta Content="DoubleAm的博客,贺雄彪的博客,贺雄彪,鲸落oh,江湖小栈" name="keywords">
+    <meta content="DoubleAm" name="author">
+    <link href="/images/favicon.png" rel="shortcut icon">
+    <title>Biugle | GamesCenter</title>
+    <link rel='stylesheet' href='/games/bootstrap.min.css'>
     <link rel='stylesheet' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
-    <!--主要样式-->
-    <link rel="stylesheet" href="./style.min.css">
+    <link rel="stylesheet" href="/games/style.min.css">
+    <style type="text/css">
+      .site-wrapper .container .row div#wrap-menu {
+        margin: auto !important;
+      }
+      .hexagon-menu {
+        margin: auto !important;
+      }
+      @media screen and (min-width: 770px) and (max-width: 1250px) {
+       .site-wrapper .container .row div#wrap-menu {
+          width: 720px !important;
+          max-width: none !important;
+          min-width: none !important;
+          padding: 0 !important;
+          flex: auto !important;
+          margin: auto !important;
+        }
+        .hexagon-menu {
+          width: 720px !important;
+          margin: auto !important;
+        }
+      }
+    </style>
   </head>
   <body>
     <main class="site-wrapper">
@@ -18,10 +41,12 @@
           <div class="overlay"></div>
           <div class="container">
             <div class="row">
-              <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+              <div id='wrap-menu' class="col-xs-12 col-md-10 col-lg-8">
                 <div class="page-title home text-center">
                   <span class="heading-page" style="text-transform: none;">
-                    Welcome Biugle GameCenter !
+                    <a href="/">Welcome Biugle GameCenter!</a>
+                    <br/>
+                    <a href="/">back to home</a>
                   </span>
                 </div>
                 <div class="hexagon-menu clear">
@@ -36,7 +61,7 @@
                       <div></div>
                       <div></div>
                     </div>
-                    <a href="./donkeyjump/index.html" target="_blank" class="hex-content">
+                    <a href="donkeyjump/" target="_blank" class="hex-content">
                       <span class="hex-content-inner">
                         <span class="icon">
                           <i class="fa fa-gamepad"></i>
@@ -57,7 +82,7 @@
                       <div></div>
                       <div></div>
                     </div>
-                    <a href="./flybird/index.html" target="_blank" class="hex-content">
+                    <a href="flybird/" target="_blank" class="hex-content">
                       <span class="hex-content-inner">
                         <span class="icon">
                           <i class="fa fa-gamepad"></i>
@@ -78,7 +103,7 @@
                       <div></div>
                       <div></div>
                     </div>
-                    <a href="./magictower/index.html" target="_blank" class="hex-content">
+                    <a href="magictower/" target="_blank" class="hex-content">
                       <span class="hex-content-inner">
                         <span class="icon">
                           <i class="fa fa-gamepad"></i>
@@ -99,7 +124,7 @@
                       <div></div>
                       <div></div>
                     </div>
-                    <a href="./planebattle/index.html" target="_blank" class="hex-content">
+                    <a href="planebattle/" target="_blank" class="hex-content">
                       <span class="hex-content-inner">
                         <span class="icon">
                           <i class="fa fa-gamepad"></i>
@@ -120,7 +145,7 @@
                       <div></div>
                       <div></div>
                     </div>
-                    <a href="./rabbitrun/index.html" target="_blank" class="hex-content">
+                    <a href="rabbitrun/" target="_blank" class="hex-content">
                       <span class="hex-content-inner">
                         <span class="icon">
                           <i class="fa fa-gamepad"></i>
@@ -141,7 +166,7 @@
                       <div></div>
                       <div></div>
                     </div>
-                    <a href="./tabkill/index.html" target="_blank" class="hex-content">
+                    <a href="tabkill/" target="_blank" class="hex-content">
                       <span class="hex-content-inner">
                         <span class="icon">
                           <i class="fa fa-gamepad"></i>
@@ -162,7 +187,7 @@
                       <div></div>
                       <div></div>
                     </div>
-                    <a href="./canvasplane/index.html" target="_blank" class="hex-content">
+                    <a href="canvasplane/" target="_blank" class="hex-content">
                       <span class="hex-content-inner">
                         <span class="icon">
                           <i class="fa fa-gamepad"></i>

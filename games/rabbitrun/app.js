@@ -259,7 +259,6 @@ function butEventHandler(a, b) {
 }
 function initGameEnd() {
   var a, b, c;
-  console.log(oGameData.distance, oGameData.curGems),
           dp_submitScore(oGameData.distance),
           document.getElementById("toolbar").style.display = "block",
           gameState = "gameOver",
