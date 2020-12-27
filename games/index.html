@@ -11,6 +11,7 @@
     <link rel='stylesheet' href='/games/bootstrap.min.css'>
     <link rel='stylesheet' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
     <link rel="stylesheet" href="/games/style.min.css">
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
     <style type="text/css">
       .site-wrapper .container .row div#wrap-menu {
         margin: auto !important;
@@ -44,9 +45,11 @@
               <div id='wrap-menu' class="col-xs-12 col-md-10 col-lg-8">
                 <div class="page-title home text-center">
                   <span class="heading-page" style="text-transform: none;">
-                    <a href="/">Welcome Biugle GameCenter!</a>
+                    <a href="/others">Welcome Biugle GameCenter!</a>
                     <br/>
                     <a href="/">back to home</a>
+                    <br/>
+                    <a href="/games/2048/">2048</a>
                   </span>
                 </div>
                 <div class="hexagon-menu clear">
@@ -103,12 +106,12 @@
                       <div></div>
                       <div></div>
                     </div>
-                    <a href="/games/magictower/" target="_blank" class="hex-content">
+                    <a href="/games/fruitninjia/" target="_blank" class="hex-content">
                       <span class="hex-content-inner">
                         <span class="icon">
                           <i class="fa fa-gamepad"></i>
                         </span>
-                        <span class="title">MagicTower</span>
+                        <span class="title">FruitNinjia</span>
                       </span>
                       <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
                     </a>
@@ -150,7 +153,7 @@
                         <span class="icon">
                           <i class="fa fa-gamepad"></i>
                         </span>
-                        <span class="title">RubbitRun</span>
+                        <span class="title">RabbitRun</span>
                       </span>
                       <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
                     </a>
@@ -166,12 +169,12 @@
                       <div></div>
                       <div></div>
                     </div>
-                    <a href="/games/tabkill/" target="_blank" class="hex-content">
+                    <a href="/games/tapkill/" target="_blank" class="hex-content">
                       <span class="hex-content-inner">
                         <span class="icon">
                           <i class="fa fa-gamepad"></i>
                         </span>
-                        <span class="title">TabKill</span>
+                        <span class="title">TapKill</span>
                       </span>
                       <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
                     </a>
@@ -203,6 +206,18 @@
           </div>
         </div>
       </div>
+<div id="vcomments"></div>
     </main>
+<script>
+new Valine({
+  el: '#vcomments' ,
+  appId: 'VyjoY5GEmoFvdbhOf43SAbBq-gzGzoHsz',
+  appKey: 'xndGDmxQC6VzUsixOrnUOqaa',
+  notify: false,
+  verify: false,
+  placeholder: '填写邮箱的话会通过邮件联系您！',
+  avatar: 'wavatar'
+  });
+</script>
   </body>
 </html>
