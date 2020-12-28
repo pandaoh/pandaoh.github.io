@@ -4358,7 +4358,21 @@
 <li>Cache</li>
 <li>Notification</li>
 </ul>
-<h3 id="补充：html使用SVG的另一种方式Object"><a href="#补充：html使用SVG的另一种方式Object" class="headerlink" title="补充：html使用SVG的另一种方式Object"></a>补充：html使用SVG的另一种方式Object</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">type</span>=<span class="string">&quot;image/svg xml&quot;</span> <span class="attr">data</span>=<span class="string">&quot;./test.svg&quot;</span> <span class="attr">style</span>=<span class="string">&quot;...&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">param</span> <span class="attr">name</span>=<span class="string">&quot;src&quot;</span> <span class="attr">value</span>=<span class="string">&quot;./test.svg&quot;</span> &gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">object</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+<h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><h3 id="html使用SVG的另一种方式Object"><a href="#html使用SVG的另一种方式Object" class="headerlink" title="html使用SVG的另一种方式Object"></a>html使用SVG的另一种方式Object</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">type</span>=<span class="string">&quot;image/svg xml&quot;</span> <span class="attr">data</span>=<span class="string">&quot;./test.svg&quot;</span> <span class="attr">style</span>=<span class="string">&quot;...&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">param</span> <span class="attr">name</span>=<span class="string">&quot;src&quot;</span> <span class="attr">value</span>=<span class="string">&quot;./test.svg&quot;</span> &gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">object</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="关于html头部语言"><a href="#关于html头部语言" class="headerlink" title="关于html头部语言"></a>关于html头部语言</h3><ul>
+<li>zh-CN其实已经算弃用了</li>
+<li>简体中文页面：html lang = zh-cmn-Hans</li>
+<li>繁体中文页面：html lang = zh-cmn-Hant</li>
+<li>英语页面：html lang = en</li>
+</ul>
+<blockquote>
+<p>还有需要加地区代码的情况(一般比较少，除非为了强调不同地区汉语使用差异。)比如：</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">lang</span>=<span class="string">&quot;zh-cmn-Hans&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">b</span> <span class="attr">lang</span>=<span class="string">&quot;zh-cmn-Hans-CN&quot;</span>&gt;</span>菠萝<span class="tag">&lt;/<span class="name">b</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">b</span> <span class="attr">lang</span>=<span class="string">&quot;zh-cmn-Hant-TW&quot;</span>&gt;</span>梨<span class="tag">&lt;/<span class="name">b</span>&gt;</span></span><br><span class="line">  其实是同一种水果。</span><br><span class="line">  只是大陆和台湾称谓不同，且新马一带的称谓也是不同的，称之为黄梨。</span><br><span class="line">  <span class="tag">&lt;<span class="name">b</span> <span class="attr">lang</span>=<span class="string">&quot;zh-cmn-Hans-SG&quot;</span>&gt;</span>黄梨<span class="tag">&lt;/<span class="name">b</span>&gt;</span>。</span><br><span class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>当然，由于历史原因，有时候不得不继续使用zh-CN。比如中文维基百科，沿用了传统的zh-CN/zh-HK/zh-SG/zh-TW（按照标准应该使用 zh-cmn-Hans-CN、zh-cmn-Hant-HK、zh-cmn-Hans-SG、zh-cmn-Hant-TW）。这时候，合理的软件行为，是将 zh-CN 等转化为 zh-cmn-Hans（即转化为最常见的误用所对应的实际标准写法）。<br>实际上，各相关标准，也存在一定的滞后，见仁见智咯。</p>
+]]></content>
       <categories>
         <category>干垃圾</category>
       </categories>
@@ -6475,7 +6489,7 @@
 <p>&emsp; <strong><em>第四步、测试</em></strong></p>
 <p>&emsp;&emsp; 可以输入下面的命令，看看设置是否成功：</p>
 <blockquote>
-<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjMTAzOyYjMTA1OyYjeDc0OyYjNjQ7JiN4Njc7JiMxMDU7JiMxMTY7JiN4Njg7JiMxMTc7JiM5ODsmIzQ2OyYjOTk7JiN4NmY7JiN4NmQ7">&#103;&#105;&#x74;&#64;&#x67;&#105;&#116;&#x68;&#117;&#98;&#46;&#99;&#x6f;&#x6d;<i class="fa fa-external-link-alt"></i></span></strong></p>
+<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjMTAzOyYjeDY5OyYjMTE2OyYjeDQwOyYjMTAzOyYjeDY5OyYjeDc0OyYjMTA0OyYjMTE3OyYjeDYyOyYjeDJlOyYjOTk7JiN4NmY7JiMxMDk7">&#103;&#x69;&#116;&#x40;&#103;&#x69;&#x74;&#104;&#117;&#x62;&#x2e;&#99;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span></strong></p>
 </blockquote>
 <p>如果是下面的反馈：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">The authenticity of host <span class="string">&#x27;github.com (207.97.227.239)&#x27;</span> can<span class="string">&#x27;t be established.</span></span><br><span class="line"><span class="string">RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.</span></span><br><span class="line"><span class="string">Are you sure you want to continue connecting (yes/no)?</span></span><br></pre></td></tr></table></figure>
@@ -6485,7 +6499,7 @@
 <p>&emsp;&emsp; 现在你已经可以通过 SSH 链接到GitHub了，还有一些个人信息需要完善的。Git会根据用户的名字和邮箱来记录提交。GitHub也是用这些信息来做权限的处理。</p>
 <p>&emsp;&emsp; 输入下面的代码进行个人信息的设置，把名称和邮箱替换成你自己的，名字根据自己的喜好自己取，而不是GitHub的昵称。</p>
 <blockquote>
-<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjMTE5OyYjeDYxOyYjMTEwOyYjeDY3OyYjMTAxOyYjMTE0OyYjMTAzOyYjeDZmOyYjMTE3OyYjNjQ7JiM0OTsmIzU0OyYjeDMzOyYjNDY7JiM5OTsmIzExMTsmIzEwOTs=">&#119;&#x61;&#110;&#x67;&#101;&#114;&#103;&#x6f;&#117;&#64;&#49;&#54;&#x33;&#46;&#99;&#111;&#109;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
+<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjMTE5OyYjeDYxOyYjMTEwOyYjeDY3OyYjMTAxOyYjMTE0OyYjMTAzOyYjeDZmOyYjMTE3OyYjeDQwOyYjeDMxOyYjeDM2OyYjeDMzOyYjeDJlOyYjeDYzOyYjMTExOyYjeDZkOw==">&#119;&#x61;&#110;&#x67;&#101;&#114;&#103;&#x6f;&#117;&#x40;&#x31;&#x36;&#x33;&#x2e;&#x63;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
 </blockquote>
 <h4 id="到这里SSH-Key已经配置成功，本机已成功连接到github。"><a href="#到这里SSH-Key已经配置成功，本机已成功连接到github。" class="headerlink" title="到这里SSH Key已经配置成功，本机已成功连接到github。"></a><strong>到这里SSH Key已经配置成功，本机已成功连接到github。</strong></h4><hr>
 <h3 id="NO-6"><a href="#NO-6" class="headerlink" title="NO.6"></a>NO.6</h3><h4 id="将本地的Hexo文件更新到Github仓库："><a href="#将本地的Hexo文件更新到Github仓库：" class="headerlink" title="将本地的Hexo文件更新到Github仓库："></a>将本地的Hexo文件更新到Github仓库：</h4><ul>
@@ -6751,7 +6765,7 @@
 <p><img data-src="/images/loading.gif" data-original="https://www.baidu.com/img/bd_logo1.png" alt="图片Alt" title="图片Title">   </p>
 <p>其他媒体演示省略。   </p>
 <p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYmFpZHUuY29tLw==">超链接名<i class="fa fa-external-link-alt"></i></span>   </p>
-<p><span class="exturl" data-url="bWFpbHRvOiYjNDk7JiM0ODsmIzQ4OyYjNTM7JiN4Mzc7JiM1NDsmIzQ4OyYjeDM2OyYjeDM5OyYjeDM0OyYjNjQ7JiN4NzE7JiMxMTM7JiM0NjsmI3g2MzsmIzExMTsmIzEwOTs=">&#49;&#48;&#48;&#53;&#x37;&#54;&#48;&#x36;&#x39;&#x34;&#64;&#x71;&#113;&#46;&#x63;&#111;&#109;<i class="fa fa-external-link-alt"></i></span>   </p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjeDMxOyYjeDMwOyYjeDMwOyYjNTM7JiM1NTsmI3gzNjsmI3gzMDsmIzU0OyYjNTc7JiM1MjsmI3g0MDsmI3g3MTsmIzExMzsmI3gyZTsmI3g2MzsmIzExMTsmI3g2ZDs=">&#x31;&#x30;&#x30;&#53;&#55;&#x36;&#x30;&#54;&#57;&#52;&#x40;&#x71;&#113;&#x2e;&#x63;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span>   </p>
 <p><br><br><br></p>
 <h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><hr>
 <blockquote>
