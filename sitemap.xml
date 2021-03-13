@@ -597,14 +597,14 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/otherlinks/</loc>
+    <loc>http://a.biugle.cn/liuyan/</loc>
     
     <lastmod>2021-02-10</lastmod>
     
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/liuyan/</loc>
+    <loc>http://a.biugle.cn/otherlinks/</loc>
     
     <lastmod>2021-02-10</lastmod>
     
@@ -704,13 +704,6 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/Android/</loc>
-    <lastmod>2021-03-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://a.biugle.cn/tags/html/</loc>
     <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
@@ -718,7 +711,7 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/Web%E5%BC%80%E5%8F%91%E8%A7%84%E5%88%99/</loc>
+    <loc>http://a.biugle.cn/tags/Android/</loc>
     <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -746,6 +739,13 @@
   </url>
   
   <url>
+    <loc>http://a.biugle.cn/tags/Web%E5%BC%80%E5%8F%91%E8%A7%84%E5%88%99/</loc>
+    <lastmod>2021-03-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://a.biugle.cn/tags/git/</loc>
     <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
@@ -760,14 +760,14 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/</loc>
+    <loc>http://a.biugle.cn/tags/Hello-World/</loc>
     <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/Hello-World/</loc>
+    <loc>http://a.biugle.cn/tags/%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/</loc>
     <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -788,14 +788,14 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/HTTP/</loc>
+    <loc>http://a.biugle.cn/tags/IE/</loc>
     <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/IE/</loc>
+    <loc>http://a.biugle.cn/tags/HTTP/</loc>
     <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -823,14 +823,14 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/Demo/</loc>
+    <loc>http://a.biugle.cn/tags/jQuery-JavaScript/</loc>
     <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/jQuery-JavaScript/</loc>
+    <loc>http://a.biugle.cn/tags/Demo/</loc>
     <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -872,14 +872,14 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/MarkDown/</loc>
+    <loc>http://a.biugle.cn/tags/%E5%87%BD%E6%95%B0%E4%B8%8E%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/%E5%87%BD%E6%95%B0%E4%B8%8E%E6%96%B9%E6%B3%95/</loc>
+    <loc>http://a.biugle.cn/tags/MarkDown/</loc>
     <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -963,13 +963,6 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/CORS/</loc>
-    <lastmod>2021-03-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://a.biugle.cn/tags/%E8%B6%85%E7%BA%A7%E9%87%8D%E8%A6%81%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
     <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
@@ -1005,6 +998,20 @@
   </url>
   
   <url>
+    <loc>http://a.biugle.cn/tags/CORS/</loc>
+    <lastmod>2021-03-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://a.biugle.cn/tags/SQL/</loc>
+    <lastmod>2021-03-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://a.biugle.cn/tags/Office%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
     <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
@@ -1019,7 +1026,14 @@
   </url>
   
   <url>
-    <loc>http://a.biugle.cn/tags/SQL/</loc>
+    <loc>http://a.biugle.cn/tags/COS%E6%A1%B6/</loc>
+    <lastmod>2021-03-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://a.biugle.cn/tags/UUID/</loc>
     <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1027,13 +1041,6 @@
   
   <url>
     <loc>http://a.biugle.cn/tags/%E7%94%9F%E6%B4%BB%E6%84%9F%E5%8F%97/</loc>
-    <lastmod>2021-03-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://a.biugle.cn/tags/COS%E6%A1%B6/</loc>
     <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1048,13 +1055,6 @@
   
   <url>
     <loc>http://a.biugle.cn/tags/WebStorage/</loc>
-    <lastmod>2021-03-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://a.biugle.cn/tags/UUID/</loc>
     <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
