@@ -9,7 +9,6 @@ http://a.biugle.cn/biuglejs/
 http://a.biugle.cn/tencentcos/
 http://a.biugle.cn/cors/
 http://a.biugle.cn/jsstring/
-http://a.biugle.cn/gitlog/
 http://a.biugle.cn/keycode/
 http://a.biugle.cn/xml/
 http://a.biugle.cn/jquery/
@@ -22,7 +21,6 @@ http://a.biugle.cn/restful/
 http://a.biugle.cn/git/
 http://a.biugle.cn/dev-rules/
 http://a.biugle.cn/http-code/
-http://a.biugle.cn/24hours-before/
 http://a.biugle.cn/copyevent/
 http://a.biugle.cn/hexomoreandnext/
 http://a.biugle.cn/deferandasync/
@@ -67,7 +65,6 @@ http://a.biugle.cn/methodandfunction/
 http://a.biugle.cn/shortcutkey-win/
 http://a.biugle.cn/shortcutkey-office/
 http://a.biugle.cn/shortcutkey-eclipse/
-http://a.biugle.cn/shortcut-codeman/
 http://a.biugle.cn/shortcutkey-chrome/
 http://a.biugle.cn/colorrgb/
 http://a.biugle.cn/hexobuild/
