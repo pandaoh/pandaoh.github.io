@@ -1109,7 +1109,7 @@
   </entry>
   <entry>
     <title>玩转console</title>
-    <url>/set-console/</url>
+    <url>/set_console/</url>
     <content><![CDATA[<div class="note success no-icon"><p>5分钟教你玩转console</p>
 </div>
 <a id="more"></a> 
@@ -1160,7 +1160,7 @@
   </entry>
   <entry>
     <title>图解git命令</title>
-    <url>/git-more/</url>
+    <url>/git_more/</url>
     <content><![CDATA[<div class="note success no-icon"><p>图解git的命令操作，超详细！</p>
 </div>
 <a id="more"></a> 
@@ -1169,9 +1169,9 @@
 
 </blockquote> 
 
-<h3 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h3><p><img data-src="/images/loading.gif" data-original="/git-more/git.png"></p>
-<h3 id="切换分支"><a href="#切换分支" class="headerlink" title="切换分支"></a>切换分支</h3><p><img data-src="/images/loading.gif" data-original="/git-more/head.png"></p>
-<h3 id="分支合并"><a href="#分支合并" class="headerlink" title="分支合并"></a>分支合并</h3><p><img data-src="/images/loading.gif" data-original="/git-more/branch.png"></p>
+<h3 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h3><p><img data-src="/images/loading.gif" data-original="/git_more/git.png"></p>
+<h3 id="切换分支"><a href="#切换分支" class="headerlink" title="切换分支"></a>切换分支</h3><p><img data-src="/images/loading.gif" data-original="/git_more/head.png"></p>
+<h3 id="分支合并"><a href="#分支合并" class="headerlink" title="分支合并"></a>分支合并</h3><p><img data-src="/images/loading.gif" data-original="/git_more/branch.png"></p>
 ]]></content>
       <categories>
         <category>一般垃圾</category>
@@ -1444,7 +1444,7 @@
   </entry>
   <entry>
     <title>Web开发规则</title>
-    <url>/dev-rules/</url>
+    <url>/dev_rules/</url>
     <content><![CDATA[<div class="note success no-icon"><h1 id="精神"><a href="#精神" class="headerlink" title="精神"></a>精神</h1><ul>
 <li>代码优雅，可读性高。</li>
 <li>注释内容简明扼要。</li>
@@ -1746,7 +1746,7 @@
   </entry>
   <entry>
     <title>HTTP状态码</title>
-    <url>/http-code/</url>
+    <url>/http_code/</url>
     <content><![CDATA[<div class="note success no-icon"><p>HTTP状态码合集！</p>
 </div>
 <a id="more"></a>                                                                            
@@ -2774,7 +2774,7 @@
   </entry>
   <entry>
     <title>设置网站运行时间</title>
-    <url>/old-now/</url>
+    <url>/old_now/</url>
     <content><![CDATA[<div class="note success no-icon"><p>设置网站运行时间</p>
 </div>
 <a id="more"></a> 
@@ -2882,7 +2882,7 @@
   </entry>
   <entry>
     <title>前端跨域</title>
-    <url>/js-kuayu/</url>
+    <url>/js_kuayu/</url>
     <content><![CDATA[<div class="note warning no-icon"><p>前端常见跨域问题</p>
 </div>
 <a id="more"></a> 
@@ -3347,14 +3347,14 @@
   </entry>
   <entry>
     <title>flex-grow与flex-shrink的计算</title>
-    <url>/flex-calc/</url>
+    <url>/flex_calc/</url>
     <content><![CDATA[<div class="note default no-icon"><p>介绍flex-grow与flex-shrink的比例如何计算。</p>
 </div>
 <a id="more"></a> 
 
-<h2 id="先放几张之前的图"><a href="#先放几张之前的图" class="headerlink" title="先放几张之前的图"></a>先放几张之前的图</h2><p><img data-src="/images/loading.gif" data-original="/flex-calc/flex-grow.PNG"></p>
-<p><img data-src="/images/loading.gif" data-original="/flex-calc/flex-shrink.png"></p>
-<p><img data-src="/images/loading.gif" data-original="/flex-calc/flex-1.PNG"></p>
+<h2 id="先放几张之前的图"><a href="#先放几张之前的图" class="headerlink" title="先放几张之前的图"></a>先放几张之前的图</h2><p><img data-src="/images/loading.gif" data-original="/flex_calc/flex-grow.PNG"></p>
+<p><img data-src="/images/loading.gif" data-original="/flex_calc/flex-shrink.png"></p>
+<p><img data-src="/images/loading.gif" data-original="/flex_calc/flex-1.PNG"></p>
 <h2 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h2><h3 id="flex-grow"><a href="#flex-grow" class="headerlink" title="flex-grow"></a>flex-grow</h3><p>&emsp;&emsp;当剩余空间为 x，三个元素的 flex-grow 分别为 a，b，c。设 sum 为 <code>a + b + c</code>。那么三个元素将得到剩余空间分别是 <code>x * (a / sum)</code>, <code>x * (b / sum)</code>, <code>x * (c / sum)</code>，这是他们各自的权重。</p>
 <blockquote>
 <p>举个栗子：</p>
@@ -4851,27 +4851,6 @@
       </tags>
   </entry>
   <entry>
-    <title>NetBeans配置</title>
-    <url>/netbeans-setting/</url>
-    <content><![CDATA[<div class="note success no-icon"><p>NetBeans的配置备份</p>
-</div>
-<a id="more"></a> 
-
-<blockquote class="blockquote-center">
-<p><span class="exturl" data-url="aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMW9sRkM0Y19yczFKTU5XcDJON2VEV1E=">下载链接<i class="fa fa-external-link-alt"></i></span>&emsp;&emsp;&emsp;提取码：<strong>jrt6</strong></p>
-
-</blockquote>
-
-
-]]></content>
-      <categories>
-        <category>一般垃圾</category>
-      </categories>
-      <tags>
-        <tag>NetBeans</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>博客改头换面</title>
     <url>/oldblog/</url>
     <content><![CDATA[<div class="note no-icon"><p>记录一下改变博客主题的“大工程”。</p>
@@ -5208,7 +5187,7 @@
   </entry>
   <entry>
     <title>英雄联盟常用快捷键</title>
-    <url>/shortcutkey-lol/</url>
+    <url>/shortcutkey_lol/</url>
     <content><![CDATA[ <div class="note danger no-icon"><p>英雄联盟常用快捷键 </p>
 </div>
 <a id="more"></a>
@@ -5407,7 +5386,7 @@
   </entry>
   <entry>
     <title>Windows常用快捷键</title>
-    <url>/shortcutkey-win/</url>
+    <url>/shortcutkey_win/</url>
     <content><![CDATA[ <div class="note success no-icon"><p>Windows常用快捷键 </p>
 </div>
 <a id="more"></a>
@@ -5631,7 +5610,7 @@
   </entry>
   <entry>
     <title>Office常用快捷键</title>
-    <url>/shortcutkey-office/</url>
+    <url>/shortcutkey_office/</url>
     <content><![CDATA[ <div class="note default no-icon"><p>Office常用快捷键 </p>
 </div>
 <a id="more"></a>
@@ -6030,7 +6009,7 @@
   </entry>
   <entry>
     <title>Eclipse常用快捷键</title>
-    <url>/shortcutkey-eclipse/</url>
+    <url>/shortcutkey_eclipse/</url>
     <content><![CDATA[ <div class="note danger no-icon"><p>Eclipse常用快捷键</p>
 </div>
 <a id="more"></a>
@@ -6170,7 +6149,7 @@
   </entry>
   <entry>
     <title>谷歌浏览器常用快捷键</title>
-    <url>/shortcutkey-chrome/</url>
+    <url>/shortcutkey_chrome/</url>
     <content><![CDATA[ <div class="note info no-icon"><p>Chrome常用快捷键 </p>
 </div>
 <a id="more"></a>
@@ -6418,7 +6397,7 @@
 <p>&emsp; <strong><em>第四步、测试</em></strong></p>
 <p>&emsp;&emsp; 可以输入下面的命令，看看设置是否成功：</p>
 <blockquote>
-<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjeDY3OyYjMTA1OyYjeDc0OyYjeDQwOyYjMTAzOyYjeDY5OyYjeDc0OyYjMTA0OyYjeDc1OyYjOTg7JiN4MmU7JiN4NjM7JiN4NmY7JiMxMDk7">&#x67;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#104;&#x75;&#98;&#x2e;&#x63;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span></strong></p>
+<p><strong>ssh -T <span class="exturl" data-url="bWFpbHRvOiYjMTAzOyYjMTA1OyYjeDc0OyYjNjQ7JiN4Njc7JiMxMDU7JiMxMTY7JiMxMDQ7JiN4NzU7JiN4NjI7JiM0NjsmI3g2MzsmIzExMTsmI3g2ZDs=">&#103;&#105;&#x74;&#64;&#x67;&#105;&#116;&#104;&#x75;&#x62;&#46;&#x63;&#111;&#x6d;<i class="fa fa-external-link-alt"></i></span></strong></p>
 </blockquote>
 <p>如果是下面的反馈：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">The authenticity of host <span class="string">&#x27;github.com (207.97.227.239)&#x27;</span> can<span class="string">&#x27;t be established.</span></span><br><span class="line"><span class="string">RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.</span></span><br><span class="line"><span class="string">Are you sure you want to continue connecting (yes/no)?</span></span><br></pre></td></tr></table></figure>
@@ -6428,7 +6407,7 @@
 <p>&emsp;&emsp; 现在你已经可以通过 SSH 链接到GitHub了，还有一些个人信息需要完善的。Git会根据用户的名字和邮箱来记录提交。GitHub也是用这些信息来做权限的处理。</p>
 <p>&emsp;&emsp; 输入下面的代码进行个人信息的设置，把名称和邮箱替换成你自己的，名字根据自己的喜好自己取，而不是GitHub的昵称。</p>
 <blockquote>
-<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjMTE5OyYjOTc7JiN4NmU7JiN4Njc7JiN4NjU7JiN4NzI7JiMxMDM7JiMxMTE7JiN4NzU7JiN4NDA7JiN4MzE7JiN4MzY7JiM1MTsmIzQ2OyYjOTk7JiN4NmY7JiMxMDk7">&#119;&#97;&#x6e;&#x67;&#x65;&#x72;&#103;&#111;&#x75;&#x40;&#x31;&#x36;&#51;&#46;&#99;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
+<p><strong>git config –global user.name “yonhuming”</strong>            //用户名<br><strong>git config –global user.email  “<span class="exturl" data-url="bWFpbHRvOiYjeDc3OyYjOTc7JiMxMTA7JiN4Njc7JiN4NjU7JiMxMTQ7JiMxMDM7JiMxMTE7JiN4NzU7JiM2NDsmI3gzMTsmI3gzNjsmIzUxOyYjeDJlOyYjeDYzOyYjeDZmOyYjMTA5Ow==">&#x77;&#97;&#110;&#x67;&#x65;&#114;&#103;&#111;&#x75;&#64;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#109;<i class="fa fa-external-link-alt"></i></span>“</strong>  //填写自己的邮箱</p>
 </blockquote>
 <h4 id="到这里SSH-Key已经配置成功，本机已成功连接到github。"><a href="#到这里SSH-Key已经配置成功，本机已成功连接到github。" class="headerlink" title="到这里SSH Key已经配置成功，本机已成功连接到github。"></a><strong>到这里SSH Key已经配置成功，本机已成功连接到github。</strong></h4><hr>
 <h3 id="NO-6"><a href="#NO-6" class="headerlink" title="NO.6"></a>NO.6</h3><h4 id="将本地的Hexo文件更新到Github仓库："><a href="#将本地的Hexo文件更新到Github仓库：" class="headerlink" title="将本地的Hexo文件更新到Github仓库："></a>将本地的Hexo文件更新到Github仓库：</h4><ul>
@@ -6468,7 +6447,7 @@
   </entry>
   <entry>
     <title>NetBeans常用快捷键</title>
-    <url>/shortcutkey-netbeans/</url>
+    <url>/shortcutkey_netbeans/</url>
     <content><![CDATA[ <div class="note primary no-icon"><p>NetBeans常用快捷键 </p>
 </div>
 <a id="more"></a>
@@ -6581,8 +6560,8 @@
         <category>可回收物</category>
       </categories>
       <tags>
-        <tag>NetBeans</tag>
         <tag>NetBeans快捷键</tag>
+        <tag>NetBeans</tag>
       </tags>
   </entry>
   <entry>
@@ -6694,7 +6673,7 @@
 <p><img data-src="/images/loading.gif" data-original="https://www.baidu.com/img/bd_logo1.png" alt="图片Alt" title="图片Title">   </p>
 <p>其他媒体演示省略。   </p>
 <p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYmFpZHUuY29tLw==">超链接名<i class="fa fa-external-link-alt"></i></span>   </p>
-<p><span class="exturl" data-url="bWFpbHRvOiYjNDk7JiM0ODsmIzQ4OyYjeDM1OyYjeDM3OyYjeDM2OyYjNDg7JiN4MzY7JiM1NzsmI3gzNDsmIzY0OyYjMTEzOyYjMTEzOyYjNDY7JiM5OTsmIzExMTsmIzEwOTs=">&#49;&#48;&#48;&#x35;&#x37;&#x36;&#48;&#x36;&#57;&#x34;&#64;&#113;&#113;&#46;&#99;&#111;&#109;<i class="fa fa-external-link-alt"></i></span>   </p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjNDk7JiN4MzA7JiM0ODsmIzUzOyYjeDM3OyYjNTQ7JiM0ODsmIzU0OyYjeDM5OyYjNTI7JiM2NDsmI3g3MTsmIzExMzsmIzQ2OyYjOTk7JiMxMTE7JiMxMDk7">&#49;&#x30;&#48;&#53;&#x37;&#54;&#48;&#54;&#x39;&#52;&#64;&#x71;&#113;&#46;&#99;&#111;&#109;<i class="fa fa-external-link-alt"></i></span>   </p>
 <p><br><br><br></p>
 <h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><hr>
 <blockquote>
@@ -6851,7 +6830,7 @@
   </entry>
   <entry>
     <title>死神Vs火影改版资源分享</title>
-    <url>/BVN/</url>
+    <url>/bvn/</url>
     <content><![CDATA[<div class="note default no-icon"><p>安利一个自己从小就特别喜欢的小游戏。</p>
 </div>
 <a id="more"></a> 
@@ -6876,7 +6855,7 @@
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/hello-world/</url>
+    <url>/hello_world/</url>
     <content><![CDATA[ <div class="note warning no-icon"><p>Hello World! </p>
 </div>
 <a id="more"></a>
