@@ -2,7 +2,13 @@ http://a.biugle.cn/php8/
 http://a.biugle.cn/sourcetreessh/
 http://a.biugle.cn/logo/
 http://a.biugle.cn/biugle/
+http://a.biugle.cn/screenshoot/
+http://a.biugle.cn/html_header/
+http://a.biugle.cn/shortcut_vscode/
+http://a.biugle.cn/vue/
+http://a.biugle.cn/bootstrap/
 http://a.biugle.cn/datafree/
+http://a.biugle.cn/fontawesome/
 http://a.biugle.cn/uuid/
 http://a.biugle.cn/websocket/
 http://a.biugle.cn/biuglejs/
