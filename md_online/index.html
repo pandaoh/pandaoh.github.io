@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta name="description" content="小贺的在线编辑器" />
+    <meta name="keywords" content="markdown,在线markdown" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.9" />
+    <title>小贺的在线编辑器</title>
+    <link rel="shortcut icon" href="/images/favicon.png" />
+    <style type="text/css">
+      html,
+      body {
+        height: 98%;
+        width: 98%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    <link rel="stylesheet" href="/md_online/css/editormd.min.css" />
+    <script src="/cdn/jquery.min.js"></script>
+    <script src="/md_online/js/editormd.min.js"></script>
+    <!-- 引入必要工具 -->
+  </head>
+  <body>
+    <div id="doubleam-editormd"></div>
+    <script type="text/javascript">
+      const AUTO_STORE_NAME = 'doubleam-md'; // 自动保存的 key
+      var editor;
+      $(function () {
+        editor = editormd('doubleam-editormd', {
+          width: '98%',
+          height: '98%',
+          syncScrolling: 'single',
+          path: '/md_online/lib/', // 插件的 lib 目录
+          emoji: true,
+          taskList: true,
+          tocm: true, // Using [TOCM]
+          tex: true, // 开启科学公式TeX语言支持，默认关闭。
+          flowChart: true, // 开启流程图支持，默认关闭。
+          sequenceDiagram: true, // 开启时序/序列图支持，默认关闭。
+          fontSize: '18px',
+          codeFold: true,
+          saveHTMLToTextarea: true, // 保存 HTML 到 Textarea
+          searchReplace: true,
+          onload: function () {
+            this.fullscreen(); // 全屏（按ESC取消）
+            this.config({
+              tocDropdown: true,
+              tocTitle: '目录'
+            }); // TOC下拉菜单
+            this.setMarkdown(window.localStorage.getItem(AUTO_STORE_NAME) || null);
+          }
+        });
+      });
+      setInterval(() => {
+        window.localStorage.setItem(AUTO_STORE_NAME, editor.getMarkdown());
+      }, 60000);
+    </script>
+  </body>
+</html>
